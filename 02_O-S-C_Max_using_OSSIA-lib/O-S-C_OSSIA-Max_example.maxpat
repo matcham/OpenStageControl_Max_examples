@@ -73,7 +73,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 60.0, 304.5, 177.0, 52.0 ],
+					"patching_rect" : [ 52.5, 304.5, 180.0, 52.0 ],
 					"text" : "outputs only incoming osc messages that do not match any ossia.parameter"
 				}
 
@@ -127,7 +127,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 79.0, 57.0, 215.0, 38.0 ],
-					"presentation_linecount" : 2,
 					"text" : "load \"O-S-C_Max_examples.json\" in Open Stage Control "
 				}
 
@@ -153,7 +152,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 541.5, 146.0, 172.0, 38.0 ],
-					"presentation_linecount" : 2,
 					"text" : "get namespace & update widgets states in O-S-C"
 				}
 
@@ -214,7 +212,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1195.0, 830.0, 106.0, 22.0 ],
-					"text" : "s to.O-S-C"
+					"text" : "s to.osc"
 				}
 
 			}
@@ -266,7 +264,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1195.0, 581.0, 79.0, 22.0 ],
-					"text" : "r from.O-S-C"
+					"text" : "r from.osc"
 				}
 
 			}
@@ -314,7 +312,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 183.0, 465.0, 100.0, 22.0 ],
-					"text" : "send to.O-S-C"
+					"text" : "send to.osc"
 				}
 
 			}
@@ -505,8 +503,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 239.0, 310.0, 79.0, 36.0 ],
-					"text" : "send from.O-S-C"
+					"patching_rect" : [ 239.0, 314.5, 67.0, 36.0 ],
+					"text" : "send from.osc"
 				}
 
 			}
@@ -532,7 +530,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 331.0, 633.0, 106.0, 22.0 ],
-					"text" : "receive to.O-S-C"
+					"text" : "receive to.osc"
 				}
 
 			}
@@ -602,7 +600,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 462.75, 365.0, 65.0, 22.0 ],
-									"text" : "s to.O-S-C"
+									"text" : "s to.osc"
 								}
 
 							}
@@ -674,8 +672,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 148.0, 394.0, 227.0, 64.0 ],
-									"text" : "/SESSION/OPEN C:/Users/Apertures/Dropbox/OpenStageControl/mes-exemples/OSSIA-OSC/O-S-C_OSSIA-Max_example.json"
+									"patching_rect" : [ 148.0, 394.0, 267.0, 64.0 ],
+									"text" : "/SESSION/OPEN C:/Users/Apertures/Documents/GitHub/OpenStageControl_Max_examples/02_O-S-C_Max_using_OSSIA-lib/O-S-C_OSSIA-Max_example.json"
 								}
 
 							}
@@ -734,7 +732,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 140.0, 365.0, 65.0, 22.0 ],
-									"text" : "s to.O-S-C"
+									"text" : "s to.osc"
 								}
 
 							}
@@ -782,7 +780,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-16", 1 ],
-									"midpoints" : [ 149.5, 360.0, 365.5, 360.0 ],
+									"midpoints" : [ 149.5, 360.0, 405.5, 360.0 ],
 									"order" : 0,
 									"source" : [ "obj-11", 0 ]
 								}
@@ -1274,7 +1272,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 667.0, 21.5, 172.0, 38.0 ],
+					"patching_rect" : [ 667.0, 21.5, 173.0, 38.0 ],
 					"text" : "send messages to model + openStageControl"
 				}
 
@@ -1653,7 +1651,8 @@
 				}
 ,
 				"obj-29::obj-6" : 				{
-					"parameter_longname" : "Pan[2]"
+					"parameter_longname" : "Pan[2]",
+					"parameter_steps" : 0
 				}
 ,
 				"obj-29::obj-7" : 				{
@@ -1672,14 +1671,14 @@
 		"dependency_cache" : [ 			{
 				"name" : "fm_synth.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/ossia/patchers",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/ossia/patchers",
+				"patcherrelativepath" : "../../../Max 8/Packages/ossia/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "synth.view.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/ossia/patchers",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/ossia/patchers",
+				"patcherrelativepath" : "../../../Max 8/Packages/ossia/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
