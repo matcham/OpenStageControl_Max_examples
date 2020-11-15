@@ -1379,9 +1379,152 @@
           }
         ],
         "tabs": []
+      },
+      {
+        "type": "tab",
+        "id": "dynamic_view",
+        "visible": true,
+        "interaction": true,
+        "colorText": "auto",
+        "colorWidget": "auto",
+        "colorFill": "auto",
+        "padding": "auto",
+        "html": "",
+        "css": "",
+        "colorBg": "auto",
+        "layout": "default",
+        "justify": "start",
+        "gridTemplate": "",
+        "contain": true,
+        "scroll": true,
+        "innerPadding": true,
+        "verticalTabs": false,
+        "label": "auto",
+        "variables": "@{parent.variables}",
+        "traversing": false,
+        "value": "",
+        "default": "",
+        "linkId": "",
+        "script": "",
+        "address": "auto",
+        "preArgs": "",
+        "typeTags": "",
+        "decimals": 2,
+        "target": "",
+        "ignoreDefaults": false,
+        "bypass": false,
+        "widgets": [
+          {
+            "type": "clone",
+            "widgetId": "mySynth_other_interface",
+            "width": 870,
+            "height": 460,
+            "left": 100,
+            "top": 180,
+            "id": "clone_3",
+            "visible": true,
+            "interaction": true,
+            "expand": "false",
+            "css": "",
+            "props": {
+              "variables": {
+                "name": "@{device_selector.value.0}"
+              },
+              "colorWidget": "@{device_selector.value.1}"
+            },
+            "label": "",
+            "variables": "@{parent.variables}"
+          },
+          {
+            "type": "switch",
+            "top": 130,
+            "left": 100,
+            "id": "device_selector",
+            "visible": true,
+            "interaction": true,
+            "width": 420,
+            "height": 40,
+            "expand": "false",
+            "colorText": "auto",
+            "colorWidget": "white",
+            "colorStroke": "auto",
+            "colorFill": "auto",
+            "alphaStroke": "auto",
+            "alphaFillOff": "auto",
+            "alphaFillOn": "auto",
+            "lineWidth": "auto",
+            "padding": "auto",
+            "html": "",
+            "css": "",
+            "colorTextOn": "auto",
+            "layout": "horizontal",
+            "gridTemplate": "",
+            "values": {
+              "my_synth.1": [
+                "my_synth.1",
+                "red"
+              ],
+              "my_synth.2": [
+                "my_synth.2",
+                "green"
+              ],
+              "my_synth.3": [
+                "my_synth.3",
+                "orange"
+              ]
+            },
+            "mode": "tap",
+            "value": "",
+            "default": [
+              "my_synth.3",
+              "orange"
+            ],
+            "linkId": "",
+            "script": "send('/' + get('this')[0] + '/init', \"bang\")",
+            "address": "auto",
+            "preArgs": "",
+            "typeTags": "",
+            "decimals": 2,
+            "target": "",
+            "ignoreDefaults": false,
+            "bypass": true
+          },
+          {
+            "type": "text",
+            "top": 130,
+            "left": 530,
+            "id": "text_6",
+            "visible": true,
+            "width": 220,
+            "height": 40,
+            "expand": "false",
+            "colorText": "auto",
+            "colorWidget": "transparent",
+            "colorStroke": "auto",
+            "colorFill": "auto",
+            "alphaStroke": "auto",
+            "alphaFillOff": "auto",
+            "alphaFillOn": "auto",
+            "lineWidth": "auto",
+            "padding": "auto",
+            "html": "",
+            "css": "",
+            "vertical": false,
+            "wrap": false,
+            "align": "center",
+            "value": "<-- select device's instance here",
+            "default": "",
+            "linkId": "",
+            "script": "",
+            "address": "auto",
+            "preArgs": "",
+            "target": ""
+          }
+        ],
+        "tabs": []
       }
     ]
   },
-  "version": "1.7.0-beta1",
+  "version": "1.7.0-beta3",
   "type": "Open Stage Control session"
 }
