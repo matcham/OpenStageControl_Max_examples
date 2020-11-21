@@ -40,6 +40,33 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bubble" : 1,
+					"bubblepoint" : 0.2,
+					"bubbleside" : 0,
+					"id" : "obj-18",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 300.0, 72.0, 171.0, 67.0 ],
+					"text" : "send all parameters values to osc (& update widgets states in O-S-C)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 288.5, 48.75, 95.0, 22.0 ],
+					"text" : "send_all_values"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.33 ],
 					"id" : "obj-62",
 					"maxclass" : "comment",
@@ -59,8 +86,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 49.0, 177.0, 275.0, 52.0 ],
-					"text" : "communication between ossia models and Open Stage Control is automagicaly handled by this osc exposed ossia.device"
+					"patching_rect" : [ 193.0, 187.5, 275.0, 52.0 ],
+					"text" : "communication between ossia models and Open Stage Control is automagically handled by this osc exposed OSSIA global device"
 				}
 
 			}
@@ -73,7 +100,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 52.5, 304.5, 180.0, 52.0 ],
+					"patching_rect" : [ 203.5, 280.5, 180.0, 52.0 ],
 					"text" : "outputs only incoming osc messages that do not match any ossia.parameter"
 				}
 
@@ -90,7 +117,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 436.0, 146.0, 20.0, 20.0 ],
+					"patching_rect" : [ 288.5, 25.5, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -110,7 +137,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 52.5, 27.5, 20.0, 20.0 ],
+					"patching_rect" : [ 44.5, 25.5, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -126,7 +153,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 79.0, 57.0, 215.0, 38.0 ],
+					"patching_rect" : [ 66.5, 55.5, 215.0, 38.0 ],
 					"text" : "load \"O-S-C_Max_examples.json\" in Open Stage Control "
 				}
 
@@ -139,7 +166,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 22.0, 50.75, 50.5, 50.5 ]
+					"patching_rect" : [ 14.0, 48.75, 50.5, 50.5 ]
 				}
 
 			}
@@ -147,12 +174,11 @@
 				"box" : 				{
 					"bubble" : 1,
 					"id" : "obj-55",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 541.5, 146.0, 172.0, 38.0 ],
-					"text" : "get namespace & update widgets states in O-S-C"
+					"patching_rect" : [ 683.5, 164.5, 119.0, 24.0 ],
+					"text" : "get namespace "
 				}
 
 			}
@@ -163,7 +189,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 825.0, 129.0, 82.0, 20.0 ],
+					"patching_rect" : [ 898.0, 129.0, 82.0, 20.0 ],
 					"text" : "Models :"
 				}
 
@@ -270,60 +296,12 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-43",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 183.0, 433.0, 100.0, 22.0 ],
-					"text" : "join"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-41",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 183.0, 400.0, 75.0, 22.0 ],
-					"text" : "sprintf /%s"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-40",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 183.0, 367.0, 100.0, 22.0 ],
-					"text" : "zl slice 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"color" : [ 0.254901960784314, 0.533333333333333, 0.698039215686274, 1.0 ],
-					"id" : "obj-39",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 183.0, 465.0, 100.0, 22.0 ],
-					"text" : "send to.osc"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-38",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 602.5, 90.5, 100.0, 22.0 ],
+					"patching_rect" : [ 693.5, 99.0, 100.0, 22.0 ],
 					"text" : "prepend set"
 				}
 
@@ -337,7 +315,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 602.5, 27.5, 50.0, 22.0 ]
+					"patching_rect" : [ 693.5, 38.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -348,7 +326,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 602.5, 63.5, 173.0, 22.0 ],
+					"patching_rect" : [ 693.5, 72.0, 173.0, 22.0 ],
 					"text" : "/voice.1/carrier/frequency $1"
 				}
 
@@ -357,11 +335,11 @@
 				"box" : 				{
 					"id" : "obj-32",
 					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 183.0, 274.0, 131.0, 22.0 ],
-					"text" : "route namespace osc"
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 390.0, 256.5, 58.0, 22.0 ],
+					"text" : "route osc"
 				}
 
 			}
@@ -371,7 +349,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 867.0, 370.0, 45.0, 45.0 ]
+					"patching_rect" : [ 940.0, 370.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -384,7 +362,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 825.0, 205.0, 48.0, 136.0 ],
+					"patching_rect" : [ 898.0, 205.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ -70.0 ],
@@ -412,7 +390,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 943.0, 198.5, 48.0, 136.0 ],
+					"patching_rect" : [ 1016.0, 198.5, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ -70.0 ],
@@ -478,7 +456,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 943.0, 164.5, 101.0, 22.0 ],
+					"patching_rect" : [ 1016.0, 164.5, 101.0, 22.0 ],
 					"text" : "fm_synth voice.2"
 				}
 
@@ -490,7 +468,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 825.0, 163.5, 101.0, 22.0 ],
+					"patching_rect" : [ 898.0, 163.5, 101.0, 22.0 ],
 					"text" : "fm_synth voice.1"
 				}
 
@@ -503,7 +481,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 239.0, 314.5, 67.0, 36.0 ],
+					"patching_rect" : [ 390.0, 288.5, 67.0, 36.0 ],
 					"text" : "send from.osc"
 				}
 
@@ -667,13 +645,11 @@
 									"dontreplace" : 1,
 									"gradient" : 1,
 									"id" : "obj-16",
-									"linecount" : 4,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 148.0, 394.0, 267.0, 64.0 ],
-									"text" : "/SESSION/OPEN C:/Users/Apertures/Documents/GitHub/OpenStageControl_Max_examples/02_O-S-C_Max_using_OSSIA-lib/O-S-C_OSSIA-Max_example.json"
+									"patching_rect" : [ 148.0, 394.0, 267.0, 64.0 ]
 								}
 
 							}
@@ -839,9 +815,9 @@
 						"styles" : [ 							{
 								"name" : "helpfile_label-1",
 								"default" : 								{
-									"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
 									"fontsize" : [ 13.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -850,7 +826,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 22.0, 121.0, 146.0, 22.0 ],
+					"patching_rect" : [ 14.0, 119.0, 146.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1222,7 +1198,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 331.0, 235.0, 147.0, 22.0 ],
+					"patching_rect" : [ 475.0, 255.5, 147.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1247,7 +1223,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
-					"patching_rect" : [ 331.0, 274.0, 299.0, 255.0 ],
+					"patching_rect" : [ 475.0, 284.5, 299.0, 255.0 ],
 					"rows" : 98
 				}
 
@@ -1259,7 +1235,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 460.0, 154.0, 73.0, 22.0 ],
+					"patching_rect" : [ 604.0, 164.5, 73.0, 22.0 ],
 					"text" : "namespace"
 				}
 
@@ -1272,7 +1248,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 667.0, 21.5, 173.0, 38.0 ],
+					"patching_rect" : [ 758.0, 30.0, 173.0, 38.0 ],
 					"text" : "send messages to model + openStageControl"
 				}
 
@@ -1331,7 +1307,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 331.0, 45.0, 71.0, 22.0 ],
+					"patching_rect" : [ 475.0, 55.5, 71.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -1343,7 +1319,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 346.0, 100.0, 43.0, 22.0 ],
+					"patching_rect" : [ 490.0, 110.5, 43.0, 22.0 ],
 					"text" : "stop 0"
 				}
 
@@ -1355,7 +1331,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 331.0, 76.0, 180.0, 22.0 ],
+					"patching_rect" : [ 475.0, 86.5, 180.0, 22.0 ],
 					"text" : "expose osc localhost 8080 8000"
 				}
 
@@ -1367,8 +1343,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 331.0, 192.0, 125.0, 22.0 ],
-					"text" : "ossia.device myPatch"
+					"patching_rect" : [ 475.0, 202.5, 42.0, 22.0 ],
+					"text" : "ossia"
 				}
 
 			}
@@ -1376,7 +1352,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 1 ],
-					"midpoints" : [ 469.5, 171.5, 468.5, 171.5 ],
+					"midpoints" : [ 613.5, 182.0, 612.5, 182.0 ],
 					"order" : 0,
 					"source" : [ "obj-10", 0 ]
 				}
@@ -1385,7 +1361,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
-					"midpoints" : [ 469.5, 183.5, 340.5, 183.5 ],
+					"midpoints" : [ 613.5, 194.0, 484.5, 194.0 ],
 					"order" : 1,
 					"source" : [ "obj-10", 0 ]
 				}
@@ -1458,6 +1434,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-32", 0 ],
+					"midpoints" : [ 484.5, 248.0, 399.5, 248.0 ],
 					"order" : 1,
 					"source" : [ "obj-20", 0 ]
 				}
@@ -1473,6 +1450,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
+					"midpoints" : [ 499.5, 155.0, 484.5, 155.0 ],
 					"source" : [ "obj-26", 0 ]
 				}
 
@@ -1522,13 +1500,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"source" : [ "obj-32", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-40", 0 ],
 					"source" : [ "obj-32", 0 ]
 				}
 
@@ -1550,36 +1521,16 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
-					"midpoints" : [ 612.0, 122.0, 399.0, 122.0, 399.0, 167.0, 340.5, 167.0 ],
+					"midpoints" : [ 703.0, 132.5, 543.0, 132.5, 543.0, 177.5, 484.5, 177.5 ],
 					"source" : [ "obj-38", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-41", 0 ],
-					"source" : [ "obj-40", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-43", 1 ],
-					"source" : [ "obj-40", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-43", 0 ],
-					"source" : [ "obj-41", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-39", 0 ],
-					"source" : [ "obj-43", 0 ]
+					"destination" : [ "obj-20", 0 ],
+					"midpoints" : [ 298.0, 163.0, 484.5, 163.0 ],
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
@@ -1683,7 +1634,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "ossia.device.mxe64",
+				"name" : "ossia.mxe64",
 				"type" : "mx64"
 			}
 , 			{
@@ -1716,9 +1667,9 @@
 , 			{
 				"name" : "helpfile_label-1",
 				"default" : 				{
-					"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
 					"fontsize" : [ 13.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
