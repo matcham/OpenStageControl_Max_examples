@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 63.0, 118.0, 1459.0, 921.0 ],
+						"rect" : [ 0.0, 26.0, 1459.0, 921.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -596,9 +596,9 @@
 						"styles" : [ 							{
 								"name" : "helpfile_label-1",
 								"default" : 								{
-									"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
 									"fontsize" : [ 13.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1637,21 +1637,7 @@
 							}
 , 							{
 								"name" : "afxyellow",
-								"comment" : 								{
-									"textcolor" : [ 0.501961, 0.501961, 0.0, 1.0 ],
-									"fontsize" : [ 24.0 ],
-									"fontname" : [ "Arial" ]
-								}
-,
-								"tab" : 								{
-									"elementcolor" : [ 0.451979, 0.451979, 0.451979, 1.0 ],
-									"textcolor_inverse" : [ 0.881305, 0.881305, 0.881305, 1.0 ],
-									"color" : [ 0.679508, 0.55813, 0.006126, 1.0 ]
-								}
-,
 								"message" : 								{
-									"fontsize" : [ 30.0 ],
-									"textcolor_inverse" : [ 1.0, 0.818637, 0.0, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.204102, 0.125198, 0.002398, 1.0 ],
@@ -1662,12 +1648,26 @@
 										"autogradient" : 0.79
 									}
 ,
-									"fontname" : [ "Arial" ]
+									"fontsize" : [ 30.0 ],
+									"fontname" : [ "Arial" ],
+									"textcolor_inverse" : [ 1.0, 0.818637, 0.0, 1.0 ]
 								}
 ,
 								"multislider" : 								{
 									"bgcolor" : [ 0.204102, 0.125198, 0.002398, 1.0 ],
 									"color" : [ 1.0, 0.818637, 0.0, 1.0 ]
+								}
+,
+								"comment" : 								{
+									"fontsize" : [ 24.0 ],
+									"fontname" : [ "Arial" ],
+									"textcolor" : [ 0.501961, 0.501961, 0.0, 1.0 ]
+								}
+,
+								"tab" : 								{
+									"elementcolor" : [ 0.451979, 0.451979, 0.451979, 1.0 ],
+									"textcolor_inverse" : [ 0.881305, 0.881305, 0.881305, 1.0 ],
+									"color" : [ 0.679508, 0.55813, 0.006126, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1676,9 +1676,9 @@
 , 							{
 								"name" : "helpfile_label-1",
 								"default" : 								{
-									"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
 									"fontsize" : [ 13.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1692,10 +1692,10 @@
 , 							{
 								"name" : "m4va",
 								"default" : 								{
+									"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
 									"fontsize" : [ 12.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontname" : [ "Arial" ],
-									"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ]
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1704,11 +1704,11 @@
 , 							{
 								"name" : "m4vatextbutton",
 								"default" : 								{
-									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-									"fontsize" : [ 14.0 ],
 									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"fontsize" : [ 14.0 ],
+									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 									"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 ,
@@ -1787,8 +1787,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1797,8 +1797,8 @@
 , 							{
 								"name" : "newobjYellow-2",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1807,8 +1807,8 @@
 , 							{
 								"name" : "newobjYellow-3",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3235,21 +3235,7 @@
 							}
 , 							{
 								"name" : "afxyellow",
-								"comment" : 								{
-									"textcolor" : [ 0.501961, 0.501961, 0.0, 1.0 ],
-									"fontsize" : [ 24.0 ],
-									"fontname" : [ "Arial" ]
-								}
-,
-								"tab" : 								{
-									"elementcolor" : [ 0.451979, 0.451979, 0.451979, 1.0 ],
-									"textcolor_inverse" : [ 0.881305, 0.881305, 0.881305, 1.0 ],
-									"color" : [ 0.679508, 0.55813, 0.006126, 1.0 ]
-								}
-,
 								"message" : 								{
-									"fontsize" : [ 30.0 ],
-									"textcolor_inverse" : [ 1.0, 0.818637, 0.0, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.204102, 0.125198, 0.002398, 1.0 ],
@@ -3260,12 +3246,26 @@
 										"autogradient" : 0.79
 									}
 ,
-									"fontname" : [ "Arial" ]
+									"fontsize" : [ 30.0 ],
+									"fontname" : [ "Arial" ],
+									"textcolor_inverse" : [ 1.0, 0.818637, 0.0, 1.0 ]
 								}
 ,
 								"multislider" : 								{
 									"bgcolor" : [ 0.204102, 0.125198, 0.002398, 1.0 ],
 									"color" : [ 1.0, 0.818637, 0.0, 1.0 ]
+								}
+,
+								"comment" : 								{
+									"fontsize" : [ 24.0 ],
+									"fontname" : [ "Arial" ],
+									"textcolor" : [ 0.501961, 0.501961, 0.0, 1.0 ]
+								}
+,
+								"tab" : 								{
+									"elementcolor" : [ 0.451979, 0.451979, 0.451979, 1.0 ],
+									"textcolor_inverse" : [ 0.881305, 0.881305, 0.881305, 1.0 ],
+									"color" : [ 0.679508, 0.55813, 0.006126, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3274,9 +3274,9 @@
 , 							{
 								"name" : "helpfile_label-1",
 								"default" : 								{
-									"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
 									"fontsize" : [ 13.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3290,10 +3290,10 @@
 , 							{
 								"name" : "m4va",
 								"default" : 								{
+									"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
 									"fontsize" : [ 12.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontname" : [ "Arial" ],
-									"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ]
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3302,11 +3302,11 @@
 , 							{
 								"name" : "m4vatextbutton",
 								"default" : 								{
-									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-									"fontsize" : [ 14.0 ],
 									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"fontsize" : [ 14.0 ],
+									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 									"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 ,
@@ -3385,8 +3385,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3395,8 +3395,8 @@
 , 							{
 								"name" : "newobjYellow-2",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3405,8 +3405,8 @@
 , 							{
 								"name" : "newobjYellow-3",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5110,21 +5110,7 @@
 							}
 , 							{
 								"name" : "afxyellow",
-								"comment" : 								{
-									"textcolor" : [ 0.501961, 0.501961, 0.0, 1.0 ],
-									"fontsize" : [ 24.0 ],
-									"fontname" : [ "Arial" ]
-								}
-,
-								"tab" : 								{
-									"elementcolor" : [ 0.451979, 0.451979, 0.451979, 1.0 ],
-									"textcolor_inverse" : [ 0.881305, 0.881305, 0.881305, 1.0 ],
-									"color" : [ 0.679508, 0.55813, 0.006126, 1.0 ]
-								}
-,
 								"message" : 								{
-									"fontsize" : [ 30.0 ],
-									"textcolor_inverse" : [ 1.0, 0.818637, 0.0, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.204102, 0.125198, 0.002398, 1.0 ],
@@ -5135,12 +5121,26 @@
 										"autogradient" : 0.79
 									}
 ,
-									"fontname" : [ "Arial" ]
+									"fontsize" : [ 30.0 ],
+									"fontname" : [ "Arial" ],
+									"textcolor_inverse" : [ 1.0, 0.818637, 0.0, 1.0 ]
 								}
 ,
 								"multislider" : 								{
 									"bgcolor" : [ 0.204102, 0.125198, 0.002398, 1.0 ],
 									"color" : [ 1.0, 0.818637, 0.0, 1.0 ]
+								}
+,
+								"comment" : 								{
+									"fontsize" : [ 24.0 ],
+									"fontname" : [ "Arial" ],
+									"textcolor" : [ 0.501961, 0.501961, 0.0, 1.0 ]
+								}
+,
+								"tab" : 								{
+									"elementcolor" : [ 0.451979, 0.451979, 0.451979, 1.0 ],
+									"textcolor_inverse" : [ 0.881305, 0.881305, 0.881305, 1.0 ],
+									"color" : [ 0.679508, 0.55813, 0.006126, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5149,9 +5149,9 @@
 , 							{
 								"name" : "helpfile_label-1",
 								"default" : 								{
-									"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
 									"fontsize" : [ 13.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5165,10 +5165,10 @@
 , 							{
 								"name" : "m4va",
 								"default" : 								{
+									"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
 									"fontsize" : [ 12.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontname" : [ "Arial" ],
-									"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ]
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5177,11 +5177,11 @@
 , 							{
 								"name" : "m4vatextbutton",
 								"default" : 								{
-									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-									"fontsize" : [ 14.0 ],
 									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"fontsize" : [ 14.0 ],
+									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 									"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 ,
@@ -5260,8 +5260,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5270,8 +5270,8 @@
 , 							{
 								"name" : "newobjYellow-2",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5280,8 +5280,8 @@
 , 							{
 								"name" : "newobjYellow-3",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -6165,6 +6165,18 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-18",
+									"maxclass" : "button",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 413.0, 251.0, 24.0, 24.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-36",
 									"maxclass" : "message",
 									"numinlets" : 2,
@@ -6416,7 +6428,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 861.5, 555.0, 98.0, 22.0 ]
+									"patching_rect" : [ 861.5, 555.0, 98.0, 22.0 ],
+									"text" : "199 100 0"
 								}
 
 							}
@@ -6463,7 +6476,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 843.5, 438.0, 66.0, 22.0 ]
+									"patching_rect" : [ 843.5, 438.0, 66.0, 22.0 ],
+									"text" : "#c76400"
 								}
 
 							}
@@ -6856,7 +6870,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 21.0, 428.0, 245.0, 50.0 ],
-									"text" : "/EDIT fader_edit \"{\r\n\t\\\"top\\\" : 22\r\n}\r\n\""
+									"text" : "/EDIT fader_edit \"{\r\n\t\\\"colorWidget\\\" : \\\"rgba(115,18,231,1)\\\"\r\n}\r\n\""
 								}
 
 							}
@@ -7125,6 +7139,13 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-20", 0 ],
+									"source" : [ "obj-18", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-20", 0 ],
 									"source" : [ "obj-19", 0 ]
 								}
 
@@ -7339,21 +7360,7 @@
 							}
 , 							{
 								"name" : "afxyellow",
-								"comment" : 								{
-									"textcolor" : [ 0.501961, 0.501961, 0.0, 1.0 ],
-									"fontsize" : [ 24.0 ],
-									"fontname" : [ "Arial" ]
-								}
-,
-								"tab" : 								{
-									"elementcolor" : [ 0.451979, 0.451979, 0.451979, 1.0 ],
-									"textcolor_inverse" : [ 0.881305, 0.881305, 0.881305, 1.0 ],
-									"color" : [ 0.679508, 0.55813, 0.006126, 1.0 ]
-								}
-,
 								"message" : 								{
-									"fontsize" : [ 30.0 ],
-									"textcolor_inverse" : [ 1.0, 0.818637, 0.0, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.204102, 0.125198, 0.002398, 1.0 ],
@@ -7364,12 +7371,26 @@
 										"autogradient" : 0.79
 									}
 ,
-									"fontname" : [ "Arial" ]
+									"fontsize" : [ 30.0 ],
+									"fontname" : [ "Arial" ],
+									"textcolor_inverse" : [ 1.0, 0.818637, 0.0, 1.0 ]
 								}
 ,
 								"multislider" : 								{
 									"bgcolor" : [ 0.204102, 0.125198, 0.002398, 1.0 ],
 									"color" : [ 1.0, 0.818637, 0.0, 1.0 ]
+								}
+,
+								"comment" : 								{
+									"fontsize" : [ 24.0 ],
+									"fontname" : [ "Arial" ],
+									"textcolor" : [ 0.501961, 0.501961, 0.0, 1.0 ]
+								}
+,
+								"tab" : 								{
+									"elementcolor" : [ 0.451979, 0.451979, 0.451979, 1.0 ],
+									"textcolor_inverse" : [ 0.881305, 0.881305, 0.881305, 1.0 ],
+									"color" : [ 0.679508, 0.55813, 0.006126, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7378,9 +7399,9 @@
 , 							{
 								"name" : "helpfile_label-1",
 								"default" : 								{
-									"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
 									"fontsize" : [ 13.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7394,10 +7415,10 @@
 , 							{
 								"name" : "m4va",
 								"default" : 								{
+									"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
 									"fontsize" : [ 12.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontname" : [ "Arial" ],
-									"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ]
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7406,11 +7427,11 @@
 , 							{
 								"name" : "m4vatextbutton",
 								"default" : 								{
-									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-									"fontsize" : [ 14.0 ],
 									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"fontsize" : [ 14.0 ],
+									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 									"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 ,
@@ -7489,8 +7510,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7499,8 +7520,8 @@
 , 							{
 								"name" : "newobjYellow-2",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7509,8 +7530,8 @@
 , 							{
 								"name" : "newobjYellow-3",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7562,7 +7583,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1459.0, 921.0 ],
+						"rect" : [ 63.0, 118.0, 1459.0, 921.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -7593,12 +7614,86 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-50",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 647.0, 15.0, 40.0, 20.0 ],
+									"text" : "alpha"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-48",
+									"maxclass" : "newobj",
+									"numinlets" : 4,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 499.0, 125.0, 168.0, 22.0 ],
+									"text" : "pak 255 255 255 1."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"floatoutput" : 1,
+									"id" : "obj-47",
+									"maxclass" : "slider",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 648.0, 39.0, 30.0, 75.0 ],
+									"size" : 1.0
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"compatibility" : 1,
+									"id" : "obj-46",
+									"maxclass" : "swatch",
+									"numinlets" : 3,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "float" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 499.0, 39.0, 141.0, 63.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-40",
+									"maxclass" : "newobj",
+									"numinlets" : 4,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 499.0, 152.0, 201.0, 22.0 ],
+									"text" : "sprintf symout rgba(%i\\, %i\\, %i\\, %f)"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-39",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 499.0, 11.0, 133.0, 20.0 ],
+									"presentation_linecount" : 2,
+									"text" : "works with rgba as well"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-35",
 									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 713.25, 168.0, 150.0, 34.0 ],
+									"patching_rect" : [ 1059.25, 168.0, 150.0, 34.0 ],
 									"text" : "fader_A (geometry) \"top\" prop = OSC{top, 20}"
 								}
 
@@ -7610,7 +7705,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 553.25, 168.0, 150.0, 34.0 ],
+									"patching_rect" : [ 899.25, 168.0, 150.0, 34.0 ],
 									"text" : "fader_A (geometry) \"left\" prop = OSC{left, 30}"
 								}
 
@@ -7677,13 +7772,11 @@
 									"dontreplace" : 1,
 									"gradient" : 1,
 									"id" : "obj-15",
-									"linecount" : 3,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 198.25, 829.0, 227.0, 50.0 ],
-									"text" : "Lorem ipsum dolor sit amet consectetur adipiscing elit. Nam volutpat nisl ut libero euismod tincidunt."
+									"patching_rect" : [ 198.25, 829.0, 227.0, 22.0 ]
 								}
 
 							}
@@ -7715,7 +7808,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 553.25, 50.0, 102.0, 20.0 ],
+									"patching_rect" : [ 899.25, 50.0, 102.0, 20.0 ],
 									"text" : "move fader_A :"
 								}
 
@@ -7728,7 +7821,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 713.25, 77.0, 50.0, 22.0 ]
+									"patching_rect" : [ 1059.25, 77.0, 50.0, 22.0 ]
 								}
 
 							}
@@ -7739,7 +7832,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 713.25, 111.0, 142.0, 22.0 ],
+									"patching_rect" : [ 1059.25, 111.0, 142.0, 22.0 ],
 									"text" : "prepend /fader_A/top"
 								}
 
@@ -7751,7 +7844,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 713.25, 141.0, 65.0, 22.0 ],
+									"patching_rect" : [ 1059.25, 141.0, 65.0, 22.0 ],
 									"text" : "s to.osc"
 								}
 
@@ -7764,7 +7857,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 553.25, 77.0, 50.0, 22.0 ]
+									"patching_rect" : [ 899.25, 77.0, 50.0, 22.0 ]
 								}
 
 							}
@@ -7775,7 +7868,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 553.25, 111.0, 142.0, 22.0 ],
+									"patching_rect" : [ 899.25, 111.0, 142.0, 22.0 ],
 									"text" : "prepend /fader_A/left"
 								}
 
@@ -7787,7 +7880,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 553.25, 141.0, 65.0, 22.0 ],
+									"patching_rect" : [ 899.25, 141.0, 65.0, 22.0 ],
 									"text" : "s to.osc"
 								}
 
@@ -7859,7 +7952,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 209.25, 116.0, 73.0, 22.0 ],
-									"text" : "#11fe15"
+									"text" : "#ee2800"
 								}
 
 							}
@@ -7979,7 +8072,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 185.25, 150.0, 142.0, 22.0 ],
+									"patching_rect" : [ 185.25, 168.0, 142.0, 22.0 ],
 									"text" : "prepend /fader_A/color"
 								}
 
@@ -8014,7 +8107,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 185.25, 180.0, 65.0, 22.0 ],
+									"patching_rect" : [ 185.25, 198.0, 65.0, 22.0 ],
 									"text" : "s to.osc"
 								}
 
@@ -8429,8 +8522,37 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-7", 0 ],
+									"midpoints" : [ 508.5, 189.0, 342.625, 189.0, 342.625, 157.0, 194.75, 157.0 ],
+									"source" : [ "obj-40", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-72", 0 ],
 									"source" : [ "obj-42", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-48", 0 ],
+									"source" : [ "obj-46", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-48", 3 ],
+									"source" : [ "obj-47", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-40", 0 ],
+									"source" : [ "obj-48", 0 ]
 								}
 
 							}
@@ -8586,21 +8708,7 @@
 							}
 , 							{
 								"name" : "afxyellow",
-								"comment" : 								{
-									"textcolor" : [ 0.501961, 0.501961, 0.0, 1.0 ],
-									"fontsize" : [ 24.0 ],
-									"fontname" : [ "Arial" ]
-								}
-,
-								"tab" : 								{
-									"elementcolor" : [ 0.451979, 0.451979, 0.451979, 1.0 ],
-									"textcolor_inverse" : [ 0.881305, 0.881305, 0.881305, 1.0 ],
-									"color" : [ 0.679508, 0.55813, 0.006126, 1.0 ]
-								}
-,
 								"message" : 								{
-									"fontsize" : [ 30.0 ],
-									"textcolor_inverse" : [ 1.0, 0.818637, 0.0, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.204102, 0.125198, 0.002398, 1.0 ],
@@ -8611,12 +8719,26 @@
 										"autogradient" : 0.79
 									}
 ,
-									"fontname" : [ "Arial" ]
+									"fontsize" : [ 30.0 ],
+									"fontname" : [ "Arial" ],
+									"textcolor_inverse" : [ 1.0, 0.818637, 0.0, 1.0 ]
 								}
 ,
 								"multislider" : 								{
 									"bgcolor" : [ 0.204102, 0.125198, 0.002398, 1.0 ],
 									"color" : [ 1.0, 0.818637, 0.0, 1.0 ]
+								}
+,
+								"comment" : 								{
+									"fontsize" : [ 24.0 ],
+									"fontname" : [ "Arial" ],
+									"textcolor" : [ 0.501961, 0.501961, 0.0, 1.0 ]
+								}
+,
+								"tab" : 								{
+									"elementcolor" : [ 0.451979, 0.451979, 0.451979, 1.0 ],
+									"textcolor_inverse" : [ 0.881305, 0.881305, 0.881305, 1.0 ],
+									"color" : [ 0.679508, 0.55813, 0.006126, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8625,9 +8747,9 @@
 , 							{
 								"name" : "helpfile_label-1",
 								"default" : 								{
-									"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
 									"fontsize" : [ 13.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8641,10 +8763,10 @@
 , 							{
 								"name" : "m4va",
 								"default" : 								{
+									"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
 									"fontsize" : [ 12.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontname" : [ "Arial" ],
-									"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ]
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8653,11 +8775,11 @@
 , 							{
 								"name" : "m4vatextbutton",
 								"default" : 								{
-									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-									"fontsize" : [ 14.0 ],
 									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"fontsize" : [ 14.0 ],
+									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 									"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 ,
@@ -8736,8 +8858,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8746,8 +8868,8 @@
 , 							{
 								"name" : "newobjYellow-2",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8756,8 +8878,8 @@
 , 							{
 								"name" : "newobjYellow-3",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9486,8 +9608,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 31.5, 718.0, 133.0, 22.0 ],
-									"text" : "/GET fader_1 0.51"
+									"patching_rect" : [ 31.5, 718.0, 133.0, 22.0 ]
 								}
 
 							}
@@ -10140,21 +10261,7 @@
 							}
 , 							{
 								"name" : "afxyellow",
-								"comment" : 								{
-									"textcolor" : [ 0.501961, 0.501961, 0.0, 1.0 ],
-									"fontsize" : [ 24.0 ],
-									"fontname" : [ "Arial" ]
-								}
-,
-								"tab" : 								{
-									"elementcolor" : [ 0.451979, 0.451979, 0.451979, 1.0 ],
-									"textcolor_inverse" : [ 0.881305, 0.881305, 0.881305, 1.0 ],
-									"color" : [ 0.679508, 0.55813, 0.006126, 1.0 ]
-								}
-,
 								"message" : 								{
-									"fontsize" : [ 30.0 ],
-									"textcolor_inverse" : [ 1.0, 0.818637, 0.0, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.204102, 0.125198, 0.002398, 1.0 ],
@@ -10165,12 +10272,26 @@
 										"autogradient" : 0.79
 									}
 ,
-									"fontname" : [ "Arial" ]
+									"fontsize" : [ 30.0 ],
+									"fontname" : [ "Arial" ],
+									"textcolor_inverse" : [ 1.0, 0.818637, 0.0, 1.0 ]
 								}
 ,
 								"multislider" : 								{
 									"bgcolor" : [ 0.204102, 0.125198, 0.002398, 1.0 ],
 									"color" : [ 1.0, 0.818637, 0.0, 1.0 ]
+								}
+,
+								"comment" : 								{
+									"fontsize" : [ 24.0 ],
+									"fontname" : [ "Arial" ],
+									"textcolor" : [ 0.501961, 0.501961, 0.0, 1.0 ]
+								}
+,
+								"tab" : 								{
+									"elementcolor" : [ 0.451979, 0.451979, 0.451979, 1.0 ],
+									"textcolor_inverse" : [ 0.881305, 0.881305, 0.881305, 1.0 ],
+									"color" : [ 0.679508, 0.55813, 0.006126, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10179,9 +10300,9 @@
 , 							{
 								"name" : "helpfile_label-1",
 								"default" : 								{
-									"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
 									"fontsize" : [ 13.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10195,10 +10316,10 @@
 , 							{
 								"name" : "m4va",
 								"default" : 								{
+									"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
 									"fontsize" : [ 12.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontname" : [ "Arial" ],
-									"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ]
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10207,11 +10328,11 @@
 , 							{
 								"name" : "m4vatextbutton",
 								"default" : 								{
-									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-									"fontsize" : [ 14.0 ],
 									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"fontsize" : [ 14.0 ],
+									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 									"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 ,
@@ -10290,8 +10411,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10300,8 +10421,8 @@
 , 							{
 								"name" : "newobjYellow-2",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10310,8 +10431,8 @@
 , 							{
 								"name" : "newobjYellow-3",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
