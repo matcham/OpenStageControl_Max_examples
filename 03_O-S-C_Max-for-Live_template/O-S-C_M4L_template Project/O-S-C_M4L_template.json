@@ -86,7 +86,7 @@
                 "name": "my_device.2"
               }
             },
-            "label": "",
+            "address": "auto",
             "variables": "@{parent.variables}"
           },
           {
@@ -163,7 +163,8 @@
                 "address": "auto",
                 "preArgs": "",
                 "target": "",
-                "html": ""
+                "html": "",
+                "decimals": 2
               },
               {
                 "type": "fader",
@@ -377,7 +378,8 @@
                 "address": "auto",
                 "preArgs": "",
                 "target": "",
-                "html": ""
+                "html": "",
+                "decimals": 2
               },
               {
                 "type": "fader",
@@ -794,7 +796,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "text",
@@ -825,7 +828,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "clone",
@@ -844,7 +848,7 @@
                 "name": "my_synth.2"
               }
             },
-            "label": "",
+            "address": "auto",
             "variables": "@{parent.variables}"
           }
         ],
@@ -958,7 +962,8 @@
                 "address": "auto",
                 "preArgs": "",
                 "target": "",
-                "html": ""
+                "html": "",
+                "decimals": 2
               },
               {
                 "type": "fader",
@@ -1289,7 +1294,49 @@
                 "script": "",
                 "address": "auto",
                 "preArgs": "",
-                "target": ""
+                "target": "",
+                "decimals": 2
+              },
+              {
+                "type": "button",
+                "top": 10,
+                "left": 270,
+                "id": "@{parent.variables.name}/play",
+                "visible": true,
+                "interaction": true,
+                "width": 70,
+                "height": 30,
+                "expand": "false",
+                "colorText": "auto",
+                "colorWidget": "auto",
+                "colorStroke": "auto",
+                "colorFill": "auto",
+                "alphaStroke": "auto",
+                "alphaFillOff": "auto",
+                "alphaFillOn": "auto",
+                "lineWidth": "auto",
+                "padding": "auto",
+                "html": "",
+                "css": "",
+                "colorTextOn": "auto",
+                "label": "play",
+                "vertical": false,
+                "wrap": false,
+                "on": 1,
+                "off": 0,
+                "mode": "toggle",
+                "doubleTap": false,
+                "value": "",
+                "default": "",
+                "linkId": "",
+                "script": "",
+                "address": "auto",
+                "preArgs": "",
+                "typeTags": "",
+                "decimals": 2,
+                "target": "",
+                "ignoreDefaults": false,
+                "bypass": false
               }
             ],
             "tabs": []
@@ -1312,7 +1359,7 @@
               },
               "colorWidget": "green"
             },
-            "label": "",
+            "address": "auto",
             "variables": "@{parent.variables}"
           },
           {
@@ -1344,7 +1391,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "text",
@@ -1375,7 +1423,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           }
         ],
         "tabs": []
@@ -1432,7 +1481,7 @@
               },
               "colorWidget": "@{device_selector.value.1}"
             },
-            "label": "",
+            "address": "auto",
             "variables": "@{parent.variables}"
           },
           {
@@ -1518,13 +1567,14 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           }
         ],
         "tabs": []
       }
     ]
   },
-  "version": "1.7.0-beta3",
+  "version": "1.8.3",
   "type": "Open Stage Control session"
 }

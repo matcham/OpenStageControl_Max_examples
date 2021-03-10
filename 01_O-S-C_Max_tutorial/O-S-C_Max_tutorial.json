@@ -223,7 +223,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "text",
@@ -254,7 +255,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "fader",
@@ -435,7 +437,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           }
         ],
         "tabs": [],
@@ -567,7 +570,8 @@
             "menuAlignV": "center",
             "menuAlignH": "center",
             "label": "auto",
-            "icon": "true"
+            "icon": "true",
+            "ignoreTabs": false
           },
           {
             "type": "switch",
@@ -636,7 +640,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           }
         ],
         "tabs": [],
@@ -810,7 +815,8 @@
             "vertical": false,
             "wrap": false,
             "html": "",
-            "align": "center"
+            "align": "center",
+            "decimals": 2
           },
           {
             "type": "button",
@@ -1032,7 +1038,8 @@
             "address": "auto",
             "preArgs": "",
             "target": "",
-            "html": ""
+            "html": "",
+            "decimals": 2
           },
           {
             "type": "text",
@@ -1063,7 +1070,8 @@
             "html": "",
             "vertical": false,
             "wrap": false,
-            "align": "center"
+            "align": "center",
+            "decimals": 2
           },
           {
             "type": "xy",
@@ -1244,7 +1252,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           }
         ],
         "tabs": [],
@@ -1303,8 +1312,8 @@
         "widgets": [
           {
             "type": "plot",
-            "top": 40,
-            "left": "10%",
+            "top": 10,
+            "left": "1.72%",
             "id": "plot_wf",
             "visible": true,
             "width": "80%",
@@ -1344,7 +1353,7 @@
           },
           {
             "type": "visualizer",
-            "top": 560,
+            "top": 610,
             "left": 440,
             "id": "visualizer_db",
             "visible": true,
@@ -1389,7 +1398,7 @@
           },
           {
             "type": "led",
-            "top": 560,
+            "top": 610,
             "left": 300,
             "id": "led_1",
             "visible": true,
@@ -1428,7 +1437,7 @@
           },
           {
             "type": "button",
-            "top": 790,
+            "top": 840,
             "left": 290,
             "id": "freeze_button",
             "visible": true,
@@ -1469,7 +1478,7 @@
           },
           {
             "type": "visualizer",
-            "top": 560,
+            "top": 610,
             "left": 70,
             "id": "visualizer_gain",
             "visible": true,
@@ -1514,7 +1523,7 @@
           },
           {
             "type": "fader",
-            "top": 560,
+            "top": 610,
             "left": 20,
             "id": "/fader_levelMeter",
             "visible": true,
@@ -1564,7 +1573,7 @@
           },
           {
             "type": "text",
-            "top": 660,
+            "top": 710,
             "left": 280,
             "id": "text_10",
             "visible": true,
@@ -1591,7 +1600,90 @@
             "preArgs": "",
             "target": "",
             "lineWidth": "auto",
-            "html": ""
+            "html": "",
+            "decimals": 2
+          },
+          {
+            "type": "plot",
+            "top": 320,
+            "left": 330,
+            "id": "plot_XY",
+            "visible": true,
+            "width": 200,
+            "height": 240,
+            "expand": "false",
+            "colorText": "auto",
+            "colorWidget": "auto",
+            "colorStroke": "auto",
+            "colorFill": "auto",
+            "alphaStroke": "auto",
+            "alphaFillOff": "auto",
+            "alphaFillOn": 0,
+            "lineWidth": "auto",
+            "padding": "auto",
+            "html": "@{this.id}",
+            "css": "",
+            "dots": false,
+            "bars": false,
+            "pips": true,
+            "filters": "",
+            "rangeX": {
+              "min": 0,
+              "max": 1
+            },
+            "rangeY": {
+              "min": 0,
+              "max": 1
+            },
+            "origin": "auto",
+            "value": "",
+            "default": "",
+            "linkId": "",
+            "script": "",
+            "address": "auto",
+            "preArgs": "",
+            "target": ""
+          },
+          {
+            "type": "plot",
+            "top": 320,
+            "left": 630,
+            "id": "plot_draw",
+            "visible": true,
+            "width": 240,
+            "height": 280,
+            "expand": "false",
+            "colorText": "auto",
+            "colorWidget": "auto",
+            "colorStroke": "auto",
+            "colorFill": "auto",
+            "alphaStroke": "auto",
+            "alphaFillOff": "auto",
+            "alphaFillOn": 0,
+            "lineWidth": "auto",
+            "padding": "auto",
+            "html": "@{this.id}",
+            "css": "",
+            "dots": false,
+            "bars": false,
+            "pips": true,
+            "filters": "",
+            "rangeX": {
+              "min": 0,
+              "max": 200
+            },
+            "rangeY": {
+              "min": 200,
+              "max": 0
+            },
+            "origin": "auto",
+            "value": "",
+            "default": "",
+            "linkId": "",
+            "script": "",
+            "address": "auto",
+            "preArgs": "",
+            "target": ""
           }
         ],
         "tabs": [],
@@ -1939,7 +2031,8 @@
             "preArgs": "",
             "target": "",
             "lineWidth": "auto",
-            "html": ""
+            "html": "",
+            "decimals": 2
           },
           {
             "type": "clone",
@@ -1961,7 +2054,7 @@
                 "red"
               ]
             },
-            "label": "",
+            "address": "auto",
             "variables": "@{parent.variables}"
           },
           {
@@ -1993,7 +2086,8 @@
             "preArgs": "",
             "target": "",
             "lineWidth": "auto",
-            "html": ""
+            "html": "",
+            "decimals": 2
           }
         ],
         "tabs": []
@@ -2022,6 +2116,6 @@
     "visible": true,
     "html": ""
   },
-  "version": "1.7.0-beta1",
+  "version": "1.8.11",
   "type": "Open Stage Control session"
 }
