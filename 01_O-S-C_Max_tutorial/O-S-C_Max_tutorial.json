@@ -1348,7 +1348,6 @@
             "preArgs": "",
             "target": "",
             "lineWidth": "auto",
-            "filters": "",
             "html": "@{this.id}"
           },
           {
@@ -1389,7 +1388,6 @@
             "lineWidth": "auto",
             "dots": false,
             "bars": false,
-            "filters": "",
             "rangeX": {
               "min": 20,
               "max": 22000
@@ -1514,7 +1512,6 @@
             "lineWidth": "auto",
             "dots": false,
             "bars": false,
-            "filters": "",
             "rangeX": {
               "min": 20,
               "max": 22000
@@ -1606,7 +1603,7 @@
           {
             "type": "plot",
             "top": 320,
-            "left": 330,
+            "left": 30,
             "id": "plot_XY",
             "visible": true,
             "width": 200,
@@ -1626,7 +1623,6 @@
             "dots": false,
             "bars": false,
             "pips": true,
-            "filters": "",
             "rangeX": {
               "min": 0,
               "max": 1
@@ -1636,7 +1632,7 @@
               "max": 1
             },
             "origin": "auto",
-            "value": "",
+            "value": "JS{{\nvar flatarray = OSC{XYarray},\n    _2darray = []\n\nfor (var i = 0; i < flatarray.length; i += 2) {\n  _2darray.push([flatarray[i], flatarray[i + 1]])\n}\nreturn _2darray\n}}",
             "default": "",
             "linkId": "",
             "script": "",
@@ -1647,7 +1643,7 @@
           {
             "type": "plot",
             "top": 320,
-            "left": 630,
+            "left": 250,
             "id": "plot_draw",
             "visible": true,
             "width": 240,
@@ -1667,7 +1663,6 @@
             "dots": false,
             "bars": false,
             "pips": true,
-            "filters": "",
             "rangeX": {
               "min": 0,
               "max": 200
@@ -2116,6 +2111,6 @@
     "visible": true,
     "html": ""
   },
-  "version": "1.8.11",
+  "version": "1.8.12",
   "type": "Open Stage Control session"
 }
