@@ -1,5 +1,8 @@
 {
-  "session": {
+  "version": "1.9.10",
+  "type": "session",
+  "createdWith": "Open Stage Control",
+  "content": {
     "type": "root",
     "id": "root",
     "linkId": "",
@@ -93,7 +96,8 @@
             "bypass": false,
             "lineWidth": "auto",
             "knobSize": "auto",
-            "html": "@{this.id}"
+            "html": "@{this.id}",
+            "comments": ""
           },
           {
             "type": "image",
@@ -126,7 +130,8 @@
             "preArgs": "",
             "target": "",
             "lineWidth": 0,
-            "html": ""
+            "html": "",
+            "comments": ""
           },
           {
             "type": "image",
@@ -159,7 +164,8 @@
             "preArgs": "",
             "target": "",
             "lineWidth": 0,
-            "html": ""
+            "html": "",
+            "comments": ""
           },
           {
             "type": "image",
@@ -192,7 +198,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "comments": ""
           },
           {
             "type": "text",
@@ -224,7 +231,8 @@
             "address": "auto",
             "preArgs": "",
             "target": "",
-            "decimals": 2
+            "decimals": 2,
+            "comments": ""
           },
           {
             "type": "text",
@@ -256,7 +264,8 @@
             "address": "auto",
             "preArgs": "",
             "target": "",
-            "decimals": 2
+            "decimals": 2,
+            "comments": ""
           },
           {
             "type": "fader",
@@ -306,7 +315,8 @@
             "bypass": false,
             "lineWidth": "auto",
             "knobSize": "auto",
-            "html": "@{this.id}"
+            "html": "@{this.id}",
+            "comments": ""
           },
           {
             "type": "fader",
@@ -356,7 +366,8 @@
             "bypass": false,
             "lineWidth": "auto",
             "knobSize": "auto",
-            "html": "@{this.id}"
+            "html": "@{this.id}",
+            "comments": ""
           },
           {
             "type": "fader",
@@ -406,7 +417,8 @@
             "bypass": false,
             "lineWidth": "auto",
             "knobSize": "auto",
-            "html": "@{this.id}"
+            "html": "@{this.id}",
+            "comments": ""
           },
           {
             "type": "text",
@@ -438,12 +450,14 @@
             "address": "auto",
             "preArgs": "",
             "target": "",
-            "decimals": 2
+            "decimals": 2,
+            "comments": ""
           }
         ],
         "tabs": [],
         "contain": true,
-        "html": ""
+        "html": "",
+        "comments": ""
       },
       {
         "type": "tab",
@@ -525,7 +539,8 @@
             "origin": "auto",
             "design": "compact",
             "gradient": [],
-            "knobSize": "auto"
+            "knobSize": "auto",
+            "comments": ""
           },
           {
             "type": "menu",
@@ -571,7 +586,8 @@
             "menuAlignH": "center",
             "label": "auto",
             "icon": "true",
-            "ignoreTabs": false
+            "ignoreTabs": false,
+            "comments": ""
           },
           {
             "type": "switch",
@@ -609,7 +625,9 @@
             "bypass": false,
             "layout": "vertical",
             "gridTemplate": "",
-            "values": "JS{{\nvar oscValues = OSC{values}\nreturn oscValues || {\n  \"Value 1\": 1,\n  \"Value 2\": 2\n}\n}}"
+            "values": "JS{{\nvar oscValues = OSC{values}\nreturn oscValues || {\n  \"Value 1\": 1,\n  \"Value 2\": 2\n}\n}}",
+            "comments": "",
+            "wrap": false
           },
           {
             "type": "text",
@@ -641,12 +659,14 @@
             "address": "auto",
             "preArgs": "",
             "target": "",
-            "decimals": 2
+            "decimals": 2,
+            "comments": ""
           }
         ],
         "tabs": [],
         "contain": true,
-        "html": ""
+        "html": "",
+        "comments": ""
       },
       {
         "type": "tab",
@@ -683,15 +703,15 @@
           {
             "type": "fader",
             "top": 70,
-            "left": 10,
+            "left": 60,
             "id": "fader_edit",
             "visible": 1,
             "interaction": 1,
-            "width": 150,
-            "height": 650,
+            "width": "100",
+            "height": "auto",
             "expand": "false",
             "colorText": "auto",
-            "colorWidget": "#a59f00",
+            "colorWidget": "orange",
             "colorStroke": "auto",
             "colorFill": "auto",
             "alphaStroke": "auto",
@@ -699,17 +719,17 @@
             "alphaFillOn": "auto",
             "padding": "auto",
             "css": "",
-            "design": "compact",
+            "design": "default",
             "horizontal": 0,
-            "pips": 0,
+            "pips": "true",
             "dashed": 0,
             "gradient": [],
             "snap": 0,
             "spring": 0,
             "doubleTap": 0,
             "range": {
-              "min": 1,
-              "max": 12
+              "min": 0,
+              "max": 1
             },
             "logScale": 0,
             "sensitivity": 1,
@@ -728,12 +748,93 @@
             "bypass": 0,
             "lineWidth": "auto",
             "knobSize": "auto",
-            "html": "@{this.id}"
+            "html": "@{this.id}",
+            "comments": ""
+          },
+          {
+            "type": "panel",
+            "top": 100,
+            "left": 210,
+            "id": "panel_edit",
+            "visible": 1,
+            "interaction": 1,
+            "comments": "",
+            "width": 460,
+            "height": 440,
+            "expand": "false",
+            "colorText": "auto",
+            "colorWidget": "auto",
+            "colorStroke": "auto",
+            "colorFill": "auto",
+            "alphaStroke": "auto",
+            "alphaFillOff": "auto",
+            "alphaFillOn": "auto",
+            "lineWidth": "auto",
+            "padding": "auto",
+            "html": "",
+            "css": "",
+            "colorBg": "auto",
+            "layout": "default",
+            "justify": "start",
+            "gridTemplate": "",
+            "contain": 1,
+            "scroll": 1,
+            "innerPadding": 1,
+            "verticalTabs": 0,
+            "variables": "@{parent.variables}",
+            "traversing": 0,
+            "value": "",
+            "default": "",
+            "linkId": "",
+            "address": "auto",
+            "preArgs": "",
+            "typeTags": "",
+            "decimals": 2,
+            "target": "",
+            "ignoreDefaults": 0,
+            "bypass": 0,
+            "script": "",
+            "widgets": [],
+            "tabs": []
+          },
+          {
+            "type": "text",
+            "top": 70,
+            "left": 210,
+            "id": "text_5",
+            "visible": true,
+            "comments": "",
+            "width": 130,
+            "height": 30,
+            "expand": "false",
+            "colorText": "auto",
+            "colorWidget": "auto",
+            "colorStroke": "auto",
+            "colorFill": "auto",
+            "alphaStroke": "auto",
+            "alphaFillOff": "auto",
+            "alphaFillOn": "auto",
+            "lineWidth": "auto",
+            "padding": "auto",
+            "html": "",
+            "css": "",
+            "vertical": false,
+            "wrap": false,
+            "align": "center",
+            "value": "panel_edit",
+            "default": "",
+            "linkId": "",
+            "address": "auto",
+            "preArgs": "",
+            "decimals": 2,
+            "target": "",
+            "script": ""
           }
         ],
         "tabs": [],
         "contain": true,
-        "html": ""
+        "html": "",
+        "comments": ""
       },
       {
         "type": "tab",
@@ -784,7 +885,9 @@
             "typeTags": "",
             "decimals": 2,
             "bypass": false,
-            "validation": ""
+            "validation": "",
+            "comments": "",
+            "numeric": false
           },
           {
             "type": "text",
@@ -816,7 +919,8 @@
             "wrap": false,
             "html": "",
             "align": "center",
-            "decimals": 2
+            "decimals": 2,
+            "comments": ""
           },
           {
             "type": "button",
@@ -857,7 +961,8 @@
             "mode": "tap",
             "colorTextOn": "auto",
             "vertical": false,
-            "wrap": false
+            "wrap": false,
+            "comments": ""
           },
           {
             "type": "xy",
@@ -907,7 +1012,8 @@
             },
             "logScaleX": false,
             "logScaleY": false,
-            "ephemeral": false
+            "ephemeral": false,
+            "comments": ""
           },
           {
             "type": "fader",
@@ -957,7 +1063,8 @@
             "target": "",
             "ignoreDefaults": false,
             "bypass": false,
-            "html": "@{this.id}"
+            "html": "@{this.id}",
+            "comments": ""
           },
           {
             "type": "fader",
@@ -1007,7 +1114,8 @@
             "typeTags": "",
             "decimals": 0,
             "ignoreDefaults": false,
-            "bypass": false
+            "bypass": false,
+            "comments": ""
           },
           {
             "type": "text",
@@ -1039,7 +1147,8 @@
             "preArgs": "",
             "target": "",
             "html": "",
-            "decimals": 2
+            "decimals": 2,
+            "comments": ""
           },
           {
             "type": "text",
@@ -1071,7 +1180,8 @@
             "vertical": false,
             "wrap": false,
             "align": "center",
-            "decimals": 2
+            "decimals": 2,
+            "comments": ""
           },
           {
             "type": "xy",
@@ -1121,7 +1231,8 @@
             "target": "",
             "ignoreDefaults": false,
             "bypass": false,
-            "doubleTap": false
+            "doubleTap": false,
+            "comments": ""
           },
           {
             "type": "multixy",
@@ -1171,7 +1282,8 @@
             "decimals": 2,
             "target": "",
             "ignoreDefaults": false,
-            "bypass": false
+            "bypass": false,
+            "comments": ""
           },
           {
             "type": "fader",
@@ -1221,7 +1333,8 @@
             "decimals": 2,
             "target": "",
             "ignoreDefaults": false,
-            "bypass": false
+            "bypass": false,
+            "comments": ""
           },
           {
             "type": "text",
@@ -1253,7 +1366,8 @@
             "address": "auto",
             "preArgs": "",
             "target": "",
-            "decimals": 2
+            "decimals": 2,
+            "comments": ""
           }
         ],
         "tabs": [],
@@ -1276,7 +1390,8 @@
         "colorBg": "auto",
         "innerPadding": true,
         "contain": true,
-        "html": ""
+        "html": "",
+        "comments": ""
       },
       {
         "type": "tab",
@@ -1348,7 +1463,8 @@
             "preArgs": "",
             "target": "",
             "lineWidth": "auto",
-            "html": "@{this.id}"
+            "html": "@{this.id}",
+            "comments": ""
           },
           {
             "type": "visualizer",
@@ -1386,13 +1502,12 @@
             "pips": true,
             "freeze": "@{freeze_button}",
             "lineWidth": "auto",
-            "dots": false,
-            "bars": false,
             "rangeX": {
               "min": 20,
               "max": 22000
             },
-            "html": "@{this.id}"
+            "html": "@{this.id}",
+            "comments": ""
           },
           {
             "type": "led",
@@ -1431,7 +1546,8 @@
             "logScale": false,
             "borderRadius": "",
             "lineWidth": "auto",
-            "html": "@{this.id}"
+            "html": "@{this.id}",
+            "comments": ""
           },
           {
             "type": "button",
@@ -1472,7 +1588,8 @@
             "lineWidth": "auto",
             "vertical": false,
             "wrap": false,
-            "html": ""
+            "html": "",
+            "comments": ""
           },
           {
             "type": "visualizer",
@@ -1510,13 +1627,12 @@
             "logScaleY": true,
             "freeze": "@{freeze_button}",
             "lineWidth": "auto",
-            "dots": false,
-            "bars": false,
             "rangeX": {
               "min": 20,
               "max": 22000
             },
-            "html": "@{this.id}"
+            "html": "@{this.id}",
+            "comments": ""
           },
           {
             "type": "fader",
@@ -1566,7 +1682,8 @@
             "bypass": false,
             "lineWidth": "auto",
             "knobSize": "auto",
-            "html": ""
+            "html": "",
+            "comments": ""
           },
           {
             "type": "text",
@@ -1598,7 +1715,8 @@
             "target": "",
             "lineWidth": "auto",
             "html": "",
-            "decimals": 2
+            "decimals": 2,
+            "comments": ""
           },
           {
             "type": "plot",
@@ -1638,7 +1756,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "comments": ""
           },
           {
             "type": "plot",
@@ -1678,12 +1797,14 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "comments": ""
           }
         ],
         "tabs": [],
         "contain": true,
-        "html": ""
+        "html": "",
+        "comments": ""
       },
       {
         "type": "tab",
@@ -1757,7 +1878,8 @@
             "colorWhite": "auto",
             "colorBlack": "auto",
             "html": "@{this.id}",
-            "velocity": false
+            "velocity": false,
+            "comments": ""
           },
           {
             "type": "patchbay",
@@ -1800,7 +1922,8 @@
             "ignoreDefaults": false,
             "bypass": false,
             "lineWidth": "auto",
-            "html": "@{this.id}"
+            "html": "@{this.id}",
+            "comments": ""
           },
           {
             "type": "matrix",
@@ -1824,7 +1947,6 @@
             "css": "",
             "widgetType": "fader",
             "quantity": 32,
-            "start": 1,
             "props": {
               "horizontal": false,
               "label": true,
@@ -1858,12 +1980,14 @@
             "variables": "@{parent.variables}",
             "widgets": [],
             "tabs": [],
-            "html": "@{this.id}"
+            "html": "@{this.id}",
+            "comments": ""
           }
         ],
         "tabs": [],
         "contain": true,
-        "html": ""
+        "html": "",
+        "comments": ""
       },
       {
         "type": "tab",
@@ -1947,7 +2071,8 @@
             "bypass": false,
             "lineWidth": "auto",
             "knobSize": "auto",
-            "html": "@{this.id}"
+            "html": "@{this.id}",
+            "comments": ""
           },
           {
             "type": "knob",
@@ -1995,7 +2120,8 @@
             "origin": "auto",
             "lineWidth": "auto",
             "design": "default",
-            "html": "@{this.id}"
+            "html": "@{this.id}",
+            "comments": ""
           },
           {
             "type": "text",
@@ -2027,7 +2153,8 @@
             "target": "",
             "lineWidth": "auto",
             "html": "",
-            "decimals": 2
+            "decimals": 2,
+            "comments": ""
           },
           {
             "type": "clone",
@@ -2049,6 +2176,8 @@
                 "red"
               ]
             },
+            "comments": "",
+            "script": "",
             "address": "auto",
             "variables": "@{parent.variables}"
           },
@@ -2082,10 +2211,12 @@
             "target": "",
             "lineWidth": "auto",
             "html": "",
-            "decimals": 2
+            "decimals": 2,
+            "comments": ""
           }
         ],
-        "tabs": []
+        "tabs": [],
+        "comments": ""
       }
     ],
     "scroll": true,
@@ -2109,8 +2240,7 @@
     "width": "auto",
     "height": "auto",
     "visible": true,
-    "html": ""
-  },
-  "version": "1.8.12",
-  "type": "Open Stage Control session"
+    "html": "",
+    "comments": ""
+  }
 }
