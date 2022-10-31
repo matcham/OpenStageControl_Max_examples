@@ -1,5 +1,5 @@
 {
-  "version": "1.9.10",
+  "version": "1.19.0-beta2",
   "type": "session",
   "createdWith": "Open Stage Control",
   "content": {
@@ -39,7 +39,6 @@
         "value": "",
         "default": "",
         "linkId": "",
-        "script": "",
         "address": "auto",
         "preArgs": "",
         "typeTags": "",
@@ -86,7 +85,6 @@
             "value": "",
             "default": "",
             "linkId": "",
-            "script": "",
             "address": "auto",
             "preArgs": "",
             "typeTags": "",
@@ -97,7 +95,12 @@
             "lineWidth": "auto",
             "knobSize": "auto",
             "html": "@{this.id}",
-            "comments": ""
+            "comments": "",
+            "onValue": "",
+            "lock": false,
+            "borderRadius": "auto",
+            "onCreate": "",
+            "onTouch": ""
           },
           {
             "type": "image",
@@ -125,13 +128,16 @@
             "value": "https://cycling74-web-assets.s3.amazonaws.com/images/c74-icon-fff.svg",
             "default": "",
             "linkId": "",
-            "script": "",
             "address": "auto",
             "preArgs": "",
             "target": "",
             "lineWidth": 0,
             "html": "",
-            "comments": ""
+            "comments": "",
+            "onValue": "",
+            "lock": false,
+            "borderRadius": "auto",
+            "onCreate": ""
           },
           {
             "type": "image",
@@ -159,13 +165,16 @@
             "value": "https://cycling74-web-assets.s3.amazonaws.com/images/max8/max8icon-01.svg",
             "default": "",
             "linkId": "",
-            "script": "",
             "address": "auto",
             "preArgs": "",
             "target": "",
             "lineWidth": 0,
             "html": "",
-            "comments": ""
+            "comments": "",
+            "onValue": "",
+            "lock": false,
+            "borderRadius": "auto",
+            "onCreate": ""
           },
           {
             "type": "image",
@@ -195,11 +204,14 @@
             "value": "https://openstagecontrol.ammd.net/img/logo_nobadge.png",
             "default": "",
             "linkId": "",
-            "script": "",
             "address": "auto",
             "preArgs": "",
             "target": "",
-            "comments": ""
+            "comments": "",
+            "onValue": "",
+            "lock": false,
+            "borderRadius": "auto",
+            "onCreate": ""
           },
           {
             "type": "text",
@@ -227,12 +239,15 @@
             "value": "Open Stage Control & Max tutorial",
             "default": "",
             "linkId": "",
-            "script": "",
             "address": "auto",
             "preArgs": "",
             "target": "",
             "decimals": 2,
-            "comments": ""
+            "comments": "",
+            "onValue": "",
+            "lock": false,
+            "borderRadius": "auto",
+            "onCreate": ""
           },
           {
             "type": "text",
@@ -260,12 +275,15 @@
             "value": "&",
             "default": "",
             "linkId": "",
-            "script": "",
             "address": "auto",
             "preArgs": "",
             "target": "",
             "decimals": 2,
-            "comments": ""
+            "comments": "",
+            "onValue": "",
+            "lock": false,
+            "borderRadius": "auto",
+            "onCreate": ""
           },
           {
             "type": "fader",
@@ -305,7 +323,6 @@
             "value": "",
             "default": "",
             "linkId": "",
-            "script": "",
             "address": "auto",
             "preArgs": "",
             "typeTags": "",
@@ -316,7 +333,12 @@
             "lineWidth": "auto",
             "knobSize": "auto",
             "html": "@{this.id}",
-            "comments": ""
+            "comments": "",
+            "onValue": "",
+            "lock": false,
+            "borderRadius": "auto",
+            "onCreate": "",
+            "onTouch": ""
           },
           {
             "type": "fader",
@@ -356,7 +378,6 @@
             "value": "",
             "default": "",
             "linkId": "",
-            "script": "",
             "address": "auto",
             "preArgs": "",
             "typeTags": "",
@@ -367,7 +388,12 @@
             "lineWidth": "auto",
             "knobSize": "auto",
             "html": "@{this.id}",
-            "comments": ""
+            "comments": "",
+            "onValue": "",
+            "lock": false,
+            "borderRadius": "auto",
+            "onCreate": "",
+            "onTouch": ""
           },
           {
             "type": "fader",
@@ -407,7 +433,6 @@
             "value": "",
             "default": "",
             "linkId": "",
-            "script": "",
             "address": "auto",
             "preArgs": "",
             "typeTags": "",
@@ -418,7 +443,12 @@
             "lineWidth": "auto",
             "knobSize": "auto",
             "html": "@{this.id}",
-            "comments": ""
+            "comments": "",
+            "onValue": "",
+            "lock": false,
+            "borderRadius": "auto",
+            "onCreate": "",
+            "onTouch": ""
           },
           {
             "type": "text",
@@ -446,18 +476,25 @@
             "value": "server's URL : #{globals.url}",
             "default": "",
             "linkId": "",
-            "script": "",
             "address": "auto",
             "preArgs": "",
             "target": "",
             "decimals": 2,
-            "comments": ""
+            "comments": "",
+            "onValue": "",
+            "lock": false,
+            "borderRadius": "auto",
+            "onCreate": ""
           }
         ],
         "tabs": [],
         "contain": true,
         "html": "",
-        "comments": ""
+        "comments": "",
+        "onValue": "",
+        "lock": false,
+        "borderRadius": "auto",
+        "onCreate": ""
       },
       {
         "type": "tab",
@@ -482,7 +519,6 @@
         "value": "",
         "default": "",
         "linkId": "",
-        "script": "",
         "address": "auto",
         "preArgs": "",
         "typeTags": "",
@@ -513,7 +549,6 @@
             "value": "",
             "default": 0.5,
             "linkId": "",
-            "script": "",
             "address": "auto",
             "preArgs": "",
             "typeTags": "",
@@ -540,7 +575,12 @@
             "design": "compact",
             "gradient": [],
             "knobSize": "auto",
-            "comments": ""
+            "comments": "",
+            "onValue": "",
+            "lock": false,
+            "borderRadius": "auto",
+            "onCreate": "",
+            "onTouch": ""
           },
           {
             "type": "menu",
@@ -563,7 +603,6 @@
             "value": "",
             "default": "",
             "linkId": "",
-            "script": "",
             "address": "auto",
             "preArgs": "",
             "target": "",
@@ -587,7 +626,11 @@
             "label": "auto",
             "icon": "true",
             "ignoreTabs": false,
-            "comments": ""
+            "comments": "",
+            "onValue": "",
+            "lock": false,
+            "borderRadius": "auto",
+            "onCreate": ""
           },
           {
             "type": "switch",
@@ -612,7 +655,6 @@
             "value": "",
             "default": "",
             "linkId": "",
-            "script": "",
             "address": "auto",
             "preArgs": "",
             "target": "",
@@ -627,7 +669,11 @@
             "gridTemplate": "",
             "values": "JS{{\nvar oscValues = OSC{values}\nreturn oscValues || {\n  \"Value 1\": 1,\n  \"Value 2\": 2\n}\n}}",
             "comments": "",
-            "wrap": false
+            "wrap": false,
+            "onValue": "",
+            "lock": false,
+            "borderRadius": "auto",
+            "onCreate": ""
           },
           {
             "type": "text",
@@ -655,18 +701,25 @@
             "value": "@{switch_1.value}",
             "default": "",
             "linkId": "",
-            "script": "",
             "address": "auto",
             "preArgs": "",
             "target": "",
             "decimals": 2,
-            "comments": ""
+            "comments": "",
+            "onValue": "",
+            "lock": false,
+            "borderRadius": "auto",
+            "onCreate": ""
           }
         ],
         "tabs": [],
         "contain": true,
         "html": "",
-        "comments": ""
+        "comments": "",
+        "onValue": "",
+        "lock": false,
+        "borderRadius": "auto",
+        "onCreate": ""
       },
       {
         "type": "tab",
@@ -691,7 +744,6 @@
         "value": "",
         "default": "",
         "linkId": "",
-        "script": "",
         "address": "auto",
         "preArgs": "",
         "typeTags": "",
@@ -738,7 +790,6 @@
             "value": "",
             "default": "",
             "linkId": "",
-            "script": "",
             "address": "/fader_edit",
             "preArgs": "",
             "typeTags": "",
@@ -749,7 +800,12 @@
             "lineWidth": "auto",
             "knobSize": "auto",
             "html": "@{this.id}",
-            "comments": ""
+            "comments": "",
+            "onValue": "",
+            "lock": false,
+            "borderRadius": "auto",
+            "onCreate": "",
+            "onTouch": ""
           },
           {
             "type": "panel",
@@ -793,9 +849,12 @@
             "target": "",
             "ignoreDefaults": 0,
             "bypass": 0,
-            "script": "",
             "widgets": [],
-            "tabs": []
+            "tabs": [],
+            "onValue": "",
+            "lock": false,
+            "borderRadius": "auto",
+            "onCreate": ""
           },
           {
             "type": "text",
@@ -828,13 +887,20 @@
             "preArgs": "",
             "decimals": 2,
             "target": "",
-            "script": ""
+            "onValue": "",
+            "lock": false,
+            "borderRadius": "auto",
+            "onCreate": ""
           }
         ],
         "tabs": [],
         "contain": true,
         "html": "",
-        "comments": ""
+        "comments": "",
+        "onValue": "",
+        "lock": false,
+        "borderRadius": "auto",
+        "onCreate": ""
       },
       {
         "type": "tab",
@@ -872,7 +938,6 @@
             "value": "",
             "default": "enter your text here",
             "linkId": "myText",
-            "script": "",
             "address": "auto",
             "preArgs": "",
             "target": "",
@@ -887,7 +952,12 @@
             "bypass": false,
             "validation": "",
             "comments": "",
-            "numeric": false
+            "numeric": false,
+            "onValue": "",
+            "lock": false,
+            "borderRadius": "auto",
+            "maxLength": "",
+            "onCreate": ""
           },
           {
             "type": "text",
@@ -910,7 +980,6 @@
             "value": "input_1 : type in text",
             "default": "",
             "linkId": "",
-            "script": "",
             "address": "/text_15",
             "preArgs": "",
             "target": "",
@@ -920,7 +989,11 @@
             "html": "",
             "align": "center",
             "decimals": 2,
-            "comments": ""
+            "comments": "",
+            "onValue": "",
+            "lock": false,
+            "borderRadius": "auto",
+            "onCreate": ""
           },
           {
             "type": "button",
@@ -946,7 +1019,6 @@
             "value": "",
             "default": "",
             "linkId": "",
-            "script": "// script property\nvar fallTime = 0.2,\n    fps = 24,\n    maxValue = 1,\n    step = maxValue / fps / fallTime\n\nsetTimeout(()=>{\n  if (value <= 0) clearTimeout()\n  set(\"this\", value - step)\n}, 1000 / fps)",
             "address": "auto",
             "preArgs": "",
             "typeTags": "",
@@ -962,7 +1034,12 @@
             "colorTextOn": "auto",
             "vertical": false,
             "wrap": false,
-            "comments": ""
+            "comments": "",
+            "onValue": "// script property\nvar fallTime = 0.2,\n    fps = 24,\n    maxValue = 1,\n    step = maxValue / fps / fallTime\n\nsetTimeout(()=>{\n  if (value <= 0) clearTimeout()\n  set(\"this\", value - step)\n}, 1000 / fps)",
+            "lock": false,
+            "borderRadius": "auto",
+            "decoupled": false,
+            "onCreate": ""
           },
           {
             "type": "xy",
@@ -992,7 +1069,6 @@
             "value": "[@{fader_X.value},@{fader_Y.value}]",
             "default": "",
             "linkId": "",
-            "script": "",
             "address": "auto",
             "preArgs": "",
             "typeTags": "",
@@ -1013,7 +1089,12 @@
             "logScaleX": false,
             "logScaleY": false,
             "ephemeral": false,
-            "comments": ""
+            "comments": "",
+            "onValue": "",
+            "lock": false,
+            "borderRadius": "auto",
+            "onCreate": "",
+            "onTouch": ""
           },
           {
             "type": "fader",
@@ -1055,7 +1136,6 @@
             "value": "@{myXY.value.1}",
             "default": "",
             "linkId": "",
-            "script": "",
             "address": "auto",
             "preArgs": "",
             "typeTags": "",
@@ -1064,7 +1144,12 @@
             "ignoreDefaults": false,
             "bypass": false,
             "html": "@{this.id}",
-            "comments": ""
+            "comments": "",
+            "onValue": "",
+            "lock": false,
+            "borderRadius": "auto",
+            "onCreate": "",
+            "onTouch": ""
           },
           {
             "type": "fader",
@@ -1089,7 +1174,6 @@
             "value": "@{myXY.value.0}",
             "default": "",
             "linkId": "",
-            "script": "",
             "address": "auto",
             "preArgs": "",
             "target": "",
@@ -1115,7 +1199,12 @@
             "decimals": 0,
             "ignoreDefaults": false,
             "bypass": false,
-            "comments": ""
+            "comments": "",
+            "onValue": "",
+            "lock": false,
+            "borderRadius": "auto",
+            "onCreate": "",
+            "onTouch": ""
           },
           {
             "type": "text",
@@ -1142,13 +1231,16 @@
             "value": "how to send and receive X and Y values \nto/from 2 different addresses",
             "default": "",
             "linkId": "",
-            "script": "",
             "address": "auto",
             "preArgs": "",
             "target": "",
             "html": "",
             "decimals": 2,
-            "comments": ""
+            "comments": "",
+            "onValue": "",
+            "lock": false,
+            "borderRadius": "auto",
+            "onCreate": ""
           },
           {
             "type": "text",
@@ -1172,7 +1264,6 @@
             "value": "send touch message (script)",
             "default": "",
             "linkId": "",
-            "script": "",
             "address": "auto",
             "preArgs": "",
             "target": "",
@@ -1181,7 +1272,11 @@
             "wrap": false,
             "align": "center",
             "decimals": 2,
-            "comments": ""
+            "comments": "",
+            "onValue": "",
+            "lock": false,
+            "borderRadius": "auto",
+            "onCreate": ""
           },
           {
             "type": "xy",
@@ -1223,7 +1318,6 @@
             "value": "",
             "default": "",
             "linkId": "",
-            "script": "if (touch !== undefined) {\nsend('/@{this.id}/touch', touch) \n} ",
             "address": "auto",
             "preArgs": "",
             "typeTags": "",
@@ -1232,7 +1326,12 @@
             "ignoreDefaults": false,
             "bypass": false,
             "doubleTap": false,
-            "comments": ""
+            "comments": "",
+            "onValue": "if (touch !== undefined) {\nsend('/@{this.id}/touch', touch) \n} ",
+            "lock": false,
+            "borderRadius": "auto",
+            "onCreate": "",
+            "onTouch": ""
           },
           {
             "type": "multixy",
@@ -1275,7 +1374,6 @@
             "value": "",
             "default": "",
             "linkId": "",
-            "script": "if (touch !== undefined) {\n    // send multi touch state\n    if (touch.length) send('/@{this.id}/touch', touch[0], touch[1])\n    // send global touch state\n}",
             "address": "auto",
             "preArgs": "",
             "typeTags": "",
@@ -1283,7 +1381,13 @@
             "target": "",
             "ignoreDefaults": false,
             "bypass": false,
-            "comments": ""
+            "comments": "",
+            "onValue": "if (touch !== undefined) {\n    // send multi touch state\n    if (touch.length) send('/@{this.id}/touch', touch[0], touch[1])\n    // send global touch state\n}",
+            "lock": false,
+            "borderRadius": "auto",
+            "doubleTap": false,
+            "onCreate": "",
+            "onTouch": ""
           },
           {
             "type": "fader",
@@ -1326,7 +1430,6 @@
             "value": "",
             "default": "",
             "linkId": "",
-            "script": "if (touch !== undefined) {\nsend('/@{this.id}/touch', touch) \n} ",
             "address": "auto",
             "preArgs": "",
             "typeTags": "",
@@ -1334,7 +1437,12 @@
             "target": "",
             "ignoreDefaults": false,
             "bypass": false,
-            "comments": ""
+            "comments": "",
+            "onValue": "if (touch !== undefined) {\nsend('/@{this.id}/touch', touch) \n} ",
+            "lock": false,
+            "borderRadius": "auto",
+            "onCreate": "",
+            "onTouch": ""
           },
           {
             "type": "text",
@@ -1362,12 +1470,15 @@
             "value": "this button's \"on\" property contains \"bang\"",
             "default": "",
             "linkId": "",
-            "script": "",
             "address": "auto",
             "preArgs": "",
             "target": "",
             "decimals": 2,
-            "comments": ""
+            "comments": "",
+            "onValue": "",
+            "lock": false,
+            "borderRadius": "auto",
+            "onCreate": ""
           }
         ],
         "tabs": [],
@@ -1384,14 +1495,17 @@
         "gridTemplate": "",
         "verticalTabs": false,
         "traversing": false,
-        "script": "",
         "typeTags": "",
         "ignoreDefaults": false,
         "colorBg": "auto",
         "innerPadding": true,
         "contain": true,
         "html": "",
-        "comments": ""
+        "comments": "",
+        "onValue": "",
+        "lock": false,
+        "borderRadius": "auto",
+        "onCreate": ""
       },
       {
         "type": "tab",
@@ -1416,7 +1530,6 @@
         "value": "",
         "default": "",
         "linkId": "",
-        "script": "",
         "address": "auto",
         "preArgs": "",
         "typeTags": "",
@@ -1458,13 +1571,16 @@
             "value": "",
             "default": "",
             "linkId": "",
-            "script": "",
             "address": "auto",
             "preArgs": "",
             "target": "",
             "lineWidth": "auto",
             "html": "@{this.id}",
-            "comments": ""
+            "comments": "",
+            "onValue": "",
+            "lock": false,
+            "borderRadius": "auto",
+            "onCreate": ""
           },
           {
             "type": "visualizer",
@@ -1487,7 +1603,6 @@
             "value": "",
             "default": "",
             "linkId": "",
-            "script": "",
             "address": "auto",
             "preArgs": "",
             "target": "",
@@ -1507,7 +1622,11 @@
               "max": 22000
             },
             "html": "@{this.id}",
-            "comments": ""
+            "comments": "",
+            "onValue": "",
+            "lock": false,
+            "borderRadius": "auto",
+            "onCreate": ""
           },
           {
             "type": "led",
@@ -1530,7 +1649,6 @@
             "value": "",
             "default": "",
             "linkId": "viz",
-            "script": "",
             "address": "auto",
             "preArgs": "",
             "target": "",
@@ -1547,7 +1665,10 @@
             "borderRadius": "",
             "lineWidth": "auto",
             "html": "@{this.id}",
-            "comments": ""
+            "comments": "",
+            "onValue": "",
+            "lock": false,
+            "onCreate": ""
           },
           {
             "type": "button",
@@ -1570,7 +1691,6 @@
             "value": "",
             "default": "",
             "linkId": "",
-            "script": "",
             "address": "auto",
             "preArgs": "",
             "target": "",
@@ -1589,7 +1709,12 @@
             "vertical": false,
             "wrap": false,
             "html": "",
-            "comments": ""
+            "comments": "",
+            "onValue": "",
+            "lock": false,
+            "borderRadius": "auto",
+            "decoupled": false,
+            "onCreate": ""
           },
           {
             "type": "visualizer",
@@ -1614,7 +1739,6 @@
             "value": "",
             "default": "",
             "linkId": "viz",
-            "script": "",
             "address": "auto",
             "preArgs": "",
             "target": "",
@@ -1632,7 +1756,11 @@
               "max": 22000
             },
             "html": "@{this.id}",
-            "comments": ""
+            "comments": "",
+            "onValue": "",
+            "lock": false,
+            "borderRadius": "auto",
+            "onCreate": ""
           },
           {
             "type": "fader",
@@ -1655,7 +1783,6 @@
             "value": "",
             "default": "",
             "linkId": "viz",
-            "script": "",
             "address": "/fader_levelMeter",
             "preArgs": "",
             "typeTags": "",
@@ -1683,7 +1810,12 @@
             "lineWidth": "auto",
             "knobSize": "auto",
             "html": "",
-            "comments": ""
+            "comments": "",
+            "onValue": "",
+            "lock": false,
+            "borderRadius": "auto",
+            "onCreate": "",
+            "onTouch": ""
           },
           {
             "type": "text",
@@ -1709,14 +1841,17 @@
             "value": "these widgets share the same linkId",
             "default": "",
             "linkId": "",
-            "script": "",
             "address": "auto",
             "preArgs": "",
             "target": "",
             "lineWidth": "auto",
             "html": "",
             "decimals": 2,
-            "comments": ""
+            "comments": "",
+            "onValue": "",
+            "lock": false,
+            "borderRadius": "auto",
+            "onCreate": ""
           },
           {
             "type": "plot",
@@ -1753,11 +1888,14 @@
             "value": "JS{{\nvar flatarray = OSC{XYarray},\n    _2darray = []\n\nfor (var i = 0; i < flatarray.length; i += 2) {\n  _2darray.push([flatarray[i], flatarray[i + 1]])\n}\nreturn _2darray\n}}",
             "default": "",
             "linkId": "",
-            "script": "",
             "address": "auto",
             "preArgs": "",
             "target": "",
-            "comments": ""
+            "comments": "",
+            "onValue": "",
+            "lock": false,
+            "borderRadius": "auto",
+            "onCreate": ""
           },
           {
             "type": "plot",
@@ -1794,17 +1932,24 @@
             "value": "",
             "default": "",
             "linkId": "",
-            "script": "",
             "address": "auto",
             "preArgs": "",
             "target": "",
-            "comments": ""
+            "comments": "",
+            "onValue": "",
+            "lock": false,
+            "borderRadius": "auto",
+            "onCreate": ""
           }
         ],
         "tabs": [],
         "contain": true,
         "html": "",
-        "comments": ""
+        "comments": "",
+        "onValue": "",
+        "lock": false,
+        "borderRadius": "auto",
+        "onCreate": ""
       },
       {
         "type": "tab",
@@ -1829,7 +1974,6 @@
         "value": "",
         "default": "",
         "linkId": "",
-        "script": "",
         "address": "auto",
         "preArgs": "",
         "typeTags": "",
@@ -1862,7 +2006,6 @@
             "traversing": true,
             "on": 1,
             "off": 0,
-            "script": "",
             "address": "auto",
             "preArgs": "",
             "typeTags": "",
@@ -1879,7 +2022,11 @@
             "colorBlack": "auto",
             "html": "@{this.id}",
             "velocity": false,
-            "comments": ""
+            "comments": "",
+            "onValue": "",
+            "lock": false,
+            "borderRadius": "auto",
+            "onCreate": ""
           },
           {
             "type": "patchbay",
@@ -1913,7 +2060,6 @@
             "value": "",
             "default": "",
             "linkId": "",
-            "script": "",
             "address": "auto",
             "preArgs": "",
             "typeTags": "",
@@ -1923,7 +2069,12 @@
             "bypass": false,
             "lineWidth": "auto",
             "html": "@{this.id}",
-            "comments": ""
+            "comments": "",
+            "onValue": "",
+            "lock": false,
+            "borderRadius": "auto",
+            "exclusive": false,
+            "onCreate": ""
           },
           {
             "type": "matrix",
@@ -1965,7 +2116,6 @@
             "value": "",
             "default": "",
             "linkId": "",
-            "script": "",
             "address": "auto",
             "preArgs": "",
             "typeTags": "",
@@ -1981,13 +2131,21 @@
             "widgets": [],
             "tabs": [],
             "html": "@{this.id}",
-            "comments": ""
+            "comments": "",
+            "onValue": "",
+            "lock": false,
+            "borderRadius": "auto",
+            "onCreate": ""
           }
         ],
         "tabs": [],
         "contain": true,
         "html": "",
-        "comments": ""
+        "comments": "",
+        "onValue": "",
+        "lock": false,
+        "borderRadius": "auto",
+        "onCreate": ""
       },
       {
         "type": "tab",
@@ -2014,7 +2172,6 @@
         "value": "",
         "default": "",
         "linkId": "",
-        "script": "",
         "address": "auto",
         "preArgs": "",
         "typeTags": "",
@@ -2061,7 +2218,6 @@
             "value": "",
             "default": "",
             "linkId": "myValue",
-            "script": "",
             "address": "auto",
             "preArgs": "",
             "typeTags": "",
@@ -2072,7 +2228,12 @@
             "lineWidth": "auto",
             "knobSize": "auto",
             "html": "@{this.id}",
-            "comments": ""
+            "comments": "",
+            "onValue": "",
+            "lock": false,
+            "borderRadius": "auto",
+            "onCreate": "",
+            "onTouch": ""
           },
           {
             "type": "knob",
@@ -2096,7 +2257,6 @@
             "value": "",
             "default": "",
             "linkId": "myValue",
-            "script": "",
             "address": "auto",
             "preArgs": "",
             "typeTags": "",
@@ -2121,7 +2281,12 @@
             "lineWidth": "auto",
             "design": "default",
             "html": "@{this.id}",
-            "comments": ""
+            "comments": "",
+            "onValue": "",
+            "lock": false,
+            "borderRadius": "auto",
+            "onCreate": "",
+            "onTouch": ""
           },
           {
             "type": "text",
@@ -2147,14 +2312,17 @@
             "value": "my_knob sharing linkId \"myValue\" with my_fader",
             "default": "",
             "linkId": "",
-            "script": "",
             "address": "auto",
             "preArgs": "",
             "target": "",
             "lineWidth": "auto",
             "html": "",
             "decimals": 2,
-            "comments": ""
+            "comments": "",
+            "onValue": "",
+            "lock": false,
+            "borderRadius": "auto",
+            "onCreate": ""
           },
           {
             "type": "clone",
@@ -2177,7 +2345,7 @@
               ]
             },
             "comments": "",
-            "script": "",
+            "lock": false,
             "address": "auto",
             "variables": "@{parent.variables}"
           },
@@ -2205,18 +2373,154 @@
             "value": "my_fader clone with overriden properties :",
             "default": "",
             "linkId": "",
-            "script": "",
             "address": "/text_13",
             "preArgs": "",
             "target": "",
             "lineWidth": "auto",
             "html": "",
             "decimals": 2,
-            "comments": ""
+            "comments": "",
+            "onValue": "",
+            "lock": false,
+            "borderRadius": "auto",
+            "onCreate": ""
           }
         ],
         "tabs": [],
-        "comments": ""
+        "comments": "",
+        "onValue": "",
+        "lock": false,
+        "borderRadius": "auto",
+        "onCreate": ""
+      },
+      {
+        "type": "tab",
+        "lock": false,
+        "id": "fragments",
+        "visible": true,
+        "interaction": true,
+        "comments": "",
+        "colorText": "auto",
+        "colorWidget": "auto",
+        "colorFill": "auto",
+        "borderRadius": "auto",
+        "padding": "auto",
+        "html": "",
+        "css": "",
+        "colorBg": "auto",
+        "layout": "default",
+        "justify": "start",
+        "gridTemplate": "",
+        "contain": true,
+        "scroll": true,
+        "innerPadding": true,
+        "verticalTabs": false,
+        "label": "auto",
+        "variables": "@{parent.variables}",
+        "traversing": false,
+        "value": "",
+        "default": "",
+        "linkId": "",
+        "address": "auto",
+        "preArgs": "",
+        "typeTags": "",
+        "decimals": 2,
+        "target": "",
+        "ignoreDefaults": false,
+        "bypass": false,
+        "onCreate": "",
+        "onValue": "",
+        "widgets": [
+          {
+            "type": "fragment",
+            "top": 10,
+            "left": 10,
+            "lock": false,
+            "id": "fragment_1",
+            "visible": true,
+            "interaction": true,
+            "comments": "",
+            "width": 230,
+            "height": 380,
+            "expand": "false",
+            "css": "",
+            "file": "my_Fragment1.json",
+            "props": {
+              "variables": {
+                "name": "my_fragment1"
+              }
+            },
+            "address": "auto",
+            "variables": "@{parent.variables}"
+          },
+          {
+            "type": "fragment",
+            "top": 10,
+            "left": 260,
+            "lock": false,
+            "id": "fragment_2",
+            "visible": true,
+            "interaction": true,
+            "comments": "",
+            "width": 360,
+            "height": 430,
+            "expand": "false",
+            "css": "",
+            "file": "my_Fragment1.json",
+            "props": {
+              "variables": {
+                "name": "my_fragment2"
+              }
+            },
+            "address": "auto",
+            "variables": "@{parent.variables}"
+          },
+          {
+            "type": "fragment",
+            "top": 400,
+            "left": 50,
+            "lock": false,
+            "id": "fragment_3",
+            "visible": true,
+            "interaction": true,
+            "comments": "",
+            "width": 200,
+            "height": 210,
+            "expand": "false",
+            "css": "",
+            "file": "OSC{file, my_fragment1.json}",
+            "props": {
+              "variables": {
+                "name": "my_fragment3"
+              }
+            },
+            "address": "auto",
+            "variables": "@{parent.variables}"
+          },
+          {
+            "type": "fragment",
+            "top": 470,
+            "left": 360,
+            "lock": false,
+            "id": "dynamic_fragment",
+            "visible": true,
+            "interaction": true,
+            "comments": "",
+            "width": 250,
+            "height": 260,
+            "expand": "false",
+            "css": "",
+            "file": "OSC{file, my_fragment1.json}",
+            "props": {
+              "variables": {
+                "name": "my_fragment3"
+              }
+            },
+            "address": "auto",
+            "variables": "@{parent.variables}"
+          }
+        ],
+        "tabs": []
       }
     ],
     "scroll": true,
@@ -2230,7 +2534,6 @@
     "justify": "start",
     "gridTemplate": "",
     "verticalTabs": false,
-    "script": "",
     "typeTags": "",
     "ignoreDefaults": false,
     "widgets": [],
@@ -2241,6 +2544,11 @@
     "height": "auto",
     "visible": true,
     "html": "",
-    "comments": ""
+    "comments": "",
+    "onValue": "",
+    "lock": false,
+    "borderRadius": "auto",
+    "hideMenu": false,
+    "onCreate": ""
   }
 }
