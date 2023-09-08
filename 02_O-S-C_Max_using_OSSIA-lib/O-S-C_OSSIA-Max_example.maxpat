@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
-			"revision" : 0,
+			"minor" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -419,6 +419,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-28",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "synth.view.maxpat",
 					"numinlets" : 1,
@@ -439,6 +440,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-29",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "synth.view.maxpat",
 					"numinlets" : 1,
@@ -522,8 +524,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -645,11 +647,13 @@
 									"dontreplace" : 1,
 									"gradient" : 1,
 									"id" : "obj-16",
+									"linecount" : 4,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 148.0, 394.0, 267.0, 64.0 ]
+									"patching_rect" : [ 148.0, 394.0, 267.0, 64.0 ],
+									"text" : "/SESSION/OPEN C:/Users/Apertures/Documents/GitHub/OpenStageControl_Max_examples/02_O-S-C_Max_using_OSSIA-lib/O-S-C_OSSIA-Max_example.json"
 								}
 
 							}
@@ -815,8 +819,8 @@
 						"styles" : [ 							{
 								"name" : "helpfile_label-1",
 								"default" : 								{
-									"fontsize" : [ 13.0 ],
 									"fontname" : [ "Arial" ],
+									"fontsize" : [ 13.0 ],
 									"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
 								}
 ,
@@ -849,8 +853,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1621,24 +1625,17 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "fm_synth.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/ossia/patchers",
-				"patcherrelativepath" : "../../../Max 8/Packages/ossia/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/ossia-max(remote_echo_off)/patchers",
+				"patcherrelativepath" : "../../../Max 8/Packages/ossia-max(remote_echo_off)/patchers",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "synth.view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/ossia/patchers",
-				"patcherrelativepath" : "../../../Max 8/Packages/ossia/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ossia.mxe64",
-				"type" : "mx64"
 			}
 , 			{
 				"name" : "ossia.model.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "ossia.mxe64",
 				"type" : "mx64"
 			}
 , 			{
@@ -1646,12 +1643,19 @@
 				"type" : "mx64"
 			}
 , 			{
+				"name" : "ossia.remote.mxe64",
+				"type" : "mx64"
+			}
+, 			{
 				"name" : "ossia.view.mxe64",
 				"type" : "mx64"
 			}
 , 			{
-				"name" : "ossia.remote.mxe64",
-				"type" : "mx64"
+				"name" : "synth.view.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/ossia-max(remote_echo_off)/patchers",
+				"patcherrelativepath" : "../../../Max 8/Packages/ossia-max(remote_echo_off)/patchers",
+				"type" : "JSON",
+				"implicit" : 1
 			}
  ],
 		"autosave" : 0,
@@ -1667,8 +1671,8 @@
 , 			{
 				"name" : "helpfile_label-1",
 				"default" : 				{
-					"fontsize" : [ 13.0 ],
 					"fontname" : [ "Arial" ],
+					"fontsize" : [ 13.0 ],
 					"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
 				}
 ,

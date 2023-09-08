@@ -1,5 +1,8 @@
 {
-  "session": {
+  "version": "1.25.4",
+  "type": "session",
+  "createdWith": "Open Stage Control",
+  "content": {
     "type": "root",
     "id": "root",
     "interaction": true,
@@ -16,11 +19,9 @@
     "gridTemplate": "",
     "scroll": true,
     "innerPadding": true,
-    "verticalTabs": false,
     "value": "",
     "default": "",
     "linkId": "",
-    "script": "",
     "address": "auto",
     "preArgs": "",
     "typeTags": "",
@@ -48,14 +49,12 @@
         "contain": true,
         "scroll": true,
         "innerPadding": true,
-        "verticalTabs": false,
         "label": "auto",
         "variables": "@{parent.variables}",
         "traversing": false,
         "value": "",
         "default": "",
         "linkId": "",
-        "script": "",
         "address": "auto",
         "preArgs": "",
         "typeTags": "",
@@ -92,7 +91,6 @@
             "contain": true,
             "scroll": true,
             "innerPadding": true,
-            "verticalTabs": false,
             "variables": {
               "n": "voice.1"
             },
@@ -100,7 +98,6 @@
             "value": "",
             "default": "",
             "linkId": "",
-            "script": "",
             "address": "auto",
             "preArgs": "",
             "typeTags": "",
@@ -134,11 +131,16 @@
                 "value": "Model address : @{parent.variables.n}",
                 "default": "",
                 "linkId": "",
-                "script": "",
                 "address": "auto",
                 "preArgs": "",
                 "target": "",
-                "html": ""
+                "html": "",
+                "onValue": "",
+                "lock": false,
+                "comments": "",
+                "borderRadius": "auto",
+                "decimals": 2,
+                "onCreate": ""
               },
               {
                 "type": "fader",
@@ -180,7 +182,6 @@
                 "value": "",
                 "default": "",
                 "linkId": "",
-                "script": "",
                 "address": "auto",
                 "preArgs": "",
                 "typeTags": "",
@@ -188,7 +189,13 @@
                 "target": "",
                 "ignoreDefaults": false,
                 "bypass": false,
-                "html": "carrier frequency"
+                "html": "carrier frequency",
+                "onValue": "",
+                "lock": false,
+                "comments": "",
+                "borderRadius": "auto",
+                "onCreate": "",
+                "onTouch": ""
               },
               {
                 "type": "fader",
@@ -230,7 +237,6 @@
                 "value": "",
                 "default": "",
                 "linkId": "",
-                "script": "",
                 "address": "auto",
                 "preArgs": "",
                 "typeTags": "",
@@ -238,7 +244,13 @@
                 "target": "",
                 "ignoreDefaults": false,
                 "bypass": false,
-                "html": "cutoff frequency"
+                "html": "cutoff frequency",
+                "onValue": "",
+                "lock": false,
+                "comments": "",
+                "borderRadius": "auto",
+                "onCreate": "",
+                "onTouch": ""
               },
               {
                 "type": "knob",
@@ -279,14 +291,19 @@
                 "value": "",
                 "default": "",
                 "linkId": "",
-                "script": "",
                 "address": "auto",
                 "preArgs": "",
                 "typeTags": "",
                 "decimals": 2,
                 "target": "",
                 "ignoreDefaults": false,
-                "bypass": false
+                "bypass": false,
+                "onValue": "",
+                "lock": false,
+                "comments": "",
+                "borderRadius": "auto",
+                "onCreate": "",
+                "onTouch": ""
               },
               {
                 "type": "knob",
@@ -327,14 +344,19 @@
                 "value": "",
                 "default": "",
                 "linkId": "",
-                "script": "",
                 "address": "auto",
                 "preArgs": "",
                 "typeTags": "",
                 "decimals": 0,
                 "target": "",
                 "ignoreDefaults": false,
-                "bypass": false
+                "bypass": false,
+                "onValue": "",
+                "lock": false,
+                "comments": "",
+                "borderRadius": "auto",
+                "onCreate": "",
+                "onTouch": ""
               },
               {
                 "type": "knob",
@@ -375,14 +397,19 @@
                 "value": "",
                 "default": "",
                 "linkId": "",
-                "script": "",
                 "address": "auto",
                 "preArgs": "",
                 "typeTags": "",
                 "decimals": 2,
                 "target": "",
                 "ignoreDefaults": false,
-                "bypass": false
+                "bypass": false,
+                "onValue": "",
+                "lock": false,
+                "comments": "",
+                "borderRadius": "auto",
+                "onCreate": "",
+                "onTouch": ""
               },
               {
                 "type": "knob",
@@ -423,14 +450,19 @@
                 "value": "",
                 "default": "",
                 "linkId": "",
-                "script": "",
                 "address": "auto",
                 "preArgs": "",
                 "typeTags": "",
                 "decimals": 2,
                 "target": "",
                 "ignoreDefaults": false,
-                "bypass": false
+                "bypass": false,
+                "onValue": "",
+                "lock": false,
+                "comments": "",
+                "borderRadius": "auto",
+                "onCreate": "",
+                "onTouch": ""
               },
               {
                 "type": "fader",
@@ -472,7 +504,6 @@
                 "value": "",
                 "default": "",
                 "linkId": "",
-                "script": "",
                 "address": "auto",
                 "preArgs": "",
                 "typeTags": "",
@@ -480,10 +511,22 @@
                 "target": "",
                 "ignoreDefaults": false,
                 "bypass": false,
-                "html": "ramptime @{this.value} ms"
+                "html": "ramptime @{this.value} ms",
+                "onValue": "",
+                "lock": false,
+                "comments": "",
+                "borderRadius": "auto",
+                "onCreate": "",
+                "onTouch": ""
               }
             ],
-            "tabs": []
+            "tabs": [],
+            "onValue": "",
+            "lock": false,
+            "comments": "",
+            "borderRadius": "auto",
+            "tabsPosition": "top",
+            "onCreate": ""
           },
           {
             "type": "fader",
@@ -526,14 +569,19 @@
             "value": "",
             "default": 0.5,
             "linkId": "",
-            "script": "",
             "address": "auto",
             "preArgs": "",
             "typeTags": "",
             "decimals": 2,
             "target": "",
             "ignoreDefaults": false,
-            "bypass": false
+            "bypass": false,
+            "onValue": "",
+            "lock": false,
+            "comments": "",
+            "borderRadius": "auto",
+            "onCreate": "",
+            "onTouch": ""
           },
           {
             "type": "clone",
@@ -552,7 +600,9 @@
                 "n": "voice.2"
               }
             },
-            "label": "",
+            "lock": false,
+            "comments": "",
+            "address": "auto",
             "variables": "@{parent.variables}"
           },
           {
@@ -581,10 +631,15 @@
             "value": "<-- original \"view\"",
             "default": "",
             "linkId": "",
-            "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "onValue": "",
+            "lock": false,
+            "comments": "",
+            "borderRadius": "auto",
+            "decimals": 2,
+            "onCreate": ""
           },
           {
             "type": "text",
@@ -612,10 +667,15 @@
             "value": "<-- this one is a clone,\n   with overriden \"variable\"\n   property defining model address",
             "default": "",
             "linkId": "",
-            "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "onValue": "",
+            "lock": false,
+            "comments": "",
+            "borderRadius": "auto",
+            "decimals": 2,
+            "onCreate": ""
           },
           {
             "type": "text",
@@ -643,21 +703,37 @@
             "value": "I'm not an OSSIA parameter",
             "default": "",
             "linkId": "",
-            "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "onValue": "",
+            "lock": false,
+            "comments": "",
+            "borderRadius": "auto",
+            "decimals": 2,
+            "onCreate": ""
           }
         ],
-        "tabs": []
+        "tabs": [],
+        "onValue": "",
+        "lock": false,
+        "comments": "",
+        "borderRadius": "auto",
+        "tabsPosition": "top",
+        "onCreate": ""
       }
     ],
     "visible": true,
     "width": "auto",
     "height": "auto",
     "html": "",
-    "contain": true
-  },
-  "version": "1.6.2",
-  "type": "Open Stage Control session"
+    "contain": true,
+    "onValue": "",
+    "lock": false,
+    "comments": "",
+    "borderRadius": "auto",
+    "tabsPosition": "top",
+    "hideMenu": false,
+    "onCreate": ""
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "version": "1.19.0-beta2",
+  "version": "1.25.4",
   "type": "session",
   "createdWith": "Open Stage Control",
   "content": {
@@ -22,7 +22,6 @@
     "contain": true,
     "scroll": true,
     "innerPadding": true,
-    "verticalTabs": false,
     "variables": "@{parent.variables}",
     "traversing": false,
     "value": "",
@@ -55,7 +54,6 @@
         "contain": true,
         "scroll": true,
         "innerPadding": true,
-        "verticalTabs": false,
         "label": "auto",
         "variables": "@{parent.variables}",
         "traversing": false,
@@ -123,7 +121,6 @@
             "contain": true,
             "scroll": true,
             "innerPadding": true,
-            "verticalTabs": false,
             "traversing": false,
             "value": "",
             "default": "",
@@ -286,7 +283,8 @@
             "lock": false,
             "comments": "",
             "borderRadius": "auto",
-            "onCreate": ""
+            "onCreate": "",
+            "tabsPosition": "top"
           }
         ],
         "tabs": [],
@@ -294,7 +292,8 @@
         "lock": false,
         "comments": "",
         "borderRadius": "auto",
-        "onCreate": ""
+        "onCreate": "",
+        "tabsPosition": "top"
       },
       {
         "type": "tab",
@@ -314,7 +313,6 @@
         "contain": true,
         "scroll": true,
         "innerPadding": true,
-        "verticalTabs": false,
         "label": "auto",
         "variables": "@{parent.variables}",
         "traversing": false,
@@ -357,7 +355,6 @@
             "contain": true,
             "scroll": true,
             "innerPadding": true,
-            "verticalTabs": false,
             "variables": {
               "name": "my_synth.1"
             },
@@ -838,7 +835,8 @@
             "lock": false,
             "comments": "",
             "borderRadius": "auto",
-            "onCreate": ""
+            "onCreate": "",
+            "tabsPosition": "top"
           },
           {
             "type": "text",
@@ -940,7 +938,8 @@
         "lock": false,
         "comments": "",
         "borderRadius": "auto",
-        "onCreate": ""
+        "onCreate": "",
+        "tabsPosition": "top"
       },
       {
         "type": "tab",
@@ -960,7 +959,6 @@
         "contain": true,
         "scroll": true,
         "innerPadding": true,
-        "verticalTabs": false,
         "label": "auto",
         "variables": "@{parent.variables}",
         "traversing": false,
@@ -1003,7 +1001,6 @@
             "contain": true,
             "scroll": true,
             "innerPadding": true,
-            "verticalTabs": false,
             "variables": {
               "name": "my_synth.1"
             },
@@ -1473,7 +1470,8 @@
             "lock": false,
             "comments": "",
             "borderRadius": "auto",
-            "onCreate": ""
+            "onCreate": "",
+            "tabsPosition": "top"
           },
           {
             "type": "clone",
@@ -1576,7 +1574,8 @@
         "lock": false,
         "comments": "",
         "borderRadius": "auto",
-        "onCreate": ""
+        "onCreate": "",
+        "tabsPosition": "top"
       },
       {
         "type": "tab",
@@ -1596,7 +1595,6 @@
         "contain": true,
         "scroll": true,
         "innerPadding": true,
-        "verticalTabs": false,
         "label": "auto",
         "variables": "@{parent.variables}",
         "traversing": false,
@@ -1735,7 +1733,8 @@
         "lock": false,
         "comments": "",
         "borderRadius": "auto",
-        "onCreate": ""
+        "onCreate": "",
+        "tabsPosition": "top"
       }
     ],
     "onValue": "",
@@ -1743,6 +1742,7 @@
     "comments": "",
     "borderRadius": "auto",
     "hideMenu": false,
-    "onCreate": ""
+    "onCreate": "",
+    "tabsPosition": "top"
   }
 }
