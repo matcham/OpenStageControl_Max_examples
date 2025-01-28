@@ -1,5 +1,5 @@
 {
-  "version": "1.25.4",
+  "version": "1.27.3",
   "type": "session",
   "createdWith": "Open Stage Control",
   "content": {
@@ -99,7 +99,8 @@
             "lock": false,
             "borderRadius": "auto",
             "onCreate": "",
-            "onTouch": ""
+            "onTouch": "",
+            "colorKnob": "auto"
           },
           {
             "type": "image",
@@ -246,7 +247,8 @@
             "onValue": "",
             "lock": false,
             "borderRadius": "auto",
-            "onCreate": ""
+            "onCreate": "",
+            "bypass": false
           },
           {
             "type": "text",
@@ -282,7 +284,8 @@
             "onValue": "",
             "lock": false,
             "borderRadius": "auto",
-            "onCreate": ""
+            "onCreate": "",
+            "bypass": false
           },
           {
             "type": "fader",
@@ -337,7 +340,8 @@
             "lock": false,
             "borderRadius": "auto",
             "onCreate": "",
-            "onTouch": ""
+            "onTouch": "",
+            "colorKnob": "auto"
           },
           {
             "type": "fader",
@@ -392,7 +396,8 @@
             "lock": false,
             "borderRadius": "auto",
             "onCreate": "",
-            "onTouch": ""
+            "onTouch": "",
+            "colorKnob": "auto"
           },
           {
             "type": "fader",
@@ -447,7 +452,8 @@
             "lock": false,
             "borderRadius": "auto",
             "onCreate": "",
-            "onTouch": ""
+            "onTouch": "",
+            "colorKnob": "auto"
           },
           {
             "type": "text",
@@ -483,7 +489,8 @@
             "onValue": "",
             "lock": false,
             "borderRadius": "auto",
-            "onCreate": ""
+            "onCreate": "",
+            "bypass": false
           }
         ],
         "tabs": [],
@@ -579,7 +586,8 @@
             "lock": false,
             "borderRadius": "auto",
             "onCreate": "",
-            "onTouch": ""
+            "onTouch": "",
+            "colorKnob": "auto"
           },
           {
             "type": "menu",
@@ -707,7 +715,8 @@
             "onValue": "",
             "lock": false,
             "borderRadius": "auto",
-            "onCreate": ""
+            "onCreate": "",
+            "bypass": false
           }
         ],
         "tabs": [],
@@ -803,7 +812,8 @@
             "lock": false,
             "borderRadius": "auto",
             "onCreate": "",
-            "onTouch": ""
+            "onTouch": "",
+            "colorKnob": "auto"
           },
           {
             "type": "panel",
@@ -846,10 +856,48 @@
             "target": "",
             "ignoreDefaults": 0,
             "bypass": 0,
-            "widgets": [],
+            "widgets": [
+              {
+                "type": "text",
+                "top": 10,
+                "left": 20,
+                "lock": 0,
+                "id": "text_8",
+                "visible": 1,
+                "comments": "",
+                "width": 420,
+                "height": 100,
+                "expand": 0,
+                "colorText": "auto",
+                "colorWidget": "auto",
+                "colorStroke": "auto",
+                "colorFill": "auto",
+                "alphaStroke": "auto",
+                "alphaFillOff": "auto",
+                "alphaFillOn": "auto",
+                "lineWidth": "auto",
+                "borderRadius": "auto",
+                "padding": "auto",
+                "html": "",
+                "css": ":host {font-size: 400%}",
+                "vertical": 0,
+                "wrap": 0,
+                "align": "center",
+                "value": "Hello",
+                "default": "",
+                "linkId": "",
+                "address": "auto",
+                "preArgs": "",
+                "decimals": 2,
+                "target": "",
+                "bypass": 0,
+                "onCreate": "",
+                "onValue": ""
+              }
+            ],
             "tabs": [],
             "onValue": "",
-            "lock": false,
+            "lock": 0,
             "borderRadius": "auto",
             "onCreate": "",
             "tabsPosition": "top"
@@ -888,7 +936,8 @@
             "onValue": "",
             "lock": false,
             "borderRadius": "auto",
-            "onCreate": ""
+            "onCreate": "",
+            "bypass": false
           }
         ],
         "tabs": [],
@@ -992,7 +1041,8 @@
             "onValue": "",
             "lock": false,
             "borderRadius": "auto",
-            "onCreate": ""
+            "onCreate": "",
+            "bypass": false
           },
           {
             "type": "button",
@@ -1093,7 +1143,8 @@
             "lock": false,
             "borderRadius": "auto",
             "onCreate": "",
-            "onTouch": ""
+            "onTouch": "",
+            "axisLock": ""
           },
           {
             "type": "fader",
@@ -1148,7 +1199,8 @@
             "lock": false,
             "borderRadius": "auto",
             "onCreate": "",
-            "onTouch": ""
+            "onTouch": "",
+            "colorKnob": "auto"
           },
           {
             "type": "fader",
@@ -1203,7 +1255,8 @@
             "lock": false,
             "borderRadius": "auto",
             "onCreate": "",
-            "onTouch": ""
+            "onTouch": "",
+            "colorKnob": "auto"
           },
           {
             "type": "text",
@@ -1239,7 +1292,8 @@
             "onValue": "",
             "lock": false,
             "borderRadius": "auto",
-            "onCreate": ""
+            "onCreate": "",
+            "bypass": false
           },
           {
             "type": "text",
@@ -1275,7 +1329,8 @@
             "onValue": "",
             "lock": false,
             "borderRadius": "auto",
-            "onCreate": ""
+            "onCreate": "",
+            "bypass": false
           },
           {
             "type": "xy",
@@ -1330,17 +1385,18 @@
             "lock": false,
             "borderRadius": "auto",
             "onCreate": "",
-            "onTouch": ""
+            "onTouch": "",
+            "axisLock": ""
           },
           {
             "type": "multixy",
-            "top": 520,
-            "left": 420,
+            "top": 390,
+            "left": 390,
             "id": "multixyz",
             "visible": true,
             "interaction": true,
-            "width": 640,
-            "height": 430,
+            "width": 560,
+            "height": 420,
             "expand": "false",
             "colorText": "auto",
             "colorWidget": "auto",
@@ -1386,7 +1442,8 @@
             "borderRadius": "auto",
             "doubleTap": false,
             "onCreate": "",
-            "onTouch": ""
+            "onTouch": "",
+            "axisLock": ""
           },
           {
             "type": "fader",
@@ -1441,7 +1498,8 @@
             "lock": false,
             "borderRadius": "auto",
             "onCreate": "",
-            "onTouch": ""
+            "onTouch": "",
+            "colorKnob": "auto"
           },
           {
             "type": "text",
@@ -1477,7 +1535,8 @@
             "onValue": "",
             "lock": false,
             "borderRadius": "auto",
-            "onCreate": ""
+            "onCreate": "",
+            "bypass": false
           }
         ],
         "tabs": [],
@@ -1578,7 +1637,9 @@
             "onValue": "",
             "lock": false,
             "borderRadius": "auto",
-            "onCreate": ""
+            "onCreate": "",
+            "logScaleX": false,
+            "logScaleY": false
           },
           {
             "type": "visualizer",
@@ -1624,7 +1685,8 @@
             "onValue": "",
             "lock": false,
             "borderRadius": "auto",
-            "onCreate": ""
+            "onCreate": "",
+            "logScaleX": false
           },
           {
             "type": "led",
@@ -1666,7 +1728,8 @@
             "comments": "",
             "onValue": "",
             "lock": false,
-            "onCreate": ""
+            "onCreate": "",
+            "bypass": false
           },
           {
             "type": "button",
@@ -1758,7 +1821,8 @@
             "onValue": "",
             "lock": false,
             "borderRadius": "auto",
-            "onCreate": ""
+            "onCreate": "",
+            "logScaleX": false
           },
           {
             "type": "fader",
@@ -1813,7 +1877,8 @@
             "lock": false,
             "borderRadius": "auto",
             "onCreate": "",
-            "onTouch": ""
+            "onTouch": "",
+            "colorKnob": "auto"
           },
           {
             "type": "text",
@@ -1849,7 +1914,8 @@
             "onValue": "",
             "lock": false,
             "borderRadius": "auto",
-            "onCreate": ""
+            "onCreate": "",
+            "bypass": false
           },
           {
             "type": "plot",
@@ -1893,7 +1959,9 @@
             "onValue": "",
             "lock": false,
             "borderRadius": "auto",
-            "onCreate": ""
+            "onCreate": "",
+            "logScaleX": false,
+            "logScaleY": false
           },
           {
             "type": "plot",
@@ -1937,7 +2005,9 @@
             "onValue": "",
             "lock": false,
             "borderRadius": "auto",
-            "onCreate": ""
+            "onCreate": "",
+            "logScaleX": false,
+            "logScaleY": false
           }
         ],
         "tabs": [],
@@ -2232,7 +2302,8 @@
             "lock": false,
             "borderRadius": "auto",
             "onCreate": "",
-            "onTouch": ""
+            "onTouch": "",
+            "colorKnob": "auto"
           },
           {
             "type": "knob",
@@ -2285,7 +2356,8 @@
             "lock": false,
             "borderRadius": "auto",
             "onCreate": "",
-            "onTouch": ""
+            "onTouch": "",
+            "colorKnob": "auto"
           },
           {
             "type": "text",
@@ -2321,7 +2393,8 @@
             "onValue": "",
             "lock": false,
             "borderRadius": "auto",
-            "onCreate": ""
+            "onCreate": "",
+            "bypass": false
           },
           {
             "type": "clone",
@@ -2382,7 +2455,8 @@
             "onValue": "",
             "lock": false,
             "borderRadius": "auto",
-            "onCreate": ""
+            "onCreate": "",
+            "bypass": false
           }
         ],
         "tabs": [],
@@ -2478,14 +2552,14 @@
           },
           {
             "type": "fragment",
-            "top": 400,
-            "left": 50,
+            "top": 450,
+            "left": 40,
             "lock": false,
             "id": "fragment_3",
             "visible": true,
             "interaction": true,
             "comments": "",
-            "width": 200,
+            "width": 270,
             "height": 210,
             "expand": "false",
             "css": "",
@@ -2501,26 +2575,63 @@
           },
           {
             "type": "fragment",
-            "top": 470,
-            "left": 360,
+            "top": 500,
+            "left": 390,
             "lock": false,
             "id": "dynamic_fragment",
             "visible": true,
             "interaction": true,
             "comments": "",
-            "width": 250,
-            "height": 260,
+            "width": 310,
+            "height": 310,
             "expand": "false",
             "css": "",
             "file": "OSC{file, my_fragment1.json}",
             "props": {
               "variables": {
-                "name": "my_fragment3"
+                "name": "my_fragment4"
               }
             },
             "fallback": "",
             "address": "auto",
             "variables": "@{parent.variables}"
+          },
+          {
+            "type": "text",
+            "top": 460,
+            "left": 390,
+            "lock": false,
+            "id": "text_6",
+            "visible": true,
+            "comments": "",
+            "width": 290,
+            "height": 30,
+            "expand": false,
+            "colorText": "auto",
+            "colorWidget": "green",
+            "colorStroke": "auto",
+            "colorFill": "auto",
+            "alphaStroke": "auto",
+            "alphaFillOff": "auto",
+            "alphaFillOn": "auto",
+            "lineWidth": "auto",
+            "borderRadius": "auto",
+            "padding": "auto",
+            "html": "",
+            "css": "",
+            "vertical": false,
+            "wrap": false,
+            "align": "center",
+            "value": "load fragment with osc message :",
+            "default": "",
+            "linkId": "",
+            "address": "auto",
+            "preArgs": "",
+            "decimals": 2,
+            "target": "",
+            "bypass": false,
+            "onCreate": "",
+            "onValue": ""
           }
         ],
         "tabs": [],
@@ -2553,6 +2664,7 @@
     "borderRadius": "auto",
     "hideMenu": false,
     "onCreate": "",
-    "tabsPosition": "top"
+    "tabsPosition": "top",
+    "onPreload": ""
   }
 }

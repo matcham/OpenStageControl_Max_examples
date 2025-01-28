@@ -2,44 +2,18 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 51.0, 93.0, 1435.0, 943.0 ],
-		"bglocked" : 0,
-		"openinpresentation" : 0,
-		"default_fontsize" : 12.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial",
-		"gridonopen" : 1,
+		"rect" : [ 125.0, 100.0, 1459.0, 933.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
-		"subpatcher_template" : "",
 		"showrootpatcherontab" : 0,
 		"showontab" : 0,
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-1",
@@ -49,43 +23,17 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1435.0, 917.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
+						"rect" : [ 0.0, 26.0, 1459.0, 907.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
 						"showontab" : 1,
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-12",
@@ -94,7 +42,8 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 164.0, 229.0, 24.0, 24.0 ]
+									"patching_rect" : [ 164.0, 229.0, 24.0, 24.0 ],
+									"svg" : ""
 								}
 
 							}
@@ -119,7 +68,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 71.5, 185.0, 204.0, 36.0 ],
+									"patching_rect" : [ 71.5, 185.0, 204.0, 35.0 ],
 									"text" : "route /my_fragment2/fader /my_fragment2/button"
 								}
 
@@ -139,13 +88,25 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.192156862745098, 0.945098039215686, 0.074509803921569, 1.0 ],
+									"bgcolor" : [ 0.0, 0.854901960784314, 0.282352941176471, 1.0 ],
 									"id" : "obj-11",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 396.75, 94.0, 187.0, 20.0 ],
-									"text" : "load fragment with osc message :"
+									"saved_attribute_attributes" : 									{
+										"bgcolor" : 										{
+											"expression" : "themecolor.live_macro_assignment"
+										}
+,
+										"textcolor" : 										{
+											"expression" : "themecolor.live_control_fg_on"
+										}
+
+									}
+,
+									"text" : "load fragment with osc message :",
+									"textcolor" : [ 0.070588235294118, 0.070588235294118, 0.070588235294118, 1.0 ]
 								}
 
 							}
@@ -181,7 +142,8 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 164.0, 108.0, 24.0, 24.0 ]
+									"patching_rect" : [ 164.0, 108.0, 24.0, 24.0 ],
+									"svg" : ""
 								}
 
 							}
@@ -206,7 +168,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 71.5, 64.0, 204.0, 36.0 ],
+									"patching_rect" : [ 71.5, 64.0, 204.0, 35.0 ],
 									"text" : "route /my_fragment1/fader /my_fragment1/button"
 								}
 
@@ -381,15 +343,13 @@
 								}
 
 							}
- ]
+ ],
+						"originid" : "pat-112"
 					}
 ,
 					"patching_rect" : [ 145.0, 281.0, 100.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"tags" : ""
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p fragments"
@@ -405,43 +365,17 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 51.0, 119.0, 1435.0, 917.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
+						"rect" : [ 125.0, 126.0, 1459.0, 907.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
 						"showontab" : 1,
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-35",
@@ -449,7 +383,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 166.0, 523.0, 150.0, 34.0 ],
+									"patching_rect" : [ 166.0, 523.0, 150.0, 33.0 ],
 									"text" : "drop an Open Stage Control .json file here"
 								}
 
@@ -475,7 +409,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 31.0, 129.0, 79.0, 36.0 ],
+									"patching_rect" : [ 31.0, 129.0, 79.0, 35.0 ],
 									"text" : "send from.osc"
 								}
 
@@ -499,7 +433,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 94.0, 48.0, 338.0, 75.0 ],
+									"patching_rect" : [ 94.0, 48.0, 338.0, 74.0 ],
 									"text" : "it may be useful to add a deferlow here, as messages coming from network are passed in the high priority thread of Max (can be problematic wihen messages trigger some very cpu-consuming function, or some non-thread-safe objects (Jitter, ...)"
 								}
 
@@ -524,7 +458,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 842.5, 375.5, 342.0, 38.0 ],
+									"patching_rect" : [ 842.5, 375.5, 342.0, 37.0 ],
 									"text" : "setting remote-root to \"/Users\" will allow O-S-C to read and write sessions everywhere in current user sub-folders"
 								}
 
@@ -562,7 +496,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 885.0, 72.0, 256.0, 38.0 ],
+									"patching_rect" : [ 885.0, 72.0, 256.0, 37.0 ],
 									"text" : "configure O-S-C to send osc to localhost (127.0.0.1) on port 8000"
 								}
 
@@ -575,7 +509,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 885.0, 129.0, 182.0, 38.0 ],
+									"patching_rect" : [ 885.0, 129.0, 182.0, 37.0 ],
 									"text" : "--port: http port of the server (default to 8080)"
 								}
 
@@ -625,7 +559,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 29.0, 533.0, 100.0, 36.0 ],
+									"patching_rect" : [ 29.0, 533.0, 100.0, 35.0 ],
 									"text" : "loadmess pathtype boot"
 								}
 
@@ -661,8 +595,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 139.0, 685.0, 227.0, 77.0 ],
-									"text" : "/SESSION/OPEN C:/Users/Apertures/Documents/GitHub/OpenStageControl_Max_examples/01_O-S-C_Max_tutorial/O-S-C_Max_tutorial.json"
+									"patching_rect" : [ 139.0, 685.0, 227.0, 76.0 ],
+									"text" : "/SESSION/OPEN /Users/mathieuchamagne/Documents/GitHub/OpenStageControl_Max_examples/01_O-S-C_Max_tutorial/O-S-C_Max_tutorial.json"
 								}
 
 							}
@@ -684,7 +618,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 232.0, 407.0, 264.0, 34.0 ],
+									"patching_rect" : [ 232.0, 407.0, 264.0, 33.0 ],
 									"text" : "(this folder must be within Open Stage Control remote-root directory)"
 								}
 
@@ -697,7 +631,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 188.0, 364.0, 215.0, 38.0 ],
+									"patching_rect" : [ 188.0, 364.0, 215.0, 37.0 ],
 									"text" : "load \"O-S-C_Max_examples.json\" in Open Stage Control "
 								}
 
@@ -949,6 +883,7 @@
 
 							}
  ],
+						"originid" : "pat-114",
 						"styles" : [ 							{
 								"name" : "helpfile_label-1",
 								"default" : 								{
@@ -965,10 +900,7 @@
 ,
 					"patching_rect" : [ 44.0, 29.0, 99.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"tags" : ""
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p communication"
@@ -984,43 +916,17 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1435.0, 917.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
+						"rect" : [ 0.0, 26.0, 1459.0, 907.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
 						"showontab" : 1,
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontface" : 1,
@@ -1029,7 +935,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 16.0, 593.0, 53.0, 23.0 ],
+									"patching_rect" : [ 16.0, 593.0, 53.0, 22.0 ],
 									"text" : "touch"
 								}
 
@@ -1090,7 +996,8 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 129.5, 721.0, 39.0, 39.0 ]
+									"patching_rect" : [ 129.5, 721.0, 39.0, 39.0 ],
+									"svg" : ""
 								}
 
 							}
@@ -1152,7 +1059,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 16.0, 267.5, 156.0, 23.0 ],
+									"patching_rect" : [ 16.0, 267.5, 156.0, 22.0 ],
 									"text" : "XY : split X & Y values"
 								}
 
@@ -1236,7 +1143,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 8.5, 6.5, 177.0, 23.0 ],
+									"patching_rect" : [ 8.5, 6.5, 177.0, 22.0 ],
 									"text" : "some widgets examples :"
 								}
 
@@ -1249,7 +1156,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 55.0, 161.0, 150.5, 36.0 ],
+									"patching_rect" : [ 55.0, 161.0, 150.5, 35.0 ],
 									"text" : "/input_1 \"Bonjour vous, comment ça va ?\""
 								}
 
@@ -1285,7 +1192,8 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 513.5, 734.0, 45.0, 45.0 ]
+									"patching_rect" : [ 513.5, 734.0, 45.0, 45.0 ],
+									"svg" : ""
 								}
 
 							}
@@ -1547,8 +1455,8 @@
 									"outlettype" : [ "", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 834.0, 661.0, 239.0, 241.320388349514587 ],
-									"xplace" : [ 0.481171548117155, 0.230125523012552, 0.529999971389771, 0.319999992847443, 0.100000001490116, 0.25, 0.0, 0.0, 0.0, 0.0 ],
-									"yplace" : [ 0.406099130994528, 0.31493401995494, 0.669999986886978, 0.629999995231628, 0.650000005960464, 0.810000002384186, 1.0, 1.0, 1.0, 1.0 ]
+									"xplace" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+									"yplace" : [ 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0 ]
 								}
 
 							}
@@ -1965,6 +1873,7 @@
 
 							}
  ],
+						"originid" : "pat-116",
 						"styles" : [ 							{
 								"name" : "AudioStatus_Menu",
 								"default" : 								{
@@ -2190,10 +2099,7 @@
 ,
 					"patching_rect" : [ 110.0, 189.0, 70.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"tags" : ""
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p examples"
@@ -2209,43 +2115,17 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1435.0, 917.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
+						"rect" : [ 0.0, 26.0, 1459.0, 907.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
 						"showontab" : 1,
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-54",
@@ -2318,42 +2198,16 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 8,
-											"minor" : 5,
-											"revision" : 6,
+											"major" : 9,
+											"minor" : 0,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
 										"rect" : [ 1628.0, 552.0, 641.0, 480.0 ],
-										"bglocked" : 0,
-										"openinpresentation" : 0,
-										"default_fontsize" : 12.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
-										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
-										"gridsnaponopen" : 1,
-										"objectsnaponopen" : 1,
-										"statusbarvisible" : 2,
-										"toolbarvisible" : 1,
-										"lefttoolbarpinned" : 0,
-										"toptoolbarpinned" : 0,
-										"righttoolbarpinned" : 0,
-										"bottomtoolbarpinned" : 0,
-										"toolbars_unpinned_last_save" : 0,
-										"tallnewobj" : 0,
-										"boxanimatetime" : 200,
-										"enablehscroll" : 1,
-										"enablevscroll" : 1,
-										"devicewidth" : 0.0,
-										"description" : "",
-										"digest" : "",
-										"tags" : "",
-										"style" : "",
-										"subpatcher_template" : "",
-										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-31",
@@ -2749,15 +2603,13 @@
 												}
 
 											}
- ]
+ ],
+										"originid" : "pat-120"
 									}
 ,
 									"patching_rect" : [ 35.0, 73.635592937469482, 139.0, 22.0 ],
 									"saved_object_attributes" : 									{
-										"description" : "",
-										"digest" : "",
-										"globalpatchername" : "",
-										"tags" : ""
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p patchbay_to_matrixctrl"
@@ -2798,6 +2650,8 @@
 											"parameter_longname" : "live.gain~",
 											"parameter_mmax" : 6.0,
 											"parameter_mmin" : -70.0,
+											"parameter_modmode" : 0,
+											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "live.gain~",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -2949,8 +2803,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 190.0, 73.635592937469482, 167.0, 22.0 ],
-									"text" : "input_1 output_1 output_2"
+									"patching_rect" : [ 190.0, 73.635592937469482, 167.0, 22.0 ]
 								}
 
 							}
@@ -2968,13 +2821,11 @@
 									"dontreplace" : 1,
 									"gradient" : 1,
 									"id" : "obj-15",
-									"linecount" : 3,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 67.0, 774.0, 293.0, 50.0 ],
-									"text" : "0. 0. 0. 0.58 0.26 0.31 0.32 0.33 0.33 0.34 0.34 0.34 0.33 0.3 0.28 0.25 0.23 0.21 0.19 0.17 0.16 0.16 0.17 0.19 0.24 0.34 0.43 0. 0. 0. 0. 0."
+									"patching_rect" : [ 67.0, 774.0, 293.0, 22.0 ]
 								}
 
 							}
@@ -3566,6 +3417,7 @@
 
 							}
  ],
+						"originid" : "pat-118",
 						"styles" : [ 							{
 								"name" : "AudioStatus_Menu",
 								"default" : 								{
@@ -3791,10 +3643,7 @@
 ,
 					"patching_rect" : [ 137.0, 244.0, 74.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"tags" : ""
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p containers"
@@ -3810,43 +3659,17 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1435.0, 917.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
+						"rect" : [ 0.0, 26.0, 1459.0, 907.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
 						"showontab" : 1,
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-58",
@@ -3887,7 +3710,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 775.0, 881.0, 239.0, 131.0 ],
+									"patching_rect" : [ 775.0, 881.0, 239.0, 127.0 ],
 									"text" : "JS{{\nvar flatarray = OSC{2Darray},\n    _2darray = []\n\nfor (var i = 0; i < flatarray.length; i += 2) {\n  _2darray.push([flatarray[i], flatarray[i + 1]])\n}\nreturn _2darray\n}}"
 								}
 
@@ -3913,7 +3736,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 634.0, 890.341881155967712, 50.0, 36.0 ],
+									"patching_rect" : [ 634.0, 890.341881155967712, 50.0, 35.0 ],
 									"text" : "0.1 0.2 0.7 0.8"
 								}
 
@@ -3951,7 +3774,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 892.282042682170868, 425.435897409915924, 89.316238701343536, 38.0 ],
+									"patching_rect" : [ 892.282042682170868, 425.435897409915924, 89.316238701343536, 37.0 ],
 									"text" : "draw something"
 								}
 
@@ -3967,42 +3790,16 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 8,
-											"minor" : 5,
-											"revision" : 6,
+											"major" : 9,
+											"minor" : 0,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
 										"rect" : [ 1401.0, 217.0, 589.0, 789.0 ],
-										"bglocked" : 0,
-										"openinpresentation" : 0,
-										"default_fontsize" : 12.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
-										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
-										"gridsnaponopen" : 1,
-										"objectsnaponopen" : 1,
-										"statusbarvisible" : 2,
-										"toolbarvisible" : 1,
-										"lefttoolbarpinned" : 0,
-										"toptoolbarpinned" : 0,
-										"righttoolbarpinned" : 0,
-										"bottomtoolbarpinned" : 0,
-										"toolbars_unpinned_last_save" : 0,
-										"tallnewobj" : 0,
-										"boxanimatetime" : 200,
-										"enablehscroll" : 1,
-										"enablevscroll" : 1,
-										"devicewidth" : 0.0,
-										"description" : "",
-										"digest" : "",
-										"tags" : "",
-										"style" : "",
-										"subpatcher_template" : "",
-										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-11",
@@ -4129,11 +3926,12 @@
 													"id" : "obj-127",
 													"maxclass" : "newobj",
 													"numinlets" : 2,
-													"numoutlets" : 4,
-													"outlettype" : [ "dictionary", "", "", "" ],
+													"numoutlets" : 5,
+													"outlettype" : [ "dictionary", "", "", "", "" ],
 													"patching_rect" : [ 54.709398686885834, 594.0, 89.0, 22.0 ],
 													"saved_object_attributes" : 													{
 														"embed" : 0,
+														"legacy" : 1,
 														"parameter_enable" : 0,
 														"parameter_mappable" : 0
 													}
@@ -4156,13 +3954,11 @@
 													"dontreplace" : 1,
 													"gradient" : 1,
 													"id" : "obj-65",
-													"linecount" : 19,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 256.256418466567993, 60.350436240434647, 300.0, 271.0 ],
-													"text" : "93 113 93 113 93 114 92 114 91 115 89 115 88 115 89 113 95 107 104 98 112 94 118 94 121 95 126 100 126 108 124 116 118 122 110 126 104 126 97 125 92 121 89 116 89 109 93 103 102 99 112 97 120 98 128 102 134 107 134 115 134 120 131 125 126 129 119 132 114 132 112 133 111 134 109 135 108 138 106 141 105 146 105 154 107 161 110 166 114 168 119 168 123 167 126 165 126 160 126 153 124 143 119 133 114 123 111 114 111 105 114 96 122 86 133 77 143 74 151 74 156 76 159 80 159 87 154 95 145 102 132 108 118 112 106 114 95 113 87 110 81 105 80 95 82 84 85 70 88 55 88 41 86 30 80 20 71 13 63 9 56 10 47 13 37 19 29 25 21 32 15 43 12 51 12 56 15 60 24 65 36 71 52 83 67 99 69 110 64 119 53 125 40 125 29 123 22 119 22 113 28 106 38 102 46 102 51 103 51 104 49 107 45 114 39 121 32 128 28 132 28 135 31 138 37 146 43 152 48 155 52 154 58 150 64 140 69 128 73 117 77 111 78 108 78 107 76 106 70 103 66 98 66 89 71 80"
+													"patching_rect" : [ 256.256418466567993, 60.350436240434647, 300.0, 271.0 ]
 												}
 
 											}
@@ -4520,6 +4316,7 @@
 
 											}
  ],
+										"originid" : "pat-124",
 										"styles" : [ 											{
 												"name" : "AudioStatus_Menu",
 												"default" : 												{
@@ -4743,12 +4540,9 @@
  ]
 									}
 ,
-									"patching_rect" : [ 722.111102104187012, 548.01282274723053, 161.18233688672376, 36.0 ],
+									"patching_rect" : [ 722.111102104187012, 548.01282274723053, 161.18233688672376, 35.0 ],
 									"saved_object_attributes" : 									{
-										"description" : "",
-										"digest" : "",
-										"globalpatchername" : "",
-										"tags" : ""
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p plot_draw_(dict_stringified)"
@@ -4763,7 +4557,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 790.669507046540275, 337.068375825881958, 75.0, 23.0 ],
+									"patching_rect" : [ 790.669507046540275, 337.068375825881958, 75.0, 22.0 ],
 									"text" : "plot_draw"
 								}
 
@@ -4776,7 +4570,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 463.833330631256104, 323.35470187664032, 74.598289489746094, 23.0 ],
+									"patching_rect" : [ 463.833330631256104, 323.35470187664032, 74.598289489746094, 22.0 ],
 									"text" : "plot_xy"
 								}
 
@@ -4792,42 +4586,16 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 8,
-											"minor" : 5,
-											"revision" : 6,
+											"major" : 9,
+											"minor" : 0,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
 										"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
-										"bglocked" : 0,
-										"openinpresentation" : 0,
-										"default_fontsize" : 12.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
-										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
-										"gridsnaponopen" : 1,
-										"objectsnaponopen" : 1,
-										"statusbarvisible" : 2,
-										"toolbarvisible" : 1,
-										"lefttoolbarpinned" : 0,
-										"toptoolbarpinned" : 0,
-										"righttoolbarpinned" : 0,
-										"bottomtoolbarpinned" : 0,
-										"toolbars_unpinned_last_save" : 0,
-										"tallnewobj" : 0,
-										"boxanimatetime" : 200,
-										"enablehscroll" : 1,
-										"enablevscroll" : 1,
-										"devicewidth" : 0.0,
-										"description" : "",
-										"digest" : "",
-										"tags" : "",
-										"style" : "",
-										"subpatcher_template" : "",
-										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-32",
@@ -5011,15 +4779,13 @@
 												}
 
 											}
- ]
+ ],
+										"originid" : "pat-126"
 									}
 ,
 									"patching_rect" : [ 526.34615033864975, 348.35470187664032, 31.529915690422058, 22.0 ],
 									"saved_object_attributes" : 									{
-										"description" : "",
-										"digest" : "",
-										"globalpatchername" : "",
-										"tags" : ""
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p"
@@ -5034,7 +4800,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 23.0, 425.435897409915924, 184.0, 23.0 ],
+									"patching_rect" : [ 23.0, 425.435897409915924, 184.0, 22.0 ],
 									"text" : "plot : [x, y] pairs >>>"
 								}
 
@@ -5130,8 +4896,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 574.833330631256104, 592.811966478824615, 100.0, 36.0 ],
-									"restore" : [ 0.483938226089385, 0.833333333333333, 0.677174941065231, 0.537078322707743, 0.174759482128033, 0.285870593239144, 0.116788467635279, 0.387319868601463, 0.75, 0.833333333333333 ],
+									"patching_rect" : [ 574.833330631256104, 592.811966478824615, 100.0, 35.0 ],
+									"restore" : [ 0.553140096618358, 0.833333333333333, 0.792270531400966, 0.504830917874396, 0.28743961352657 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -5150,8 +4916,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 463.833330631256104, 592.811966478824615, 100.0, 36.0 ],
-									"restore" : [ 0.776948603824597, 0.616915422885572, 0.160033180939024, 0.339137658550965, 0.478441141138029, 0.692371489396736, 0.229684922232557, 0.403814275466388, 0.75, 0.833333333333333 ],
+									"patching_rect" : [ 463.833330631256104, 592.811966478824615, 100.0, 35.0 ],
+									"restore" : [ 0.810945273631841, 0.616915422885572, 0.27363184079602, 0.17910447761194, 0.477611940298507 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -5167,17 +4933,17 @@
 									"id" : "obj-71",
 									"maxclass" : "nodes",
 									"mousemode" : 1,
-									"nodenumber" : 10,
-									"nodesnames" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" ],
-									"nsize" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+									"nodenumber" : 5,
+									"nodesnames" : [ "1", "2", "3", "4", "5" ],
+									"nsize" : [ 0.0, 0.0, 0.0, 0.0, 0.0 ],
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 463.833330631256104, 374.824787199497223, 201.0, 207.0 ],
 									"varname" : "myNode",
-									"xplace" : [ 0.776948603824597, 0.616915422885572, 0.160033180939024, 0.339137658550965, 0.478441141138029, 0.692371489396736, 0.229684922232557, 0.403814275466388, 0.75, 0.833333333333333 ],
-									"yplace" : [ 0.483938226089385, 0.833333333333333, 0.677174941065231, 0.537078322707743, 0.174759482128033, 0.285870593239144, 0.116788467635279, 0.387319868601463, 0.75, 0.833333333333333 ]
+									"xplace" : [ 0.810945273631841, 0.616915422885572, 0.27363184079602, 0.17910447761194, 0.477611940298507 ],
+									"yplace" : [ 0.553140096618358, 0.833333333333333, 0.792270531400966, 0.504830917874396, 0.28743961352657 ]
 								}
 
 							}
@@ -5188,7 +4954,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 258.038456082344055, 849.341881155967712, 201.0, 48.0 ],
+									"patching_rect" : [ 258.038456082344055, 849.341881155967712, 201.0, 47.0 ],
 									"text" : "array of arrays converted to a string (\"[[x,y], [x1, y1], etc]\"), the plot widget will convert it automatically."
 								}
 
@@ -5319,7 +5085,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 239.884609967470169, 491.307692229747772, 129.940169632434845, 36.0 ],
+									"patching_rect" : [ 239.884609967470169, 491.307692229747772, 129.940169632434845, 35.0 ],
 									"text" : "[ [0.1 \\, 0.2 ] \\, [ 0.5 \\, 0.7 ] \\, [ $1 \\, 0.3 ] \\, ]"
 								}
 
@@ -5439,7 +5205,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 83.0, 23.0, 184.0, 23.0 ],
+									"patching_rect" : [ 83.0, 23.0, 184.0, 22.0 ],
 									"text" : "display a waveform in plot"
 								}
 
@@ -5553,7 +5319,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "int" ],
 									"patching_rect" : [ 341.0, 1102.367525637149811, 50.0, 101.0 ],
-									"slidercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 1.0 ]
+									"slidercolor" : [ 0.141176470588235, 0.141176470588235, 0.141176470588235, 1.0 ]
 								}
 
 							}
@@ -5587,7 +5353,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 827.444443881511688, 113.529910624027252, 177.94871711730957, 34.0 ],
+									"patching_rect" : [ 827.444443881511688, 113.529910624027252, 177.94871711730957, 33.0 ],
 									"text" : "increase maximum packet size (default = 5096)"
 								}
 
@@ -5614,42 +5380,16 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 8,
-											"minor" : 5,
-											"revision" : 6,
+											"major" : 9,
+											"minor" : 0,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
 										"rect" : [ 625.0, 85.0, 883.0, 604.0 ],
-										"bglocked" : 0,
-										"openinpresentation" : 0,
-										"default_fontsize" : 12.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
-										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
-										"gridsnaponopen" : 1,
-										"objectsnaponopen" : 1,
-										"statusbarvisible" : 2,
-										"toolbarvisible" : 1,
-										"lefttoolbarpinned" : 0,
-										"toptoolbarpinned" : 0,
-										"righttoolbarpinned" : 0,
-										"bottomtoolbarpinned" : 0,
-										"toolbars_unpinned_last_save" : 0,
-										"tallnewobj" : 0,
-										"boxanimatetime" : 200,
-										"enablehscroll" : 1,
-										"enablevscroll" : 1,
-										"devicewidth" : 0.0,
-										"description" : "",
-										"digest" : "",
-										"tags" : "",
-										"style" : "",
-										"subpatcher_template" : "",
-										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-10",
@@ -5832,42 +5572,16 @@
 													"patcher" : 													{
 														"fileversion" : 1,
 														"appversion" : 														{
-															"major" : 8,
-															"minor" : 5,
-															"revision" : 6,
+															"major" : 9,
+															"minor" : 0,
+															"revision" : 5,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
 ,
 														"classnamespace" : "box",
 														"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
-														"bglocked" : 0,
-														"openinpresentation" : 0,
-														"default_fontsize" : 12.0,
-														"default_fontface" : 0,
-														"default_fontname" : "Arial",
-														"gridonopen" : 1,
 														"gridsize" : [ 15.0, 15.0 ],
-														"gridsnaponopen" : 1,
-														"objectsnaponopen" : 1,
-														"statusbarvisible" : 2,
-														"toolbarvisible" : 1,
-														"lefttoolbarpinned" : 0,
-														"toptoolbarpinned" : 0,
-														"righttoolbarpinned" : 0,
-														"bottomtoolbarpinned" : 0,
-														"toolbars_unpinned_last_save" : 0,
-														"tallnewobj" : 0,
-														"boxanimatetime" : 200,
-														"enablehscroll" : 1,
-														"enablevscroll" : 1,
-														"devicewidth" : 0.0,
-														"description" : "",
-														"digest" : "",
-														"tags" : "",
-														"style" : "",
-														"subpatcher_template" : "",
-														"assistshowspatchername" : 0,
 														"boxes" : [ 															{
 																"box" : 																{
 																	"id" : "obj-5",
@@ -5998,15 +5712,13 @@
 																}
 
 															}
- ]
+ ],
+														"originid" : "pat-130"
 													}
 ,
 													"patching_rect" : [ 164.0, 433.0, 81.0, 22.0 ],
 													"saved_object_attributes" : 													{
-														"description" : "",
-														"digest" : "",
-														"globalpatchername" : "",
-														"tags" : ""
+														"globalpatchername" : ""
 													}
 ,
 													"text" : "p peak-finder"
@@ -6257,8 +5969,8 @@
 													"id" : "obj-23",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
-													"numoutlets" : 9,
-													"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "", "int" ],
+													"numoutlets" : 10,
+													"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "", "int", "" ],
 													"patching_rect" : [ 295.5, 125.0, 113.5, 23.0 ],
 													"text" : "info~ haha"
 												}
@@ -6556,15 +6268,13 @@
 												}
 
 											}
- ]
+ ],
+										"originid" : "pat-128"
 									}
 ,
 									"patching_rect" : [ 32.0, 70.0, 143.0, 22.0 ],
 									"saved_object_attributes" : 									{
-										"description" : "",
-										"digest" : "",
-										"globalpatchername" : "",
-										"tags" : ""
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p waveform-to-multislider"
@@ -6627,7 +6337,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 32.0, 1069.367525637149811, 79.0, 22.0 ],
 									"text" : "random 1000"
 								}
@@ -6641,7 +6351,8 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 32.0, 1016.367525637149811, 24.0, 24.0 ]
+									"patching_rect" : [ 32.0, 1016.367525637149811, 24.0, 24.0 ],
+									"svg" : ""
 								}
 
 							}
@@ -6710,14 +6421,14 @@
 , 							{
 								"box" : 								{
 									"bgcolor" : [ 0.631372549019608, 0.180392156862745, 0.180392156862745, 1.0 ],
-									"bgcolor2" : [ 0.2, 0.2, 0.2, 1.0 ],
+									"bgcolor2" : [ 0.631372549019608, 0.180392156862745, 0.180392156862745, 1.0 ],
 									"bgfillcolor_angle" : 270.0,
 									"bgfillcolor_autogradient" : 0.0,
-									"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 1.0 ],
+									"bgfillcolor_color" : [ 1.0, 0.490196078431373, 0.262745098039216, 1.0 ],
 									"bgfillcolor_color1" : [ 0.631372549019608, 0.180392156862745, 0.180392156862745, 1.0 ],
 									"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
 									"bgfillcolor_proportion" : 0.5,
-									"bgfillcolor_type" : "gradient",
+									"bgfillcolor_type" : "color",
 									"gradient" : 1,
 									"id" : "obj-11",
 									"maxclass" : "message",
@@ -6725,6 +6436,17 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 752.0, 154.0, 125.0, 22.0 ],
+									"saved_attribute_attributes" : 									{
+										"bgfillcolor" : 										{
+											"expression" : "themecolor.live_alert"
+										}
+,
+										"textcolor" : 										{
+											"expression" : "themecolor.live_control_fg_on"
+										}
+
+									}
+,
 									"text" : "maxpacketsize 20000"
 								}
 
@@ -7201,6 +6923,7 @@
 
 							}
  ],
+						"originid" : "pat-122",
 						"styles" : [ 							{
 								"name" : "AudioStatus_Menu",
 								"default" : 								{
@@ -7426,10 +7149,7 @@
 ,
 					"patching_rect" : [ 125.0, 215.0, 55.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"tags" : ""
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p graphs",
@@ -7446,43 +7166,17 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1435.0, 917.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
+						"rect" : [ 0.0, 26.0, 1459.0, 907.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
 						"showontab" : 1,
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-3",
@@ -7501,7 +7195,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 647.0, 352.0, 150.0, 34.0 ],
+									"patching_rect" : [ 647.0, 352.0, 150.0, 33.0 ],
 									"text" : "send all widgets states in one json stringified object"
 								}
 
@@ -7513,7 +7207,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1048.166666666666515, 366.0, 126.0, 34.0 ],
+									"patching_rect" : [ 1048.166666666666515, 366.0, 126.0, 33.0 ],
 									"text" : "send all messages one by one"
 								}
 
@@ -7525,7 +7219,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 43.0, 283.0, 72.0, 34.0 ],
+									"patching_rect" : [ 43.0, 283.0, 72.0, 33.0 ],
 									"text" : "store state in a dict"
 								}
 
@@ -7688,11 +7382,12 @@
 									"id" : "obj-11",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
-									"numoutlets" : 4,
-									"outlettype" : [ "dictionary", "", "", "" ],
+									"numoutlets" : 5,
+									"outlettype" : [ "dictionary", "", "", "", "" ],
 									"patching_rect" : [ 512.5, 184.0, 63.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0,
+										"legacy" : 1,
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
@@ -7708,7 +7403,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 121.0, 19.0, 150.0, 34.0 ],
+									"patching_rect" : [ 121.0, 19.0, 150.0, 33.0 ],
 									"text" : "Sends back the app's state to specified target"
 								}
 
@@ -7874,11 +7569,12 @@
 									"id" : "obj-108",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
-									"numoutlets" : 4,
-									"outlettype" : [ "dictionary", "", "", "" ],
+									"numoutlets" : 5,
+									"outlettype" : [ "dictionary", "", "", "", "" ],
 									"patching_rect" : [ 900.5, 177.0, 63.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0,
+										"legacy" : 1,
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
@@ -7916,11 +7612,12 @@
 									"id" : "obj-104",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
-									"numoutlets" : 4,
-									"outlettype" : [ "dictionary", "", "", "" ],
+									"numoutlets" : 5,
+									"outlettype" : [ "dictionary", "", "", "", "" ],
 									"patching_rect" : [ 120.5, 349.0, 63.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0,
+										"legacy" : 1,
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
@@ -8223,15 +7920,13 @@
 								}
 
 							}
- ]
+ ],
+						"originid" : "pat-132"
 					}
 ,
 					"patching_rect" : [ 99.5, 162.0, 55.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"tags" : ""
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p STATE"
@@ -8247,52 +7942,95 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1435.0, 917.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
+						"rect" : [ 0.0, 26.0, 1459.0, 907.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
 						"showontab" : 1,
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
-									"id" : "obj-37",
+									"color" : [ 0.254901960784314, 0.533333333333333, 0.698039215686274, 1.0 ],
+									"id" : "obj-39",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 798.5, 858.0, 65.0, 22.0 ],
+									"text" : "s to.osc"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 2,
+									"id" : "obj-40",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 814.5, 836.0, 149.0, 20.0 ],
+									"text" : "(required for this example)"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-41",
 									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 797.025641441345215, 772.0, 177.94871711730957, 33.0 ],
+									"text" : "increase udpsend maximum packet size (default = 5096)"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 0.631372549019608, 0.180392156862745, 0.180392156862745, 1.0 ],
+									"bgcolor2" : [ 0.631372549019608, 0.180392156862745, 0.180392156862745, 1.0 ],
+									"bgfillcolor_angle" : 270.0,
+									"bgfillcolor_autogradient" : 0.0,
+									"bgfillcolor_color" : [ 1.0, 0.490196078431373, 0.262745098039216, 1.0 ],
+									"bgfillcolor_color1" : [ 0.631372549019608, 0.180392156862745, 0.180392156862745, 1.0 ],
+									"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
+									"bgfillcolor_proportion" : 0.5,
+									"bgfillcolor_type" : "color",
+									"gradient" : 1,
+									"id" : "obj-43",
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 705.0, 121.0, 210.0, 36.0 ],
+									"patching_rect" : [ 798.5, 812.0, 125.0, 22.0 ],
+									"saved_attribute_attributes" : 									{
+										"bgfillcolor" : 										{
+											"expression" : "themecolor.live_alert"
+										}
+,
+										"textcolor" : 										{
+											"expression" : "themecolor.live_control_fg_on"
+										}
+
+									}
+,
+									"text" : "maxpacketsize 20000",
+									"textcolor" : [ 0.070588235294118, 0.070588235294118, 0.070588235294118, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-37",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 714.0, 115.0, 234.0, 22.0 ],
 									"text" : "/EDIT/GET 127.0.0.1:8002 fragment_3"
 								}
 
@@ -8315,7 +8053,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 593.5, 668.0, 339.0, 23.0 ],
+									"patching_rect" : [ 593.5, 668.0, 339.0, 22.0 ],
 									"text" : "edit content of a panel widget"
 								}
 
@@ -8334,19 +8072,566 @@
 							}
 , 							{
 								"box" : 								{
+									"data" : 									{
+										"type" : "panel",
+										"top" : 100,
+										"left" : 210,
+										"id" : "panel_edit",
+										"visible" : 1,
+										"interaction" : 1,
+										"comments" : "",
+										"width" : 460,
+										"height" : 440,
+										"expand" : "false",
+										"colorText" : "auto",
+										"colorWidget" : "auto",
+										"colorStroke" : "auto",
+										"colorFill" : "auto",
+										"alphaStroke" : "auto",
+										"alphaFillOff" : "auto",
+										"alphaFillOn" : "auto",
+										"lineWidth" : "auto",
+										"padding" : "auto",
+										"html" : "",
+										"css" : "",
+										"colorBg" : "auto",
+										"layout" : "default",
+										"justify" : "start",
+										"gridTemplate" : "",
+										"contain" : 1,
+										"scroll" : 1,
+										"innerPadding" : 1,
+										"variables" : "@{parent.variables}",
+										"traversing" : 0,
+										"value" : "",
+										"default" : "",
+										"linkId" : "",
+										"address" : "auto",
+										"preArgs" : "",
+										"typeTags" : "",
+										"decimals" : 2,
+										"target" : "",
+										"ignoreDefaults" : 0,
+										"bypass" : 0,
+										"widgets" : [ 											{
+												"type" : "knob",
+												"top" : 50,
+												"left" : 50,
+												"lock" : 0,
+												"id" : "knob_1",
+												"visible" : 1,
+												"interaction" : 1,
+												"comments" : "",
+												"width" : "auto",
+												"height" : "auto",
+												"expand" : 0,
+												"colorText" : "auto",
+												"colorWidget" : "red",
+												"colorStroke" : "auto",
+												"colorFill" : "auto",
+												"alphaStroke" : "auto",
+												"alphaFillOff" : "auto",
+												"alphaFillOn" : "auto",
+												"lineWidth" : "auto",
+												"borderRadius" : "auto",
+												"padding" : "auto",
+												"html" : "",
+												"css" : "",
+												"design" : "default",
+												"colorKnob" : "auto",
+												"pips" : 0,
+												"dashed" : 0,
+												"angle" : 270,
+												"mode" : "vertical",
+												"spring" : 0,
+												"doubleTap" : 0,
+												"range" : 												{
+													"min" : 0,
+													"max" : 1
+												}
+,
+												"logScale" : 0,
+												"sensitivity" : 1,
+												"steps" : "",
+												"origin" : "auto",
+												"value" : "",
+												"default" : "",
+												"linkId" : "",
+												"address" : "auto",
+												"preArgs" : "",
+												"typeTags" : "",
+												"decimals" : 2,
+												"target" : "",
+												"ignoreDefaults" : 0,
+												"bypass" : 0,
+												"onCreate" : "",
+												"onValue" : "",
+												"onTouch" : ""
+											}
+, 											{
+												"type" : "knob",
+												"top" : 20,
+												"left" : 180,
+												"lock" : 0,
+												"id" : "knob_1",
+												"visible" : 1,
+												"interaction" : 1,
+												"comments" : "",
+												"width" : 130,
+												"height" : 130,
+												"expand" : 0,
+												"colorText" : "auto",
+												"colorWidget" : "green",
+												"colorStroke" : "auto",
+												"colorFill" : "auto",
+												"alphaStroke" : "auto",
+												"alphaFillOff" : "auto",
+												"alphaFillOn" : "auto",
+												"lineWidth" : "auto",
+												"borderRadius" : "auto",
+												"padding" : "auto",
+												"html" : "",
+												"css" : "",
+												"design" : "default",
+												"colorKnob" : "auto",
+												"pips" : 0,
+												"dashed" : 0,
+												"angle" : 270,
+												"mode" : "vertical",
+												"spring" : 0,
+												"doubleTap" : 0,
+												"range" : 												{
+													"min" : 0,
+													"max" : 1
+												}
+,
+												"logScale" : 0,
+												"sensitivity" : 1,
+												"steps" : "",
+												"origin" : "auto",
+												"value" : "",
+												"default" : "",
+												"linkId" : "",
+												"address" : "auto",
+												"preArgs" : "",
+												"typeTags" : "",
+												"decimals" : 2,
+												"target" : "",
+												"ignoreDefaults" : 0,
+												"bypass" : 0,
+												"onCreate" : "",
+												"onValue" : "",
+												"onTouch" : ""
+											}
+, 											{
+												"type" : "knob",
+												"top" : 90,
+												"left" : 320,
+												"lock" : 0,
+												"id" : "knob_1",
+												"visible" : 1,
+												"interaction" : 1,
+												"comments" : "",
+												"width" : 80,
+												"height" : 80,
+												"expand" : 0,
+												"colorText" : "auto",
+												"colorWidget" : "auto",
+												"colorStroke" : "auto",
+												"colorFill" : "auto",
+												"alphaStroke" : "auto",
+												"alphaFillOff" : "auto",
+												"alphaFillOn" : "auto",
+												"lineWidth" : "auto",
+												"borderRadius" : "auto",
+												"padding" : "auto",
+												"html" : "",
+												"css" : "",
+												"design" : "default",
+												"colorKnob" : "auto",
+												"pips" : 0,
+												"dashed" : 0,
+												"angle" : 270,
+												"mode" : "vertical",
+												"spring" : 0,
+												"doubleTap" : 0,
+												"range" : 												{
+													"min" : 0,
+													"max" : 1
+												}
+,
+												"logScale" : 0,
+												"sensitivity" : 1,
+												"steps" : "",
+												"origin" : "auto",
+												"value" : "",
+												"default" : "",
+												"linkId" : "",
+												"address" : "auto",
+												"preArgs" : "",
+												"typeTags" : "",
+												"decimals" : 2,
+												"target" : "",
+												"ignoreDefaults" : 0,
+												"bypass" : 0,
+												"onCreate" : "",
+												"onValue" : "",
+												"onTouch" : ""
+											}
+, 											{
+												"type" : "knob",
+												"top" : 200,
+												"left" : 260,
+												"lock" : 0,
+												"id" : "knob_1",
+												"visible" : 1,
+												"interaction" : 1,
+												"comments" : "",
+												"width" : 150,
+												"height" : 130,
+												"expand" : 0,
+												"colorText" : "auto",
+												"colorWidget" : "black",
+												"colorStroke" : "auto",
+												"colorFill" : "auto",
+												"alphaStroke" : "auto",
+												"alphaFillOff" : "auto",
+												"alphaFillOn" : "auto",
+												"lineWidth" : "auto",
+												"borderRadius" : "auto",
+												"padding" : "auto",
+												"html" : "",
+												"css" : "",
+												"design" : "default",
+												"colorKnob" : "auto",
+												"pips" : 0,
+												"dashed" : 0,
+												"angle" : 270,
+												"mode" : "vertical",
+												"spring" : 0,
+												"doubleTap" : 0,
+												"range" : 												{
+													"min" : 0,
+													"max" : 1
+												}
+,
+												"logScale" : 0,
+												"sensitivity" : 1,
+												"steps" : "",
+												"origin" : "auto",
+												"value" : "",
+												"default" : "",
+												"linkId" : "",
+												"address" : "auto",
+												"preArgs" : "",
+												"typeTags" : "",
+												"decimals" : 2,
+												"target" : "",
+												"ignoreDefaults" : 0,
+												"bypass" : 0,
+												"onCreate" : "",
+												"onValue" : "",
+												"onTouch" : ""
+											}
+, 											{
+												"type" : "knob",
+												"top" : 220,
+												"left" : 200,
+												"lock" : 0,
+												"id" : "knob_1",
+												"visible" : 1,
+												"interaction" : 1,
+												"comments" : "",
+												"width" : 60,
+												"height" : 70,
+												"expand" : 0,
+												"colorText" : "auto",
+												"colorWidget" : "auto",
+												"colorStroke" : "auto",
+												"colorFill" : "auto",
+												"alphaStroke" : "auto",
+												"alphaFillOff" : "auto",
+												"alphaFillOn" : "auto",
+												"lineWidth" : "auto",
+												"borderRadius" : "auto",
+												"padding" : "auto",
+												"html" : "",
+												"css" : "",
+												"design" : "default",
+												"colorKnob" : "auto",
+												"pips" : 0,
+												"dashed" : 0,
+												"angle" : 270,
+												"mode" : "vertical",
+												"spring" : 0,
+												"doubleTap" : 0,
+												"range" : 												{
+													"min" : 0,
+													"max" : 1
+												}
+,
+												"logScale" : 0,
+												"sensitivity" : 1,
+												"steps" : "",
+												"origin" : "auto",
+												"value" : "",
+												"default" : "",
+												"linkId" : "",
+												"address" : "auto",
+												"preArgs" : "",
+												"typeTags" : "",
+												"decimals" : 2,
+												"target" : "",
+												"ignoreDefaults" : 0,
+												"bypass" : 0,
+												"onCreate" : "",
+												"onValue" : "",
+												"onTouch" : ""
+											}
+, 											{
+												"type" : "knob",
+												"top" : 190,
+												"left" : 90,
+												"lock" : 0,
+												"id" : "knob_1",
+												"visible" : 1,
+												"interaction" : 1,
+												"comments" : "",
+												"width" : "auto",
+												"height" : "auto",
+												"expand" : 0,
+												"colorText" : "auto",
+												"colorWidget" : "orange",
+												"colorStroke" : "auto",
+												"colorFill" : "auto",
+												"alphaStroke" : "auto",
+												"alphaFillOff" : "auto",
+												"alphaFillOn" : "auto",
+												"lineWidth" : "auto",
+												"borderRadius" : "auto",
+												"padding" : "auto",
+												"html" : "",
+												"css" : "",
+												"design" : "default",
+												"colorKnob" : "auto",
+												"pips" : 0,
+												"dashed" : 0,
+												"angle" : 270,
+												"mode" : "vertical",
+												"spring" : 0,
+												"doubleTap" : 0,
+												"range" : 												{
+													"min" : 0,
+													"max" : 1
+												}
+,
+												"logScale" : 0,
+												"sensitivity" : 1,
+												"steps" : "",
+												"origin" : "auto",
+												"value" : "",
+												"default" : "",
+												"linkId" : "",
+												"address" : "auto",
+												"preArgs" : "",
+												"typeTags" : "",
+												"decimals" : 2,
+												"target" : "",
+												"ignoreDefaults" : 0,
+												"bypass" : 0,
+												"onCreate" : "",
+												"onValue" : "",
+												"onTouch" : ""
+											}
+, 											{
+												"type" : "knob",
+												"top" : 290,
+												"left" : 20,
+												"lock" : 0,
+												"id" : "knob_1",
+												"visible" : 1,
+												"interaction" : 1,
+												"comments" : "",
+												"width" : 120,
+												"height" : 130,
+												"expand" : 0,
+												"colorText" : "auto",
+												"colorWidget" : "auto",
+												"colorStroke" : "auto",
+												"colorFill" : "auto",
+												"alphaStroke" : "auto",
+												"alphaFillOff" : "auto",
+												"alphaFillOn" : "auto",
+												"lineWidth" : "auto",
+												"borderRadius" : "auto",
+												"padding" : "auto",
+												"html" : "",
+												"css" : "",
+												"design" : "default",
+												"colorKnob" : "auto",
+												"pips" : 0,
+												"dashed" : 0,
+												"angle" : 270,
+												"mode" : "vertical",
+												"spring" : 0,
+												"doubleTap" : 0,
+												"range" : 												{
+													"min" : 0,
+													"max" : 1
+												}
+,
+												"logScale" : 0,
+												"sensitivity" : 1,
+												"steps" : "",
+												"origin" : "auto",
+												"value" : "",
+												"default" : "",
+												"linkId" : "",
+												"address" : "auto",
+												"preArgs" : "",
+												"typeTags" : "",
+												"decimals" : 2,
+												"target" : "",
+												"ignoreDefaults" : 0,
+												"bypass" : 0,
+												"onCreate" : "",
+												"onValue" : "",
+												"onTouch" : ""
+											}
+, 											{
+												"type" : "knob",
+												"top" : 310,
+												"left" : 180,
+												"lock" : 0,
+												"id" : "knob_1",
+												"visible" : 1,
+												"interaction" : 1,
+												"comments" : "",
+												"width" : "auto",
+												"height" : "auto",
+												"expand" : 0,
+												"colorText" : "auto",
+												"colorWidget" : "yellow",
+												"colorStroke" : "auto",
+												"colorFill" : "auto",
+												"alphaStroke" : "auto",
+												"alphaFillOff" : "auto",
+												"alphaFillOn" : "auto",
+												"lineWidth" : "auto",
+												"borderRadius" : "auto",
+												"padding" : "auto",
+												"html" : "",
+												"css" : "",
+												"design" : "default",
+												"colorKnob" : "auto",
+												"pips" : 0,
+												"dashed" : 0,
+												"angle" : 270,
+												"mode" : "vertical",
+												"spring" : 0,
+												"doubleTap" : 0,
+												"range" : 												{
+													"min" : 0,
+													"max" : 1
+												}
+,
+												"logScale" : 0,
+												"sensitivity" : 1,
+												"steps" : "",
+												"origin" : "auto",
+												"value" : "",
+												"default" : "",
+												"linkId" : "",
+												"address" : "auto",
+												"preArgs" : "",
+												"typeTags" : "",
+												"decimals" : 2,
+												"target" : "",
+												"ignoreDefaults" : 0,
+												"bypass" : 0,
+												"onCreate" : "",
+												"onValue" : "",
+												"onTouch" : ""
+											}
+, 											{
+												"type" : "knob",
+												"top" : 320,
+												"left" : 330,
+												"lock" : 0,
+												"id" : "knob_1",
+												"visible" : 1,
+												"interaction" : 1,
+												"comments" : "",
+												"width" : "auto",
+												"height" : "auto",
+												"expand" : 0,
+												"colorText" : "auto",
+												"colorWidget" : "auto",
+												"colorStroke" : "auto",
+												"colorFill" : "auto",
+												"alphaStroke" : "auto",
+												"alphaFillOff" : "auto",
+												"alphaFillOn" : "auto",
+												"lineWidth" : "auto",
+												"borderRadius" : "auto",
+												"padding" : "auto",
+												"html" : "",
+												"css" : "",
+												"design" : "default",
+												"colorKnob" : "auto",
+												"pips" : 0,
+												"dashed" : 0,
+												"angle" : 270,
+												"mode" : "vertical",
+												"spring" : 0,
+												"doubleTap" : 0,
+												"range" : 												{
+													"min" : 0,
+													"max" : 1
+												}
+,
+												"logScale" : 0,
+												"sensitivity" : 1,
+												"steps" : "",
+												"origin" : "auto",
+												"value" : "",
+												"default" : "",
+												"linkId" : "",
+												"address" : "auto",
+												"preArgs" : "",
+												"typeTags" : "",
+												"decimals" : 2,
+												"target" : "",
+												"ignoreDefaults" : 0,
+												"bypass" : 0,
+												"onCreate" : "",
+												"onValue" : "",
+												"onTouch" : ""
+											}
+ ],
+										"tabs" : [  ],
+										"onValue" : "",
+										"lock" : 0,
+										"borderRadius" : "auto",
+										"onCreate" : "",
+										"tabsPosition" : "top"
+									}
+,
 									"id" : "obj-62",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 2,
-									"numoutlets" : 4,
-									"outlettype" : [ "dictionary", "", "", "" ],
-									"patching_rect" : [ 839.5, 722.0, 93.0, 22.0 ],
+									"numoutlets" : 5,
+									"outlettype" : [ "dictionary", "", "", "", "" ],
+									"patching_rect" : [ 839.5, 722.0, 96.0, 35.0 ],
 									"saved_object_attributes" : 									{
-										"embed" : 0,
+										"embed" : 1,
+										"legacy" : 1,
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "dict panel_edit3"
+									"text" : "dict panel_edit3 @embed 1"
 								}
 
 							}
@@ -8364,19 +8649,577 @@
 							}
 , 							{
 								"box" : 								{
+									"data" : 									{
+										"type" : "panel",
+										"top" : 100,
+										"left" : 210,
+										"id" : "panel_edit",
+										"visible" : 1,
+										"interaction" : 1,
+										"comments" : "",
+										"width" : 460,
+										"height" : 440,
+										"expand" : "false",
+										"colorText" : "auto",
+										"colorWidget" : "auto",
+										"colorStroke" : "auto",
+										"colorFill" : "auto",
+										"alphaStroke" : "auto",
+										"alphaFillOff" : "auto",
+										"alphaFillOn" : "auto",
+										"lineWidth" : "auto",
+										"padding" : "auto",
+										"html" : "",
+										"css" : "",
+										"colorBg" : "auto",
+										"layout" : "default",
+										"justify" : "start",
+										"gridTemplate" : "",
+										"contain" : 1,
+										"scroll" : 1,
+										"innerPadding" : 1,
+										"variables" : "@{parent.variables}",
+										"traversing" : 0,
+										"value" : "",
+										"default" : "",
+										"linkId" : "",
+										"address" : "auto",
+										"preArgs" : "",
+										"typeTags" : "",
+										"decimals" : 2,
+										"target" : "",
+										"ignoreDefaults" : 0,
+										"bypass" : 0,
+										"widgets" : [ 											{
+												"type" : "button",
+												"top" : 10,
+												"left" : 10,
+												"lock" : 0,
+												"id" : "button_1",
+												"visible" : 1,
+												"interaction" : 1,
+												"comments" : "",
+												"width" : "auto",
+												"height" : "auto",
+												"expand" : 0,
+												"colorText" : "auto",
+												"colorWidget" : "auto",
+												"colorStroke" : "auto",
+												"colorFill" : "auto",
+												"alphaStroke" : "auto",
+												"alphaFillOff" : "auto",
+												"alphaFillOn" : "auto",
+												"lineWidth" : "auto",
+												"borderRadius" : "auto",
+												"padding" : "auto",
+												"html" : "",
+												"css" : "",
+												"colorTextOn" : "auto",
+												"label" : "auto",
+												"vertical" : 0,
+												"wrap" : 0,
+												"on" : 1,
+												"off" : 0,
+												"mode" : "toggle",
+												"doubleTap" : 0,
+												"decoupled" : 0,
+												"value" : "",
+												"default" : "",
+												"linkId" : "",
+												"address" : "auto",
+												"preArgs" : "",
+												"typeTags" : "",
+												"decimals" : 2,
+												"target" : "",
+												"ignoreDefaults" : 0,
+												"bypass" : 0,
+												"onCreate" : "",
+												"onValue" : ""
+											}
+, 											{
+												"type" : "button",
+												"top" : 70,
+												"left" : 120,
+												"lock" : 0,
+												"id" : "button_1",
+												"visible" : 1,
+												"interaction" : 1,
+												"comments" : "",
+												"width" : "auto",
+												"height" : "auto",
+												"expand" : 0,
+												"colorText" : "auto",
+												"colorWidget" : "auto",
+												"colorStroke" : "auto",
+												"colorFill" : "auto",
+												"alphaStroke" : "auto",
+												"alphaFillOff" : "auto",
+												"alphaFillOn" : "auto",
+												"lineWidth" : "auto",
+												"borderRadius" : "auto",
+												"padding" : "auto",
+												"html" : "",
+												"css" : "",
+												"colorTextOn" : "auto",
+												"label" : "auto",
+												"vertical" : 0,
+												"wrap" : 0,
+												"on" : 1,
+												"off" : 0,
+												"mode" : "toggle",
+												"doubleTap" : 0,
+												"decoupled" : 0,
+												"value" : "",
+												"default" : "",
+												"linkId" : "",
+												"address" : "auto",
+												"preArgs" : "",
+												"typeTags" : "",
+												"decimals" : 2,
+												"target" : "",
+												"ignoreDefaults" : 0,
+												"bypass" : 0,
+												"onCreate" : "",
+												"onValue" : ""
+											}
+, 											{
+												"type" : "button",
+												"top" : 50,
+												"left" : 230,
+												"lock" : 0,
+												"id" : "button_1",
+												"visible" : 1,
+												"interaction" : 1,
+												"comments" : "",
+												"width" : "auto",
+												"height" : "auto",
+												"expand" : 0,
+												"colorText" : "auto",
+												"colorWidget" : "auto",
+												"colorStroke" : "auto",
+												"colorFill" : "auto",
+												"alphaStroke" : "auto",
+												"alphaFillOff" : "auto",
+												"alphaFillOn" : "auto",
+												"lineWidth" : "auto",
+												"borderRadius" : "auto",
+												"padding" : "auto",
+												"html" : "",
+												"css" : "",
+												"colorTextOn" : "auto",
+												"label" : "auto",
+												"vertical" : 0,
+												"wrap" : 0,
+												"on" : 1,
+												"off" : 0,
+												"mode" : "toggle",
+												"doubleTap" : 0,
+												"decoupled" : 0,
+												"value" : "",
+												"default" : "",
+												"linkId" : "",
+												"address" : "auto",
+												"preArgs" : "",
+												"typeTags" : "",
+												"decimals" : 2,
+												"target" : "",
+												"ignoreDefaults" : 0,
+												"bypass" : 0,
+												"onCreate" : "",
+												"onValue" : ""
+											}
+, 											{
+												"type" : "button",
+												"top" : 90,
+												"left" : 340,
+												"lock" : 0,
+												"id" : "button_1",
+												"visible" : 1,
+												"interaction" : 1,
+												"comments" : "",
+												"width" : "auto",
+												"height" : "auto",
+												"expand" : 0,
+												"colorText" : "auto",
+												"colorWidget" : "auto",
+												"colorStroke" : "auto",
+												"colorFill" : "auto",
+												"alphaStroke" : "auto",
+												"alphaFillOff" : "auto",
+												"alphaFillOn" : "auto",
+												"lineWidth" : "auto",
+												"borderRadius" : "auto",
+												"padding" : "auto",
+												"html" : "",
+												"css" : "",
+												"colorTextOn" : "auto",
+												"label" : "auto",
+												"vertical" : 0,
+												"wrap" : 0,
+												"on" : 1,
+												"off" : 0,
+												"mode" : "toggle",
+												"doubleTap" : 0,
+												"decoupled" : 0,
+												"value" : "",
+												"default" : "",
+												"linkId" : "",
+												"address" : "auto",
+												"preArgs" : "",
+												"typeTags" : "",
+												"decimals" : 2,
+												"target" : "",
+												"ignoreDefaults" : 0,
+												"bypass" : 0,
+												"onCreate" : "",
+												"onValue" : ""
+											}
+, 											{
+												"type" : "button",
+												"top" : 200,
+												"left" : 290,
+												"lock" : 0,
+												"id" : "button_1",
+												"visible" : 1,
+												"interaction" : 1,
+												"comments" : "",
+												"width" : "auto",
+												"height" : "auto",
+												"expand" : 0,
+												"colorText" : "auto",
+												"colorWidget" : "auto",
+												"colorStroke" : "auto",
+												"colorFill" : "auto",
+												"alphaStroke" : "auto",
+												"alphaFillOff" : "auto",
+												"alphaFillOn" : "auto",
+												"lineWidth" : "auto",
+												"borderRadius" : "auto",
+												"padding" : "auto",
+												"html" : "",
+												"css" : "",
+												"colorTextOn" : "auto",
+												"label" : "auto",
+												"vertical" : 0,
+												"wrap" : 0,
+												"on" : 1,
+												"off" : 0,
+												"mode" : "toggle",
+												"doubleTap" : 0,
+												"decoupled" : 0,
+												"value" : "",
+												"default" : "",
+												"linkId" : "",
+												"address" : "auto",
+												"preArgs" : "",
+												"typeTags" : "",
+												"decimals" : 2,
+												"target" : "",
+												"ignoreDefaults" : 0,
+												"bypass" : 0,
+												"onCreate" : "",
+												"onValue" : ""
+											}
+, 											{
+												"type" : "button",
+												"top" : 220,
+												"left" : 190,
+												"lock" : 0,
+												"id" : "button_1",
+												"visible" : 1,
+												"interaction" : 1,
+												"comments" : "",
+												"width" : "auto",
+												"height" : "auto",
+												"expand" : 0,
+												"colorText" : "auto",
+												"colorWidget" : "auto",
+												"colorStroke" : "auto",
+												"colorFill" : "auto",
+												"alphaStroke" : "auto",
+												"alphaFillOff" : "auto",
+												"alphaFillOn" : "auto",
+												"lineWidth" : "auto",
+												"borderRadius" : "auto",
+												"padding" : "auto",
+												"html" : "",
+												"css" : "",
+												"colorTextOn" : "auto",
+												"label" : "auto",
+												"vertical" : 0,
+												"wrap" : 0,
+												"on" : 1,
+												"off" : 0,
+												"mode" : "toggle",
+												"doubleTap" : 0,
+												"decoupled" : 0,
+												"value" : "",
+												"default" : "",
+												"linkId" : "",
+												"address" : "auto",
+												"preArgs" : "",
+												"typeTags" : "",
+												"decimals" : 2,
+												"target" : "",
+												"ignoreDefaults" : 0,
+												"bypass" : 0,
+												"onCreate" : "",
+												"onValue" : ""
+											}
+, 											{
+												"type" : "button",
+												"top" : 180,
+												"left" : 90,
+												"lock" : 0,
+												"id" : "button_1",
+												"visible" : 1,
+												"interaction" : 1,
+												"comments" : "",
+												"width" : "auto",
+												"height" : "auto",
+												"expand" : 0,
+												"colorText" : "auto",
+												"colorWidget" : "auto",
+												"colorStroke" : "auto",
+												"colorFill" : "auto",
+												"alphaStroke" : "auto",
+												"alphaFillOff" : "auto",
+												"alphaFillOn" : "auto",
+												"lineWidth" : "auto",
+												"borderRadius" : "auto",
+												"padding" : "auto",
+												"html" : "",
+												"css" : "",
+												"colorTextOn" : "auto",
+												"label" : "auto",
+												"vertical" : 0,
+												"wrap" : 0,
+												"on" : 1,
+												"off" : 0,
+												"mode" : "toggle",
+												"doubleTap" : 0,
+												"decoupled" : 0,
+												"value" : "",
+												"default" : "",
+												"linkId" : "",
+												"address" : "auto",
+												"preArgs" : "",
+												"typeTags" : "",
+												"decimals" : 2,
+												"target" : "",
+												"ignoreDefaults" : 0,
+												"bypass" : 0,
+												"onCreate" : "",
+												"onValue" : ""
+											}
+, 											{
+												"type" : "button",
+												"top" : 270,
+												"left" : 70,
+												"lock" : 0,
+												"id" : "button_1",
+												"visible" : 1,
+												"interaction" : 1,
+												"comments" : "",
+												"width" : "auto",
+												"height" : "auto",
+												"expand" : 0,
+												"colorText" : "auto",
+												"colorWidget" : "auto",
+												"colorStroke" : "auto",
+												"colorFill" : "auto",
+												"alphaStroke" : "auto",
+												"alphaFillOff" : "auto",
+												"alphaFillOn" : "auto",
+												"lineWidth" : "auto",
+												"borderRadius" : "auto",
+												"padding" : "auto",
+												"html" : "",
+												"css" : "",
+												"colorTextOn" : "auto",
+												"label" : "auto",
+												"vertical" : 0,
+												"wrap" : 0,
+												"on" : 1,
+												"off" : 0,
+												"mode" : "toggle",
+												"doubleTap" : 0,
+												"decoupled" : 0,
+												"value" : "",
+												"default" : "",
+												"linkId" : "",
+												"address" : "auto",
+												"preArgs" : "",
+												"typeTags" : "",
+												"decimals" : 2,
+												"target" : "",
+												"ignoreDefaults" : 0,
+												"bypass" : 0,
+												"onCreate" : "",
+												"onValue" : ""
+											}
+, 											{
+												"type" : "button",
+												"top" : 350,
+												"left" : 160,
+												"lock" : 0,
+												"id" : "button_1",
+												"visible" : 1,
+												"interaction" : 1,
+												"comments" : "",
+												"width" : "auto",
+												"height" : "auto",
+												"expand" : 0,
+												"colorText" : "auto",
+												"colorWidget" : "auto",
+												"colorStroke" : "auto",
+												"colorFill" : "auto",
+												"alphaStroke" : "auto",
+												"alphaFillOff" : "auto",
+												"alphaFillOn" : "auto",
+												"lineWidth" : "auto",
+												"borderRadius" : "auto",
+												"padding" : "auto",
+												"html" : "",
+												"css" : "",
+												"colorTextOn" : "auto",
+												"label" : "auto",
+												"vertical" : 0,
+												"wrap" : 0,
+												"on" : 1,
+												"off" : 0,
+												"mode" : "toggle",
+												"doubleTap" : 0,
+												"decoupled" : 0,
+												"value" : "",
+												"default" : "",
+												"linkId" : "",
+												"address" : "auto",
+												"preArgs" : "",
+												"typeTags" : "",
+												"decimals" : 2,
+												"target" : "",
+												"ignoreDefaults" : 0,
+												"bypass" : 0,
+												"onCreate" : "",
+												"onValue" : ""
+											}
+, 											{
+												"type" : "button",
+												"top" : 330,
+												"left" : 290,
+												"lock" : 0,
+												"id" : "button_1",
+												"visible" : 1,
+												"interaction" : 1,
+												"comments" : "",
+												"width" : "auto",
+												"height" : "auto",
+												"expand" : 0,
+												"colorText" : "auto",
+												"colorWidget" : "auto",
+												"colorStroke" : "auto",
+												"colorFill" : "auto",
+												"alphaStroke" : "auto",
+												"alphaFillOff" : "auto",
+												"alphaFillOn" : "auto",
+												"lineWidth" : "auto",
+												"borderRadius" : "auto",
+												"padding" : "auto",
+												"html" : "",
+												"css" : "",
+												"colorTextOn" : "auto",
+												"label" : "auto",
+												"vertical" : 0,
+												"wrap" : 0,
+												"on" : 1,
+												"off" : 0,
+												"mode" : "toggle",
+												"doubleTap" : 0,
+												"decoupled" : 0,
+												"value" : "",
+												"default" : "",
+												"linkId" : "",
+												"address" : "auto",
+												"preArgs" : "",
+												"typeTags" : "",
+												"decimals" : 2,
+												"target" : "",
+												"ignoreDefaults" : 0,
+												"bypass" : 0,
+												"onCreate" : "",
+												"onValue" : ""
+											}
+, 											{
+												"type" : "button",
+												"top" : 270,
+												"left" : 340,
+												"lock" : 0,
+												"id" : "button_1",
+												"visible" : 1,
+												"interaction" : 1,
+												"comments" : "",
+												"width" : "auto",
+												"height" : "auto",
+												"expand" : 0,
+												"colorText" : "auto",
+												"colorWidget" : "auto",
+												"colorStroke" : "auto",
+												"colorFill" : "auto",
+												"alphaStroke" : "auto",
+												"alphaFillOff" : "auto",
+												"alphaFillOn" : "auto",
+												"lineWidth" : "auto",
+												"borderRadius" : "auto",
+												"padding" : "auto",
+												"html" : "",
+												"css" : "",
+												"colorTextOn" : "auto",
+												"label" : "auto",
+												"vertical" : 0,
+												"wrap" : 0,
+												"on" : 1,
+												"off" : 0,
+												"mode" : "toggle",
+												"doubleTap" : 0,
+												"decoupled" : 0,
+												"value" : "",
+												"default" : "",
+												"linkId" : "",
+												"address" : "auto",
+												"preArgs" : "",
+												"typeTags" : "",
+												"decimals" : 2,
+												"target" : "",
+												"ignoreDefaults" : 0,
+												"bypass" : 0,
+												"onCreate" : "",
+												"onValue" : ""
+											}
+ ],
+										"tabs" : [  ],
+										"onValue" : "",
+										"lock" : 0,
+										"borderRadius" : "auto",
+										"onCreate" : "",
+										"tabsPosition" : "top"
+									}
+,
 									"id" : "obj-59",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 2,
-									"numoutlets" : 4,
-									"outlettype" : [ "dictionary", "", "", "" ],
-									"patching_rect" : [ 736.0, 722.0, 93.0, 22.0 ],
+									"numoutlets" : 5,
+									"outlettype" : [ "dictionary", "", "", "", "" ],
+									"patching_rect" : [ 736.0, 722.0, 96.0, 35.0 ],
 									"saved_object_attributes" : 									{
-										"embed" : 0,
+										"embed" : 1,
+										"legacy" : 1,
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "dict panel_edit2"
+									"text" : "dict panel_edit2 @embed 1"
 								}
 
 							}
@@ -8387,7 +9230,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 764.0, 317.0, 50.0, 22.0 ],
+									"patching_rect" : [ 862.0, 272.0, 50.0, 22.0 ],
 									"text" : "clear"
 								}
 
@@ -8406,19 +9249,108 @@
 							}
 , 							{
 								"box" : 								{
+									"data" : 									{
+										"type" : "panel",
+										"top" : 100,
+										"left" : 210,
+										"id" : "panel_edit",
+										"visible" : 1,
+										"interaction" : 1,
+										"comments" : "",
+										"width" : 460,
+										"height" : 440,
+										"expand" : "false",
+										"colorText" : "auto",
+										"colorWidget" : "auto",
+										"colorStroke" : "auto",
+										"colorFill" : "auto",
+										"alphaStroke" : "auto",
+										"alphaFillOff" : "auto",
+										"alphaFillOn" : "auto",
+										"lineWidth" : "auto",
+										"padding" : "auto",
+										"html" : "",
+										"css" : "",
+										"colorBg" : "auto",
+										"layout" : "default",
+										"justify" : "start",
+										"gridTemplate" : "",
+										"contain" : 1,
+										"scroll" : 1,
+										"innerPadding" : 1,
+										"variables" : "@{parent.variables}",
+										"traversing" : 0,
+										"value" : "",
+										"default" : "",
+										"linkId" : "",
+										"address" : "auto",
+										"preArgs" : "",
+										"typeTags" : "",
+										"decimals" : 2,
+										"target" : "",
+										"ignoreDefaults" : 0,
+										"bypass" : 0,
+										"widgets" : [ 											{
+												"type" : "text",
+												"top" : 10,
+												"left" : 20,
+												"lock" : 0,
+												"id" : "text_8",
+												"visible" : 1,
+												"comments" : "",
+												"width" : 420,
+												"height" : 100,
+												"expand" : 0,
+												"colorText" : "auto",
+												"colorWidget" : "auto",
+												"colorStroke" : "auto",
+												"colorFill" : "auto",
+												"alphaStroke" : "auto",
+												"alphaFillOff" : "auto",
+												"alphaFillOn" : "auto",
+												"lineWidth" : "auto",
+												"borderRadius" : "auto",
+												"padding" : "auto",
+												"html" : "",
+												"css" : ":host {font-size: 400%}",
+												"vertical" : 0,
+												"wrap" : 0,
+												"align" : "center",
+												"value" : "Hello",
+												"default" : "",
+												"linkId" : "",
+												"address" : "auto",
+												"preArgs" : "",
+												"decimals" : 2,
+												"target" : "",
+												"bypass" : 0,
+												"onCreate" : "",
+												"onValue" : ""
+											}
+ ],
+										"tabs" : [  ],
+										"onValue" : "",
+										"lock" : 0,
+										"borderRadius" : "auto",
+										"onCreate" : "",
+										"tabsPosition" : "top"
+									}
+,
 									"id" : "obj-38",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 2,
-									"numoutlets" : 4,
-									"outlettype" : [ "dictionary", "", "", "" ],
-									"patching_rect" : [ 629.0, 722.0, 93.0, 22.0 ],
+									"numoutlets" : 5,
+									"outlettype" : [ "dictionary", "", "", "", "" ],
+									"patching_rect" : [ 629.0, 722.0, 96.0, 35.0 ],
 									"saved_object_attributes" : 									{
-										"embed" : 0,
+										"embed" : 1,
+										"legacy" : 1,
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
 ,
-									"text" : "dict panel_edit1"
+									"text" : "dict panel_edit1 @embed 1"
 								}
 
 							}
@@ -8466,7 +9398,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 413.0, 251.0, 24.0, 24.0 ]
+									"patching_rect" : [ 410.75, 200.5, 24.0, 24.0 ]
 								}
 
 							}
@@ -8525,7 +9457,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 16.5, 60.0, 330.0, 34.0 ],
+									"patching_rect" : [ 16.5, 60.0, 330.0, 33.0 ],
 									"text" : "Warning : Editing widgets is cpu expensive; for small and recurrent changes, consider using osc listeners instead."
 								}
 
@@ -8540,42 +9472,16 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 8,
-											"minor" : 5,
-											"revision" : 6,
+											"major" : 9,
+											"minor" : 0,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
 										"rect" : [ 59.0, 107.0, 1109.0, 642.0 ],
-										"bglocked" : 0,
-										"openinpresentation" : 0,
-										"default_fontsize" : 12.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
-										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
-										"gridsnaponopen" : 1,
-										"objectsnaponopen" : 1,
-										"statusbarvisible" : 2,
-										"toolbarvisible" : 1,
-										"lefttoolbarpinned" : 0,
-										"toptoolbarpinned" : 0,
-										"righttoolbarpinned" : 0,
-										"bottomtoolbarpinned" : 0,
-										"toolbars_unpinned_last_save" : 0,
-										"tallnewobj" : 0,
-										"boxanimatetime" : 200,
-										"enablehscroll" : 1,
-										"enablevscroll" : 1,
-										"devicewidth" : 0.0,
-										"description" : "",
-										"digest" : "",
-										"tags" : "",
-										"style" : "",
-										"subpatcher_template" : "",
-										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-4",
@@ -8659,15 +9565,13 @@
 												}
 
 											}
- ]
+ ],
+										"originid" : "pat-136"
 									}
 ,
 									"patching_rect" : [ 64.5, 288.0, 73.0, 22.0 ],
 									"saved_object_attributes" : 									{
-										"description" : "",
-										"digest" : "",
-										"globalpatchername" : "",
-										"tags" : ""
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p messages"
@@ -8817,7 +9721,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 595.5, 13.0, 302.0, 34.0 ],
+									"patching_rect" : [ 595.5, 13.0, 302.0, 33.0 ],
 									"text" : "Sends back a widget's data (JSON stringified object), including its children, to specified target."
 								}
 
@@ -8873,11 +9777,12 @@
 									"id" : "obj-53",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
-									"numoutlets" : 4,
-									"outlettype" : [ "dictionary", "", "", "" ],
+									"numoutlets" : 5,
+									"outlettype" : [ "dictionary", "", "", "", "" ],
 									"patching_rect" : [ 638.0, 307.0, 91.5, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0,
+										"legacy" : 1,
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
@@ -9036,11 +9941,12 @@
 									"id" : "obj-20",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
-									"numoutlets" : 4,
-									"outlettype" : [ "dictionary", "", "", "" ],
+									"numoutlets" : 5,
+									"outlettype" : [ "dictionary", "", "", "", "" ],
 									"patching_rect" : [ 352.25, 201.5, 50.5, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0,
+										"legacy" : 1,
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
@@ -9130,11 +10036,12 @@
 									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 2,
-									"numoutlets" : 4,
-									"outlettype" : [ "dictionary", "", "", "" ],
-									"patching_rect" : [ 139.5, 186.0, 100.0, 36.0 ],
+									"numoutlets" : 5,
+									"outlettype" : [ "dictionary", "", "", "", "" ],
+									"patching_rect" : [ 139.5, 186.0, 100.0, 35.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1,
+										"legacy" : 1,
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
@@ -9217,11 +10124,12 @@
 									"id" : "obj-85",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
-									"numoutlets" : 4,
-									"outlettype" : [ "dictionary", "", "", "" ],
+									"numoutlets" : 5,
+									"outlettype" : [ "dictionary", "", "", "", "" ],
 									"patching_rect" : [ 246.0, 201.0, 50.5, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0,
+										"legacy" : 1,
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
@@ -9299,11 +10207,12 @@
 									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 2,
-									"numoutlets" : 4,
-									"outlettype" : [ "dictionary", "", "", "" ],
-									"patching_rect" : [ 21.0, 186.0, 110.0, 36.0 ],
+									"numoutlets" : 5,
+									"outlettype" : [ "dictionary", "", "", "", "" ],
+									"patching_rect" : [ 21.0, 186.0, 110.0, 35.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1,
+										"legacy" : 1,
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
@@ -9320,7 +10229,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 7.5, 8.0, 339.0, 23.0 ],
+									"patching_rect" : [ 7.5, 8.0, 339.0, 22.0 ],
 									"text" : "Editing widget's properties with osc messages : "
 								}
 
@@ -9345,7 +10254,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 21.0, 324.0, 130.0, 36.0 ],
+									"patching_rect" : [ 21.0, 324.0, 130.0, 35.0 ],
 									"text" : "prepend /EDIT fader_edit"
 								}
 
@@ -9542,6 +10451,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-39", 0 ],
+									"source" : [ "obj-43", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-53", 0 ],
 									"source" : [ "obj-49", 0 ]
 								}
@@ -9692,6 +10608,7 @@
 
 							}
  ],
+						"originid" : "pat-134",
 						"styles" : [ 							{
 								"name" : "AudioStatus_Menu",
 								"default" : 								{
@@ -9917,10 +10834,7 @@
 ,
 					"patching_rect" : [ 89.0, 139.0, 46.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"tags" : ""
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p EDIT"
@@ -9936,43 +10850,17 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1435.0, 917.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
+						"rect" : [ 0.0, 26.0, 1459.0, 907.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
 						"showontab" : 1,
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-50",
@@ -10053,7 +10941,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1059.25, 168.0, 150.0, 34.0 ],
+									"patching_rect" : [ 1059.25, 168.0, 150.0, 33.0 ],
 									"text" : "fader_A (geometry) \"top\" prop = OSC{top, 20}"
 								}
 
@@ -10065,7 +10953,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 899.25, 168.0, 150.0, 34.0 ],
+									"patching_rect" : [ 899.25, 168.0, 150.0, 33.0 ],
 									"text" : "fader_A (geometry) \"left\" prop = OSC{left, 30}"
 								}
 
@@ -10077,7 +10965,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1334.0, 844.0, 50.0, 22.0 ],
+									"patching_rect" : [ 1334.0, 825.0, 50.0, 22.0 ],
 									"text" : "/root 1"
 								}
 
@@ -10089,7 +10977,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1334.0, 871.0, 65.0, 22.0 ],
+									"patching_rect" : [ 1334.0, 852.0, 65.0, 22.0 ],
 									"text" : "s to.osc"
 								}
 
@@ -10101,7 +10989,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 1334.0, 816.0, 50.0, 22.0 ],
+									"patching_rect" : [ 1334.0, 797.0, 50.0, 22.0 ],
 									"text" : "sel 1"
 								}
 
@@ -10113,7 +11001,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 1334.0, 766.0, 50.0, 22.0 ],
+									"patching_rect" : [ 1334.0, 747.0, 50.0, 22.0 ],
 									"text" : "active"
 								}
 
@@ -10136,7 +11024,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 198.25, 829.0, 227.0, 22.0 ]
+									"patching_rect" : [ 198.0, 789.0, 227.0, 22.0 ]
 								}
 
 							}
@@ -10455,7 +11343,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 5.25, 15.0, 150.0, 48.0 ],
+									"patching_rect" : [ 5.25, 15.0, 150.0, 47.0 ],
 									"text" : "fader_A \"colorWidget\" property contains an OSClistener :"
 								}
 
@@ -10507,11 +11395,12 @@
 									"id" : "obj-21",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
-									"numoutlets" : 4,
-									"outlettype" : [ "dictionary", "", "", "" ],
+									"numoutlets" : 5,
+									"outlettype" : [ "dictionary", "", "", "", "" ],
 									"patching_rect" : [ 238.25, 587.0, 89.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1,
+										"legacy" : 1,
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
@@ -10528,7 +11417,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 28.25, 352.0, 279.0, 36.0 ],
+									"patching_rect" : [ 28.25, 352.0, 279.0, 35.0 ],
 									"text" : "Lorem ipsum dolor sit amet consectetur adipiscing elit. Nam volutpat nisl ut libero euismod tincidunt."
 								}
 
@@ -10562,11 +11451,12 @@
 									"id" : "obj-69",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
-									"numoutlets" : 4,
-									"outlettype" : [ "dictionary", "", "", "" ],
+									"numoutlets" : 5,
+									"outlettype" : [ "dictionary", "", "", "", "" ],
 									"patching_rect" : [ 351.0, 587.0, 41.5, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0,
+										"legacy" : 1,
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
@@ -10715,11 +11605,12 @@
 									"id" : "obj-10",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
-									"numoutlets" : 4,
-									"outlettype" : [ "dictionary", "", "", "" ],
+									"numoutlets" : 5,
+									"outlettype" : [ "dictionary", "", "", "", "" ],
 									"patching_rect" : [ 130.25, 587.0, 89.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1,
+										"legacy" : 1,
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
@@ -11001,7 +11892,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-15", 1 ],
-									"midpoints" : [ 31.0, 735.0, 415.75, 735.0 ],
+									"midpoints" : [ 31.0, 735.0, 415.5, 735.0 ],
 									"order" : 0,
 									"source" : [ "obj-72", 0 ]
 								}
@@ -11039,6 +11930,7 @@
 
 							}
  ],
+						"originid" : "pat-138",
 						"styles" : [ 							{
 								"name" : "AudioStatus_Menu",
 								"default" : 								{
@@ -11264,10 +12156,7 @@
 ,
 					"patching_rect" : [ 79.0, 113.0, 90.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"tags" : ""
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p OSC_listener"
@@ -11283,43 +12172,17 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1435.0, 917.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
+						"rect" : [ 0.0, 26.0, 1459.0, 907.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
 						"showontab" : 1,
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-83",
@@ -11444,7 +12307,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 481.5, 26.0, 278.0, 34.0 ],
+									"patching_rect" : [ 481.5, 26.0, 278.0, 33.0 ],
 									"text" : "for a more efficient and pattern-matching compliant dispatch of osc messages, use :"
 								}
 
@@ -11477,7 +12340,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 699.5, 501.0, 177.0, 23.0 ],
+									"patching_rect" : [ 699.5, 501.0, 177.0, 22.0 ],
 									"text" : "Tabs"
 								}
 
@@ -11490,7 +12353,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 25.5, 501.0, 174.0, 23.0 ],
+									"patching_rect" : [ 25.5, 501.0, 174.0, 22.0 ],
 									"text" : "get"
 								}
 
@@ -11526,7 +12389,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1288.0, 326.0, 165.0, 52.0 ],
+									"patching_rect" : [ 1288.0, 326.0, 165.0, 51.0 ],
 									"text" : "connect this to the parameter you want to control in Max"
 								}
 
@@ -11539,7 +12402,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1228.0, 112.0, 133.0, 38.0 ],
+									"patching_rect" : [ 1228.0, 112.0, 133.0, 37.0 ],
 									"text" : "set Max slider, but do not trigger output"
 								}
 
@@ -11662,7 +12525,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 901.5, 159.5, 151.0, 131.0 ],
+									"patching_rect" : [ 901.5, 159.5, 151.0, 127.0 ],
 									"text" : "this creates a feedback : data is received from O-S-C, and sent back to O-S-C immediatly...\nbut most of the time it's not a problem, as O-S-C  widgets do not send back value when they receive a message."
 								}
 
@@ -11872,7 +12735,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 830.0, 19.5, 188.0, 23.0 ],
+									"patching_rect" : [ 830.0, 19.5, 188.0, 22.0 ],
 									"text" : "bi-directional"
 								}
 
@@ -11885,7 +12748,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 25.5, 303.0, 53.0, 23.0 ],
+									"patching_rect" : [ 25.5, 303.0, 53.0, 22.0 ],
 									"text" : "send"
 								}
 
@@ -11898,7 +12761,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 25.5, 19.5, 76.5, 23.0 ],
+									"patching_rect" : [ 25.5, 19.5, 76.5, 22.0 ],
 									"text" : "receive"
 								}
 
@@ -11968,8 +12831,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 31.5, 718.0, 133.0, 22.0 ],
-									"text" : "/GET fader_1 0.49"
+									"patching_rect" : [ 31.5, 718.0, 133.0, 22.0 ]
 								}
 
 							}
@@ -12003,7 +12865,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 213.5, 565.0, 150.0, 34.0 ],
+									"patching_rect" : [ 213.5, 565.0, 150.0, 33.0 ],
 									"text" : "Sends back a widget's value to specified target."
 								}
 
@@ -12062,7 +12924,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 164.0, 310.0, 215.0, 48.0 ],
+									"patching_rect" : [ 164.0, 310.0, 215.0, 47.0 ],
 									"text" : "Set a widget's value as if it was interacted with from the interface. This is likely to make it send its value."
 								}
 
@@ -12593,6 +13455,7 @@
 
 							}
  ],
+						"originid" : "pat-140",
 						"styles" : [ 							{
 								"name" : "AudioStatus_Menu",
 								"default" : 								{
@@ -12818,10 +13681,7 @@
 ,
 					"patching_rect" : [ 57.0, 56.0, 47.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"tags" : ""
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p basic"
@@ -12830,6 +13690,7 @@
 			}
  ],
 		"lines" : [  ],
+		"originid" : "pat-110",
 		"parameters" : 		{
 			"obj-12::obj-27" : [ "live.gain~", "live.gain~", 0 ],
 			"parameterbanks" : 			{
@@ -12840,16 +13701,16 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "OSC-route.mxe64",
-				"type" : "mx64"
+				"name" : "OSC-route.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "o.route.mxe64",
-				"type" : "mx64"
+				"name" : "o.route.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "ossia.router.mxe64",
-				"type" : "mx64"
+				"name" : "ossia.router.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"autosave" : 0

@@ -2,42 +2,16 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 104.0, 1496.0, 924.0 ],
-		"bglocked" : 0,
-		"openinpresentation" : 0,
-		"default_fontsize" : 12.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial",
-		"gridonopen" : 1,
+		"rect" : [ 198.0, 104.0, 1496.0, 924.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
-		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"bubble" : 1,
@@ -48,7 +22,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 300.0, 72.0, 171.0, 67.0 ],
+					"patching_rect" : [ 300.0, 72.0, 171.0, 66.0 ],
 					"text" : "send all parameters values to osc (& update widgets states in O-S-C)"
 				}
 
@@ -86,7 +60,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.0, 187.5, 275.0, 52.0 ],
+					"patching_rect" : [ 193.0, 187.5, 275.0, 51.0 ],
 					"text" : "communication between ossia models and Open Stage Control is automagically handled by this osc exposed OSSIA global device"
 				}
 
@@ -100,7 +74,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 203.5, 280.5, 180.0, 52.0 ],
+					"patching_rect" : [ 203.5, 280.5, 180.0, 51.0 ],
 					"text" : "outputs only incoming osc messages that do not match any ossia.parameter"
 				}
 
@@ -153,7 +127,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 66.5, 55.5, 215.0, 38.0 ],
+					"patching_rect" : [ 66.5, 55.5, 215.0, 37.0 ],
 					"text" : "load \"O-S-C_Max_examples.json\" in Open Stage Control "
 				}
 
@@ -250,7 +224,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1309.0, 603.0, 125.0, 38.0 ],
+					"patching_rect" : [ 1309.0, 603.0, 125.0, 37.0 ],
 					"text" : "this isn't an ossia parameter"
 				}
 
@@ -365,11 +339,13 @@
 					"patching_rect" : [ 898.0, 205.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ -70.0 ],
+							"parameter_initial" : [ -20 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.gain~[2]",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
+							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.gain~[1]",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -393,11 +369,13 @@
 					"patching_rect" : [ 1016.0, 198.5, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ -70.0 ],
+							"parameter_initial" : [ -20 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.gain~[1]",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
+							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.gain~[1]",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -412,7 +390,7 @@
 , 			{
 				"box" : 				{
 					"args" : [ "voice.2" ],
-					"bgmode" : 2,
+					"bgmode" : 1,
 					"border" : 0,
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
@@ -433,7 +411,7 @@
 , 			{
 				"box" : 				{
 					"args" : [ "voice.1" ],
-					"bgmode" : 2,
+					"bgmode" : 1,
 					"border" : 0,
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
@@ -483,7 +461,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 390.0, 288.5, 67.0, 36.0 ],
+					"patching_rect" : [ 390.0, 288.5, 67.0, 35.0 ],
 					"text" : "send from.osc"
 				}
 
@@ -496,7 +474,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 446.0, 625.0, 157.0, 38.0 ],
+					"patching_rect" : [ 446.0, 625.0, 157.0, 37.0 ],
 					"text" : "send osc messages to Open Stage Control"
 				}
 
@@ -523,42 +501,16 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 59.0, 107.0, 872.0, 482.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -647,13 +599,13 @@
 									"dontreplace" : 1,
 									"gradient" : 1,
 									"id" : "obj-16",
-									"linecount" : 4,
+									"linecount" : 5,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 148.0, 394.0, 267.0, 64.0 ],
-									"text" : "/SESSION/OPEN C:/Users/Apertures/Documents/GitHub/OpenStageControl_Max_examples/02_O-S-C_Max_using_OSSIA-lib/O-S-C_OSSIA-Max_example.json"
+									"text" : "/SESSION/OPEN /Users/mathieuchamagne/Documents/GitHub/OpenStageControl_Max_examples/02_O-S-C_Max_using_OSSIA-lib/O-S-C_OSSIA-Max_example.json"
 								}
 
 							}
@@ -816,6 +768,7 @@
 
 							}
  ],
+						"originid" : "pat-86",
 						"styles" : [ 							{
 								"name" : "helpfile_label-1",
 								"default" : 								{
@@ -832,10 +785,7 @@
 ,
 					"patching_rect" : [ 14.0, 119.0, 146.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"tags" : ""
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p load_O-S-C_session"
@@ -852,42 +802,16 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 506.0, 93.0, 363.0, 605.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-9",
@@ -1199,15 +1123,13 @@
 								}
 
 							}
- ]
+ ],
+						"originid" : "pat-88"
 					}
 ,
 					"patching_rect" : [ 475.0, 255.5, 147.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"tags" : ""
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p get_namespace"
@@ -1252,7 +1174,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 758.0, 30.0, 173.0, 38.0 ],
+					"patching_rect" : [ 758.0, 30.0, 173.0, 37.0 ],
 					"text" : "send messages to model + openStageControl"
 				}
 
@@ -1567,6 +1489,7 @@
 
 			}
  ],
+		"originid" : "pat-76",
 		"parameters" : 		{
 			"obj-15" : [ "live.gain~[2]", "live.gain~[1]", 0 ],
 			"obj-27" : [ "live.gain~[1]", "live.gain~[1]", 0 ],
@@ -1625,35 +1548,35 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "fm_synth.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/ossia-max(remote_echo_off)/patchers",
-				"patcherrelativepath" : "../../../Max 8/Packages/ossia-max(remote_echo_off)/patchers",
+				"bootpath" : "~/Documents/Max 9/Packages/ossia 2.0.0-rc6/patchers",
+				"patcherrelativepath" : "../../../Max 9/Packages/ossia 2.0.0-rc6/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "ossia.model.mxe64",
-				"type" : "mx64"
+				"name" : "ossia.model.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "ossia.mxe64",
-				"type" : "mx64"
+				"name" : "ossia.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "ossia.parameter.mxe64",
-				"type" : "mx64"
+				"name" : "ossia.parameter.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "ossia.remote.mxe64",
-				"type" : "mx64"
+				"name" : "ossia.remote.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "ossia.view.mxe64",
-				"type" : "mx64"
+				"name" : "ossia.view.mxo",
+				"type" : "iLaX"
 			}
 , 			{
 				"name" : "synth.view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/ossia-max(remote_echo_off)/patchers",
-				"patcherrelativepath" : "../../../Max 8/Packages/ossia-max(remote_echo_off)/patchers",
+				"bootpath" : "~/Documents/Max 9/Packages/ossia 2.0.0-rc6/patchers",
+				"patcherrelativepath" : "../../../Max 9/Packages/ossia 2.0.0-rc6/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
